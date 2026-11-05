@@ -16,14 +16,14 @@
   "slots": [
     {
       "slot_number": 1,
-      "part_number": "90843-08202",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
-      "code": "90843-08202",
+      "part_number": "90843-08243",
+      "name": "ประแจแหวน 22 x 24",
+      "code": "90843-08243",
       "class_key": "wrench",
       "code_id": "4X",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08202.png",
+      "filename": "90843-08243.png",
       "bbox_norm": [
         0.0525,
         0.0764,
@@ -92,18 +92,21 @@
       "orientation_vec": [
         0.998,
         0.063
-      ]
+      ],
+      "checklist_no": 41,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 2,
-      "part_number": "90843-08203",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
-      "code": "90843-08203",
+      "part_number": "90843-08218",
+      "name": "ไขควงแบน (จิ๋ว) 75 mm.",
+      "code": "90843-08218",
       "class_key": "screwdriver",
       "code_id": "4z",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08203.png",
+      "filename": "90843-08218.png",
       "bbox_norm": [
         0.6892,
         0.1123,
@@ -164,18 +167,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
-      "part_number": "90843-08204",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
-      "code": "90843-08204",
+      "part_number": "90843-08242",
+      "name": "ประแจแหวน 17 x 19",
+      "code": "90843-08242",
       "class_key": "wrench",
       "code_id": "4Y",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08204.png",
+      "filename": "90843-08242.png",
       "bbox_norm": [
         0.0552,
         0.1298,
@@ -240,18 +246,21 @@
       "orientation_vec": [
         0.997,
         0.073
-      ]
+      ],
+      "checklist_no": 40,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 4,
-      "part_number": "90843-08205",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
-      "code": "90843-08205",
+      "part_number": "90843-08231",
+      "name": "ไขควงแบน ป้อม 25 มม.",
+      "code": "90843-08231",
       "class_key": "screwdriver",
       "code_id": "4w",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08205.png",
+      "filename": "90843-08231.png",
       "bbox_norm": [
         0.6043,
         0.1317,
@@ -352,18 +361,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 30,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 5,
-      "part_number": "90843-08206",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
-      "code": "90843-08206",
+      "part_number": "90843-08235",
+      "name": "ไขควงแฉก ป้อม 25 มม.",
+      "code": "90843-08235",
       "class_key": "screwdriver",
       "code_id": "51",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08206.png",
+      "filename": "90843-08235.png",
       "bbox_norm": [
         0.7307,
         0.1262,
@@ -452,18 +464,21 @@
       "orientation_vec": [
         0.99,
         -0.141
-      ]
+      ],
+      "checklist_no": 34,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 6,
-      "part_number": "90843-08207",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
-      "code": "90843-08207",
+      "part_number": "90843-08240",
+      "name": "ประแจแหวน 12 x 14",
+      "code": "90843-08240",
       "class_key": "wrench",
       "code_id": "4a",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08207.png",
+      "filename": "90843-08240.png",
       "bbox_norm": [
         0.0615,
         0.2247,
@@ -532,18 +547,21 @@
       "orientation_vec": [
         0.997,
         0.074
-      ]
+      ],
+      "checklist_no": 38,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 7,
-      "part_number": "90843-08208",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
-      "code": "90843-08208",
+      "part_number": "90843-08241",
+      "name": "ประแจแหวน 14 x 17",
+      "code": "90843-08241",
       "class_key": "wrench",
       "code_id": "4Z",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08208.png",
+      "filename": "90843-08241.png",
       "bbox_norm": [
         0.0573,
         0.1796,
@@ -608,18 +626,21 @@
       "orientation_vec": [
         0.997,
         0.075
-      ]
+      ],
+      "checklist_no": 39,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
-      "part_number": "90843-08209",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
-      "code": "90843-08209",
+      "part_number": "90843-08232",
+      "name": "ไขควงแฉก 75 มม.",
+      "code": "90843-08232",
       "class_key": "screwdriver",
       "code_id": "52",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08209.png",
+      "filename": "90843-08232.png",
       "bbox_norm": [
         0.6547,
         0.2228,
@@ -704,7 +725,10 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 9,
@@ -780,18 +804,21 @@
       "orientation_vec": [
         0.906,
         -0.423
-      ]
+      ],
+      "checklist_no": 9,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
-      "part_number": "90843-08211",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
-      "code": "90843-08211",
+      "part_number": "90843-08239",
+      "name": "ประแจแหวน 10 x 12",
+      "code": "90843-08239",
       "class_key": "wrench",
       "code_id": "4b",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08211.png",
+      "filename": "90843-08239.png",
       "bbox_norm": [
         0.0587,
         0.2643,
@@ -860,18 +887,21 @@
       "orientation_vec": [
         0.997,
         0.072
-      ]
+      ],
+      "checklist_no": 37,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 11,
-      "part_number": "90843-08212",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
-      "code": "90843-08212",
+      "part_number": "90843-08228",
+      "name": "ไขควงแบน 75 มม.",
+      "code": "90843-08228",
       "class_key": "screwdriver",
       "code_id": "53",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08212.png",
+      "filename": "90843-08228.png",
       "bbox_norm": [
         0.4731,
         0.2597,
@@ -956,18 +986,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 27,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 12,
-      "part_number": "90843-08213",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
-      "code": "90843-08213",
+      "part_number": "90843-08209",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+      "code": "90843-08209",
       "class_key": "socket",
       "code_id": "5B",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08213.png",
+      "filename": "90843-08209.png",
       "bbox_norm": [
         0.9088,
         0.2532,
@@ -1032,18 +1065,21 @@
       "orientation_vec": [
         0.96,
         -0.28
-      ]
+      ],
+      "checklist_no": 8,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
-      "part_number": "90843-08214",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
-      "code": "90843-08214",
+      "part_number": "90843-08238",
+      "name": "ประแจแหวน 8 x 10",
+      "code": "90843-08238",
       "class_key": "wrench",
       "code_id": "4c",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08214.png",
+      "filename": "90843-08238.png",
       "bbox_norm": [
         0.0601,
         0.3039,
@@ -1108,18 +1144,21 @@
       "orientation_vec": [
         0.998,
         0.062
-      ]
+      ],
+      "checklist_no": 36,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
-      "part_number": "90843-08215",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
-      "code": "90843-08215",
+      "part_number": "90843-08233",
+      "name": "ไขควงแฉก 100 มม.",
+      "code": "90843-08233",
       "class_key": "screwdriver",
       "code_id": "54",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08215.png",
+      "filename": "90843-08233.png",
       "bbox_norm": [
         0.5981,
         0.302,
@@ -1200,18 +1239,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 32,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
-      "part_number": "90843-08216",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
-      "code": "90843-08216",
+      "part_number": "90843-08F62",
+      "name": "ประแจแหวน 8 - 10",
+      "code": "90843-08F62",
       "class_key": "wrench",
       "code_id": "4d",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08216.png",
+      "filename": "90843-08F62.png",
       "bbox_norm": [
         0.0608,
         0.3508,
@@ -1276,18 +1318,21 @@
       "orientation_vec": [
         0.999,
         0.037
-      ]
+      ],
+      "checklist_no": 62,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 16,
-      "part_number": "90843-08217",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
-      "code": "90843-08217",
+      "part_number": "90843-08229",
+      "name": "ไขควงแบน 100 มม.",
+      "code": "90843-08229",
       "class_key": "screwdriver",
       "code_id": "55",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08217.png",
+      "filename": "90843-08229.png",
       "bbox_norm": [
         0.4144,
         0.3444,
@@ -1364,18 +1409,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 28,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
-      "part_number": "90843-08218",
-      "name": "ไขควงแบน (จิ๋ว) 75 mm.",
-      "code": "90843-08218",
+      "part_number": "90843-08208",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+      "code": "90843-08208",
       "class_key": "socket",
       "code_id": "5C",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08218.png",
+      "filename": "90843-08208.png",
       "bbox_norm": [
         0.9109,
         0.326,
@@ -1440,18 +1488,21 @@
       "orientation_vec": [
         0.988,
         -0.152
-      ]
+      ],
+      "checklist_no": 7,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 18,
-      "part_number": "90843-08219",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
-      "code": "90843-08219",
+      "part_number": "90843-08248",
+      "name": "ประแจรวม No. 17",
+      "code": "90843-08248",
       "class_key": "wrench",
       "code_id": "4e",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08219.png",
+      "filename": "90843-08248.png",
       "bbox_norm": [
         0.0532,
         0.4134,
@@ -1504,18 +1555,21 @@
       "orientation_vec": [
         1.0,
         0.026
-      ]
+      ],
+      "checklist_no": 46,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 19,
-      "part_number": "90843-08220",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
-      "code": "90843-08220",
+      "part_number": "90843-08234",
+      "name": "ไขควงแฉก 150 มม.",
+      "code": "90843-08234",
       "class_key": "screwdriver",
       "code_id": "56",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08220.png",
+      "filename": "90843-08234.png",
       "bbox_norm": [
         0.5,
         0.395,
@@ -1596,18 +1650,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 33,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 20,
-      "part_number": "90843-08221",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 150 มม.",
-      "code": "90843-08221",
+      "part_number": "90843-08207",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+      "code": "90843-08207",
       "class_key": "socket",
       "code_id": "5D",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08221.png",
+      "filename": "90843-08207.png",
       "bbox_norm": [
         0.9123,
         0.3932,
@@ -1668,18 +1725,21 @@
       "orientation_vec": [
         0.985,
         -0.174
-      ]
+      ],
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 21,
-      "part_number": "90843-08222",
-      "name": "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
-      "code": "90843-08222",
+      "part_number": "90843-08247",
+      "name": "ประแจรวม No. 14",
+      "code": "90843-08247",
       "class_key": "wrench",
       "code_id": "4f",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08222.png",
+      "filename": "90843-08247.png",
       "bbox_norm": [
         0.0594,
         0.4475,
@@ -1728,18 +1788,21 @@
       "orientation_vec": [
         1.0,
         0.018
-      ]
+      ],
+      "checklist_no": 45,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 22,
-      "part_number": "90843-08223",
-      "name": "ด้ามขันเลื่อน 3/8\"",
-      "code": "90843-08223",
+      "part_number": "90843-08206",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+      "code": "90843-08206",
       "class_key": "socket",
       "code_id": "5E",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08223.png",
+      "filename": "90843-08206.png",
       "bbox_norm": [
         0.9171,
         0.4595,
@@ -1804,18 +1867,21 @@
       "orientation_vec": [
         0.997,
         0.083
-      ]
+      ],
+      "checklist_no": 5,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 23,
-      "part_number": "90843-08224",
-      "name": "ข้อต่ออ่อน 3/8\"",
-      "code": "90843-08224",
+      "part_number": "90843-08245",
+      "name": "ประแจรวม No. 10",
+      "code": "90843-08245",
       "class_key": "wrench",
       "code_id": "4h",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08224.png",
+      "filename": "90843-08245.png",
       "bbox_norm": [
         0.0622,
         0.511,
@@ -1856,18 +1922,21 @@
       "orientation_vec": [
         1.0,
         0.003
-      ]
+      ],
+      "checklist_no": 43,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 24,
-      "part_number": "90843-08225",
-      "name": "ด้ามขันฟรี 3/8\" x 7\"",
-      "code": "90843-08225",
+      "part_number": "90843-08246",
+      "name": "ประแจรวม No. 12",
+      "code": "90843-08246",
       "class_key": "wrench",
       "code_id": "4g",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08225.png",
+      "filename": "90843-08246.png",
       "bbox_norm": [
         0.0601,
         0.4788,
@@ -1912,18 +1981,21 @@
       "orientation_vec": [
         1.0,
         0.009
-      ]
+      ],
+      "checklist_no": 44,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 25,
-      "part_number": "90843-08226",
-      "name": "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
-      "code": "90843-08226",
+      "part_number": "90843-08230",
+      "name": "ไขควงแบน 150 มม.",
+      "code": "90843-08230",
       "class_key": "screwdriver",
       "code_id": "57",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08226.png",
+      "filename": "90843-08230.png",
       "bbox_norm": [
         0.4157,
         0.4549,
@@ -2004,18 +2076,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 29,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 26,
-      "part_number": "90843-08227",
-      "name": "ไขควงแบน ก้านเล็ก 200 มม.",
-      "code": "90843-08227",
+      "part_number": "90843-11012",
+      "name": "ประแจแหวนรวม No. 6",
+      "code": "90843-11012",
       "class_key": "wrench",
       "code_id": "4j",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08227.png",
+      "filename": "90843-11012.png",
       "bbox_norm": [
         0.0608,
         0.5663,
@@ -2056,18 +2131,21 @@
       "orientation_vec": [
         1.0,
         0.01
-      ]
+      ],
+      "checklist_no": 64,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 27,
-      "part_number": "90843-08228",
-      "name": "ไขควงแบน 75 มม.",
-      "code": "90843-08228",
+      "part_number": "90843-08244",
+      "name": "ประแจรวม No. 08",
+      "code": "90843-08244",
       "class_key": "wrench",
       "code_id": "4i",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08228.png",
+      "filename": "90843-08244.png",
       "bbox_norm": [
         0.0628,
         0.5387,
@@ -2112,18 +2190,21 @@
       "orientation_vec": [
         1.0,
         -0.004
-      ]
+      ],
+      "checklist_no": 42,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 28,
-      "part_number": "90843-08229",
-      "name": "ไขควงแบน 100 มม.",
-      "code": "90843-08229",
+      "part_number": "90843-110C5",
+      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม. T50",
+      "code": "90843-110C5",
       "class_key": "socket",
       "code_id": "4v",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08229.png",
+      "filename": "90843-110C5.png",
       "bbox_norm": [
         0.3018,
         0.5304,
@@ -2184,18 +2265,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 67,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 29,
-      "part_number": "90843-08230",
-      "name": "ไขควงแบน 150 มม.",
-      "code": "90843-08230",
+      "part_number": "90843-08227",
+      "name": "ไขควงแบน ก้านเล็ก 200 มม.",
+      "code": "90843-08227",
       "class_key": "screwdriver",
       "code_id": "58",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08230.png",
+      "filename": "90843-08227.png",
       "bbox_norm": [
         0.4896,
         0.5258,
@@ -2252,18 +2336,21 @@
       "orientation_vec": [
         0.999,
         -0.035
-      ]
+      ],
+      "checklist_no": 26,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 30,
-      "part_number": "90843-08231",
-      "name": "ไขควงแบน ป้อม 25 มม.",
-      "code": "90843-08231",
+      "part_number": "90843-08205",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+      "code": "90843-08205",
       "class_key": "socket",
       "code_id": "5F",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08231.png",
+      "filename": "90843-08205.png",
       "bbox_norm": [
         0.9199,
         0.5212,
@@ -2336,18 +2423,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 4,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 31,
-      "part_number": "90843-08232",
-      "name": "ไขควงแฉก 75 มม.",
-      "code": "90843-08232",
+      "part_number": "90843-11011",
+      "name": "ประแจแหวนรวม No. 5.5",
+      "code": "90843-11011",
       "class_key": "wrench",
       "code_id": "4k",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08232.png",
+      "filename": "90843-11011.png",
       "bbox_norm": [
         0.0642,
         0.5921,
@@ -2392,18 +2482,21 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "checklist_no": 63,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 32,
-      "part_number": "90843-08233",
-      "name": "ไขควงแฉก 100 มม.",
-      "code": "90843-08233",
+      "part_number": "90843-11060",
+      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 3/8\" T30",
+      "code": "90843-11060",
       "class_key": "socket",
       "code_id": "4u",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08233.png",
+      "filename": "90843-11060.png",
       "bbox_norm": [
         0.3011,
         0.5838,
@@ -2472,18 +2565,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 65,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 33,
-      "part_number": "90843-08234",
-      "name": "ไขควงแฉก 150 มม.",
-      "code": "90843-08234",
+      "part_number": "90843-110M3",
+      "name": "ไขควงปากแฉก ก้านเล็กด้ามนิ่ม 1 x 150 มม.",
+      "code": "90843-110M3",
       "class_key": "screwdriver",
       "code_id": "59",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08234.png",
+      "filename": "90843-110M3.png",
       "bbox_norm": [
         0.4185,
         0.5599,
@@ -2540,18 +2636,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 35,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 34,
-      "part_number": "90843-08235",
-      "name": "ไขควงแฉก ป้อม 25 มม.",
-      "code": "90843-08235",
+      "part_number": "90843-08204",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+      "code": "90843-08204",
       "class_key": "socket",
       "code_id": "5G",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08235.png",
+      "filename": "90843-08204.png",
       "bbox_norm": [
         0.9199,
         0.5773,
@@ -2600,18 +2699,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 3,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 35,
-      "part_number": "90843-110M3",
-      "name": "ไขควงปากแฉก ก้านเล็กด้ามนุ่ม 1x150 มม.",
-      "code": "90843-110M3",
+      "part_number": "90843-08252",
+      "name": "ประแจปากตาย 6 x 7",
+      "code": "90843-08252",
       "class_key": "wrench",
       "code_id": "4m",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-110M3.png",
+      "filename": "90843-08252.png",
       "bbox_norm": [
         0.0649,
         0.6565,
@@ -2648,18 +2750,21 @@
       "orientation_vec": [
         1.0,
         -0.015
-      ]
+      ],
+      "checklist_no": 47,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 36,
-      "part_number": "90843-08238",
-      "name": "ประแจแหวน 8 x 10",
-      "code": "90843-08238",
+      "part_number": "90843-08253",
+      "name": "ประแจปากตาย 8 x 10",
+      "code": "90843-08253",
       "class_key": "wrench",
       "code_id": "4l",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08238.png",
+      "filename": "90843-08253.png",
       "bbox_norm": [
         0.0601,
         0.6289,
@@ -2700,18 +2805,21 @@
       "orientation_vec": [
         1.0,
         -0.016
-      ]
+      ],
+      "checklist_no": 48,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 37,
-      "part_number": "90843-08239",
-      "name": "ประแจแหวน 10 x 12",
-      "code": "90843-08239",
+      "part_number": "90843-21021",
+      "name": "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128",
+      "code": "90843-21021",
       "class_key": "socket",
       "code_id": "4t",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08239.png",
+      "filename": "90843-21021.png",
       "bbox_norm": [
         0.3004,
         0.6418,
@@ -2776,18 +2884,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 70,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 38,
-      "part_number": "90843-08240",
-      "name": "ประแจแหวน 12 x 14",
-      "code": "90843-08240",
+      "part_number": "90843-08F23",
+      "name": "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+      "code": "90843-08F23",
       "class_key": "socket",
       "code_id": "5R",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08240.png",
+      "filename": "90843-08F23.png",
       "bbox_norm": [
         0.4979,
         0.6298,
@@ -2836,18 +2947,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 58,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 39,
-      "part_number": "90843-08241",
-      "name": "ประแจแหวน 14 x 17",
-      "code": "90843-08241",
+      "part_number": "90843-11074",
+      "name": "ข้อต่อบ๊อกซ์ เพิ่ม 3/8\" - 1/2\"",
+      "code": "90843-11074",
       "class_key": "socket",
       "code_id": "5Q",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08241.png",
+      "filename": "90843-11074.png",
       "bbox_norm": [
         0.5387,
         0.6252,
@@ -2924,18 +3038,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 66,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 40,
-      "part_number": "90843-08242",
-      "name": "ประแจแหวน 17 x 19",
-      "code": "90843-08242",
+      "part_number": "90843-13013",
+      "name": "ข้อต่อลด จาก 1/2 ลด 3/8\"",
+      "code": "90843-13013",
       "class_key": "socket",
       "code_id": "5P",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08242.png",
+      "filename": "90843-13013.png",
       "bbox_norm": [
         0.5829,
         0.6133,
@@ -2996,18 +3113,21 @@
       "orientation_vec": [
         0.997,
         0.083
-      ]
+      ],
+      "checklist_no": 69,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 41,
-      "part_number": "90843-08243",
-      "name": "ประแจแหวน 22 x 24",
-      "code": "90843-08243",
+      "part_number": "90843-08F56",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 6",
+      "code": "90843-08F56",
       "class_key": "socket",
       "code_id": "5O",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08243.png",
+      "filename": "90843-08F56.png",
       "bbox_norm": [
         0.636,
         0.6243,
@@ -3068,18 +3188,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 61,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 42,
-      "part_number": "90843-08244",
-      "name": "ประแจรวม No. 08",
-      "code": "90843-08244",
+      "part_number": "90843-08F55",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 5",
+      "code": "90843-08F55",
       "class_key": "socket",
       "code_id": "5N",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08244.png",
+      "filename": "90843-08F55.png",
       "bbox_norm": [
         0.6796,
         0.6252,
@@ -3128,18 +3251,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 60,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 43,
-      "part_number": "90843-08245",
-      "name": "ประแจรวม No. 10",
-      "code": "90843-08245",
+      "part_number": "90843-08F54",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4",
+      "code": "90843-08F54",
       "class_key": "socket",
       "code_id": "5M",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08245.png",
+      "filename": "90843-08F54.png",
       "bbox_norm": [
         0.7224,
         0.6243,
@@ -3192,18 +3318,21 @@
       "orientation_vec": [
         0.673,
         0.74
-      ]
+      ],
+      "checklist_no": 59,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 44,
-      "part_number": "90843-08246",
-      "name": "ประแจรวม No. 12",
-      "code": "90843-08246",
+      "part_number": "90843-08214",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
+      "code": "90843-08214",
       "class_key": "socket",
       "code_id": "5L",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08246.png",
+      "filename": "90843-08214.png",
       "bbox_norm": [
         0.7666,
         0.6326,
@@ -3252,18 +3381,21 @@
       "orientation_vec": [
         0.995,
         0.1
-      ]
+      ],
+      "checklist_no": 13,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 45,
-      "part_number": "90843-08247",
-      "name": "ประแจรวม No. 14",
-      "code": "90843-08247",
+      "part_number": "90843-08215",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+      "code": "90843-08215",
       "class_key": "socket",
       "code_id": "5K",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08247.png",
+      "filename": "90843-08215.png",
       "bbox_norm": [
         0.8039,
         0.6326,
@@ -3320,18 +3452,21 @@
       "orientation_vec": [
         0.973,
         0.229
-      ]
+      ],
+      "checklist_no": 14,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 46,
-      "part_number": "90843-08248",
-      "name": "ประแจรวม No. 17",
-      "code": "90843-08248",
+      "part_number": "90843-08216",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+      "code": "90843-08216",
       "class_key": "socket",
       "code_id": "5J",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08248.png",
+      "filename": "90843-08216.png",
       "bbox_norm": [
         0.8405,
         0.6317,
@@ -3384,18 +3519,21 @@
       "orientation_vec": [
         0.987,
         0.158
-      ]
+      ],
+      "checklist_no": 15,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 47,
-      "part_number": "90843-08252",
-      "name": "ประแจปากตาย 6 x 7",
-      "code": "90843-08252",
+      "part_number": "90843-08217",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+      "code": "90843-08217",
       "class_key": "socket",
       "code_id": "5I",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08252.png",
+      "filename": "90843-08217.png",
       "bbox_norm": [
         0.8791,
         0.628,
@@ -3460,18 +3598,21 @@
       "orientation_vec": [
         0.986,
         0.169
-      ]
+      ],
+      "checklist_no": 16,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 48,
-      "part_number": "90843-08253",
-      "name": "ประแจปากตาย 8 x 10",
-      "code": "90843-08253",
+      "part_number": "90843-08203",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+      "code": "90843-08203",
       "class_key": "socket",
       "code_id": "5H",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08253.png",
+      "filename": "90843-08203.png",
       "bbox_norm": [
         0.9282,
         0.6354,
@@ -3568,18 +3709,21 @@
       "orientation_vec": [
         0.196,
         0.981
-      ]
+      ],
+      "checklist_no": 2,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 49,
-      "part_number": "90843-08256",
-      "name": "ถาดล้างชิ้นส่วน มีแม่เหล็ก",
-      "code": "90843-08256",
+      "part_number": "90843-08223",
+      "name": "ด้ามขันเลื่อน 3/8\"",
+      "code": "90843-08223",
       "class_key": "wrench",
       "code_id": "4n",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08256.png",
+      "filename": "90843-08223.png",
       "bbox_norm": [
         0.0691,
         0.6768,
@@ -3652,18 +3796,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 22,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 50,
-      "part_number": "90843-08F04",
-      "name": "ลูกบล๊อคลม 3/8\" # 8 (ดำ)",
-      "code": "90843-08F04",
+      "part_number": "90843-08222",
+      "name": "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+      "code": "90843-08222",
       "class_key": "socket",
       "code_id": "5g",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F04.png",
+      "filename": "90843-08222.png",
       "bbox_norm": [
         0.4075,
         0.6814,
@@ -3728,18 +3875,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 51,
-      "part_number": "90843-08F05",
-      "name": "ลูกบล๊อคลม 3/8\" # 10 (ดำ)",
-      "code": "90843-08F05",
+      "part_number": "90843-08F04",
+      "name": "ลูกบล็อคลม 3/8\" # 8 (ดำ)",
+      "code": "90843-08F04",
       "class_key": "socket",
       "code_id": "5a",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F05.png",
+      "filename": "90843-08F04.png",
       "bbox_norm": [
         0.4744,
         0.6915,
@@ -3788,18 +3938,21 @@
       "orientation_vec": [
         0.164,
         0.986
-      ]
+      ],
+      "checklist_no": 50,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 52,
-      "part_number": "90843-08F06",
-      "name": "ลูกบล๊อคลม 3/8\" # 12 (ดำ)",
-      "code": "90843-08F06",
+      "part_number": "90843-08202",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+      "code": "90843-08202",
       "class_key": "socket",
       "code_id": "5f",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F06.png",
+      "filename": "90843-08202.png",
       "bbox_norm": [
         0.9399,
         0.6971,
@@ -3916,18 +4069,22 @@
       "orientation_vec": [
         0.447,
         0.894
-      ]
+      ],
+      "checklist_no": 1,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ลูกบ๊อกซ์ถูกบังด้วยลูกบล็อคลมเลข 68 polygon จึงเล็กผิดปกติ (16x21 px)"
     },
     {
       "slot_number": 53,
-      "part_number": "90843-08F07",
-      "name": "ลูกบล๊อคลม 3/8\" # 14 (ดำ)",
-      "code": "90843-08F07",
+      "part_number": "90843-08F05",
+      "name": "ลูกบล็อคลม 3/8\" # 10 (ดำ)",
+      "code": "90843-08F05",
       "class_key": "socket",
       "code_id": "5Z",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F07.png",
+      "filename": "90843-08F05.png",
       "bbox_norm": [
         0.5249,
         0.6915,
@@ -3980,18 +4137,21 @@
       "orientation_vec": [
         0.217,
         0.976
-      ]
+      ],
+      "checklist_no": 51,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 54,
-      "part_number": "90843-08F08",
-      "name": "ลูกบล๊อคลม 3/8\" # 17 (ดำ)",
-      "code": "90843-08F08",
+      "part_number": "90843-08F06",
+      "name": "ลูกบล็อคลม 3/8\" # 12 (ดำ)",
+      "code": "90843-08F06",
       "class_key": "socket",
       "code_id": "5Y",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F08.png",
+      "filename": "90843-08F06.png",
       "bbox_norm": [
         0.5732,
         0.6924,
@@ -4044,18 +4204,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 52,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 55,
-      "part_number": "90843-08F09",
-      "name": "ลูกบล๊อคลม 3/8\" # 19 (ดำ)",
-      "code": "90843-08F09",
+      "part_number": "90843-08F07",
+      "name": "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+      "code": "90843-08F07",
       "class_key": "socket",
       "code_id": "5X",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F09.png",
+      "filename": "90843-08F07.png",
       "bbox_norm": [
         0.6174,
         0.6924,
@@ -4116,18 +4279,21 @@
       "orientation_vec": [
         0.733,
         0.68
-      ]
+      ],
+      "checklist_no": 53,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 56,
-      "part_number": "90843-08F10",
-      "name": "ลูกบล๊อคลม 3/8\" # 21 (ดำ)",
-      "code": "90843-08F10",
+      "part_number": "90843-08F08",
+      "name": "ลูกบล็อคลม 3/8\" # 17 (ดำ)",
+      "code": "90843-08F08",
       "class_key": "socket",
       "code_id": "5W",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F10.png",
+      "filename": "90843-08F08.png",
       "bbox_norm": [
         0.663,
         0.6869,
@@ -4192,18 +4358,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 54,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 57,
-      "part_number": "90843-08F11",
-      "name": "ลูกบล๊อคลม 3/8\" # 22 (ดำ)",
-      "code": "90843-08F11",
+      "part_number": "90843-08F09",
+      "name": "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+      "code": "90843-08F09",
       "class_key": "socket",
       "code_id": "5V",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F11.png",
+      "filename": "90843-08F09.png",
       "bbox_norm": [
         0.7113,
         0.6842,
@@ -4268,18 +4437,21 @@
       "orientation_vec": [
         0.923,
         0.385
-      ]
+      ],
+      "checklist_no": 55,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 58,
-      "part_number": "90843-08F23",
-      "name": "ข้อต่อบ็อกซ์ลมสำหรับใส่ดอกไขควง",
-      "code": "90843-08F23",
+      "part_number": "90843-08F10",
+      "name": "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+      "code": "90843-08F10",
       "class_key": "socket",
       "code_id": "5U",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F23.png",
+      "filename": "90843-08F10.png",
       "bbox_norm": [
         0.7638,
         0.6842,
@@ -4348,18 +4520,21 @@
       "orientation_vec": [
         0.914,
         0.406
-      ]
+      ],
+      "checklist_no": 56,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 59,
-      "part_number": "90843-08F54",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4",
-      "code": "90843-08F54",
+      "part_number": "90843-08F11",
+      "name": "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+      "code": "90843-08F11",
       "class_key": "socket",
       "code_id": "5T",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F54.png",
+      "filename": "90843-08F11.png",
       "bbox_norm": [
         0.817,
         0.6823,
@@ -4440,18 +4615,21 @@
       "orientation_vec": [
         0.935,
         0.355
-      ]
+      ],
+      "checklist_no": 57,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 60,
-      "part_number": "90843-08F55",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 5",
-      "code": "90843-08F55",
+      "part_number": "90843-13009",
+      "name": "ลูกบล็อคลม 1/2\" No. 24",
+      "code": "90843-13009",
       "class_key": "socket",
       "code_id": "5S",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F55.png",
+      "filename": "90843-13009.png",
       "bbox_norm": [
         0.875,
         0.6805,
@@ -4516,18 +4694,21 @@
       "orientation_vec": [
         0.98,
         0.2
-      ]
+      ],
+      "checklist_no": 68,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 61,
-      "part_number": "90843-08F56",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 6",
-      "code": "90843-08F56",
+      "part_number": "90843-08213",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+      "code": "90843-08213",
       "class_key": "socket",
       "code_id": "4q",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F56.png",
+      "filename": "90843-08213.png",
       "bbox_norm": [
         0.0518,
         0.767,
@@ -4592,18 +4773,21 @@
       "orientation_vec": [
         1.0,
         0.015
-      ]
+      ],
+      "checklist_no": 12,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 62,
-      "part_number": "90843-08F62",
-      "name": "ประแจแหวน 8 - 10",
-      "code": "90843-08F62",
+      "part_number": "90843-08212",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+      "code": "90843-08212",
       "class_key": "socket",
       "code_id": "4r",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F62.png",
+      "filename": "90843-08212.png",
       "bbox_norm": [
         0.1651,
         0.7698,
@@ -4656,18 +4840,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 63,
-      "part_number": "90843-11011",
-      "name": "ประแจแหวนรวม No. 5.5",
-      "code": "90843-11011",
+      "part_number": "90843-08211",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
+      "code": "90843-08211",
       "class_key": "socket",
       "code_id": "4s",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11011.png",
+      "filename": "90843-08211.png",
       "bbox_norm": [
         0.2756,
         0.7689,
@@ -4724,18 +4911,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 10,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 64,
-      "part_number": "90843-11012",
-      "name": "ประแจแหวนรวม No. 6",
-      "code": "90843-11012",
+      "part_number": "90843-08221",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 150 มม.",
+      "code": "90843-08221",
       "class_key": "socket",
       "code_id": "5b",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11012.png",
+      "filename": "90843-08221.png",
       "bbox_norm": [
         0.4365,
         0.7827,
@@ -4784,18 +4974,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 20,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 65,
-      "part_number": "90843-11060",
-      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 3/8\" T30",
-      "code": "90843-11060",
+      "part_number": "90843-08220",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+      "code": "90843-08220",
       "class_key": "socket",
       "code_id": "5c",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11060.png",
+      "filename": "90843-08220.png",
       "bbox_norm": [
         0.6692,
         0.7836,
@@ -4840,18 +5033,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 19,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 66,
-      "part_number": "90843-11074",
-      "name": "ข้อต่อบ๊อกซ์ เพิ่ม 3/8\" - 1/2\"",
-      "code": "90843-11074",
+      "part_number": "90843-08219",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+      "code": "90843-08219",
       "class_key": "socket",
       "code_id": "5d",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11074.png",
+      "filename": "90843-08219.png",
       "bbox_norm": [
         0.797,
         0.7827,
@@ -4904,18 +5100,21 @@
       "orientation_vec": [
         0.998,
         -0.067
-      ]
+      ],
+      "checklist_no": 18,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 67,
-      "part_number": "90843-110C5",
-      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม.T50",
-      "code": "90843-110C5",
+      "part_number": "90843-08224",
+      "name": "ข้อต่ออ่อน 3/8\"",
+      "code": "90843-08224",
       "class_key": "socket",
       "code_id": "5e",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-110C5.png",
+      "filename": "90843-08224.png",
       "bbox_norm": [
         0.8847,
         0.7808,
@@ -4972,18 +5171,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 23,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 68,
-      "part_number": "90843-13009",
-      "name": "ลูกบล๊อคลม 1/2\" No. 24",
-      "code": "90843-13009",
+      "part_number": "90843-08225",
+      "name": "ด้ามขันฟรี 3/8\" x 7\"",
+      "code": "90843-08225",
       "class_key": "wrench",
       "code_id": "4o",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-13009.png",
+      "filename": "90843-08225.png",
       "bbox_norm": [
         0.1036,
         0.8352,
@@ -5052,18 +5254,21 @@
       "orientation_vec": [
         0.998,
         -0.068
-      ]
+      ],
+      "checklist_no": 24,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 69,
-      "part_number": "90843-13013",
-      "name": "ข้อต่อลด จาก 1/2 ลด 3/8\"",
-      "code": "90843-13013",
+      "part_number": "90843-08226",
+      "name": "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
+      "code": "90843-08226",
       "class_key": "wrench",
       "code_id": "4p",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-13013.png",
+      "filename": "90843-08226.png",
       "bbox_norm": [
         0.4586,
         0.8435,
@@ -5124,20 +5329,23 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 25,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     }
   ],
   "tools": [
     {
       "slot_number": 1,
-      "part_number": "90843-08202",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
-      "code": "90843-08202",
+      "part_number": "90843-08243",
+      "name": "ประแจแหวน 22 x 24",
+      "code": "90843-08243",
       "class_key": "wrench",
       "code_id": "4X",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08202.png",
+      "filename": "90843-08243.png",
       "bbox_norm": [
         0.0525,
         0.0764,
@@ -5206,18 +5414,21 @@
       "orientation_vec": [
         0.998,
         0.063
-      ]
+      ],
+      "checklist_no": 41,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 2,
-      "part_number": "90843-08203",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
-      "code": "90843-08203",
+      "part_number": "90843-08218",
+      "name": "ไขควงแบน (จิ๋ว) 75 mm.",
+      "code": "90843-08218",
       "class_key": "screwdriver",
       "code_id": "4z",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08203.png",
+      "filename": "90843-08218.png",
       "bbox_norm": [
         0.6892,
         0.1123,
@@ -5278,18 +5489,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
-      "part_number": "90843-08204",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
-      "code": "90843-08204",
+      "part_number": "90843-08242",
+      "name": "ประแจแหวน 17 x 19",
+      "code": "90843-08242",
       "class_key": "wrench",
       "code_id": "4Y",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08204.png",
+      "filename": "90843-08242.png",
       "bbox_norm": [
         0.0552,
         0.1298,
@@ -5354,18 +5568,21 @@
       "orientation_vec": [
         0.997,
         0.073
-      ]
+      ],
+      "checklist_no": 40,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 4,
-      "part_number": "90843-08205",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
-      "code": "90843-08205",
+      "part_number": "90843-08231",
+      "name": "ไขควงแบน ป้อม 25 มม.",
+      "code": "90843-08231",
       "class_key": "screwdriver",
       "code_id": "4w",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08205.png",
+      "filename": "90843-08231.png",
       "bbox_norm": [
         0.6043,
         0.1317,
@@ -5466,18 +5683,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 30,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 5,
-      "part_number": "90843-08206",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
-      "code": "90843-08206",
+      "part_number": "90843-08235",
+      "name": "ไขควงแฉก ป้อม 25 มม.",
+      "code": "90843-08235",
       "class_key": "screwdriver",
       "code_id": "51",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08206.png",
+      "filename": "90843-08235.png",
       "bbox_norm": [
         0.7307,
         0.1262,
@@ -5566,18 +5786,21 @@
       "orientation_vec": [
         0.99,
         -0.141
-      ]
+      ],
+      "checklist_no": 34,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 6,
-      "part_number": "90843-08207",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
-      "code": "90843-08207",
+      "part_number": "90843-08240",
+      "name": "ประแจแหวน 12 x 14",
+      "code": "90843-08240",
       "class_key": "wrench",
       "code_id": "4a",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08207.png",
+      "filename": "90843-08240.png",
       "bbox_norm": [
         0.0615,
         0.2247,
@@ -5646,18 +5869,21 @@
       "orientation_vec": [
         0.997,
         0.074
-      ]
+      ],
+      "checklist_no": 38,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 7,
-      "part_number": "90843-08208",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
-      "code": "90843-08208",
+      "part_number": "90843-08241",
+      "name": "ประแจแหวน 14 x 17",
+      "code": "90843-08241",
       "class_key": "wrench",
       "code_id": "4Z",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08208.png",
+      "filename": "90843-08241.png",
       "bbox_norm": [
         0.0573,
         0.1796,
@@ -5722,18 +5948,21 @@
       "orientation_vec": [
         0.997,
         0.075
-      ]
+      ],
+      "checklist_no": 39,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
-      "part_number": "90843-08209",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
-      "code": "90843-08209",
+      "part_number": "90843-08232",
+      "name": "ไขควงแฉก 75 มม.",
+      "code": "90843-08232",
       "class_key": "screwdriver",
       "code_id": "52",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08209.png",
+      "filename": "90843-08232.png",
       "bbox_norm": [
         0.6547,
         0.2228,
@@ -5818,7 +6047,10 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 9,
@@ -5894,18 +6126,21 @@
       "orientation_vec": [
         0.906,
         -0.423
-      ]
+      ],
+      "checklist_no": 9,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
-      "part_number": "90843-08211",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
-      "code": "90843-08211",
+      "part_number": "90843-08239",
+      "name": "ประแจแหวน 10 x 12",
+      "code": "90843-08239",
       "class_key": "wrench",
       "code_id": "4b",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08211.png",
+      "filename": "90843-08239.png",
       "bbox_norm": [
         0.0587,
         0.2643,
@@ -5974,18 +6209,21 @@
       "orientation_vec": [
         0.997,
         0.072
-      ]
+      ],
+      "checklist_no": 37,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 11,
-      "part_number": "90843-08212",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
-      "code": "90843-08212",
+      "part_number": "90843-08228",
+      "name": "ไขควงแบน 75 มม.",
+      "code": "90843-08228",
       "class_key": "screwdriver",
       "code_id": "53",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08212.png",
+      "filename": "90843-08228.png",
       "bbox_norm": [
         0.4731,
         0.2597,
@@ -6070,18 +6308,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 27,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 12,
-      "part_number": "90843-08213",
-      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
-      "code": "90843-08213",
+      "part_number": "90843-08209",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+      "code": "90843-08209",
       "class_key": "socket",
       "code_id": "5B",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08213.png",
+      "filename": "90843-08209.png",
       "bbox_norm": [
         0.9088,
         0.2532,
@@ -6146,18 +6387,21 @@
       "orientation_vec": [
         0.96,
         -0.28
-      ]
+      ],
+      "checklist_no": 8,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
-      "part_number": "90843-08214",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
-      "code": "90843-08214",
+      "part_number": "90843-08238",
+      "name": "ประแจแหวน 8 x 10",
+      "code": "90843-08238",
       "class_key": "wrench",
       "code_id": "4c",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08214.png",
+      "filename": "90843-08238.png",
       "bbox_norm": [
         0.0601,
         0.3039,
@@ -6222,18 +6466,21 @@
       "orientation_vec": [
         0.998,
         0.062
-      ]
+      ],
+      "checklist_no": 36,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
-      "part_number": "90843-08215",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
-      "code": "90843-08215",
+      "part_number": "90843-08233",
+      "name": "ไขควงแฉก 100 มม.",
+      "code": "90843-08233",
       "class_key": "screwdriver",
       "code_id": "54",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08215.png",
+      "filename": "90843-08233.png",
       "bbox_norm": [
         0.5981,
         0.302,
@@ -6314,18 +6561,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 32,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
-      "part_number": "90843-08216",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
-      "code": "90843-08216",
+      "part_number": "90843-08F62",
+      "name": "ประแจแหวน 8 - 10",
+      "code": "90843-08F62",
       "class_key": "wrench",
       "code_id": "4d",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08216.png",
+      "filename": "90843-08F62.png",
       "bbox_norm": [
         0.0608,
         0.3508,
@@ -6390,18 +6640,21 @@
       "orientation_vec": [
         0.999,
         0.037
-      ]
+      ],
+      "checklist_no": 62,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 16,
-      "part_number": "90843-08217",
-      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
-      "code": "90843-08217",
+      "part_number": "90843-08229",
+      "name": "ไขควงแบน 100 มม.",
+      "code": "90843-08229",
       "class_key": "screwdriver",
       "code_id": "55",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08217.png",
+      "filename": "90843-08229.png",
       "bbox_norm": [
         0.4144,
         0.3444,
@@ -6478,18 +6731,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 28,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
-      "part_number": "90843-08218",
-      "name": "ไขควงแบน (จิ๋ว) 75 mm.",
-      "code": "90843-08218",
+      "part_number": "90843-08208",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+      "code": "90843-08208",
       "class_key": "socket",
       "code_id": "5C",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08218.png",
+      "filename": "90843-08208.png",
       "bbox_norm": [
         0.9109,
         0.326,
@@ -6554,18 +6810,21 @@
       "orientation_vec": [
         0.988,
         -0.152
-      ]
+      ],
+      "checklist_no": 7,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 18,
-      "part_number": "90843-08219",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
-      "code": "90843-08219",
+      "part_number": "90843-08248",
+      "name": "ประแจรวม No. 17",
+      "code": "90843-08248",
       "class_key": "wrench",
       "code_id": "4e",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08219.png",
+      "filename": "90843-08248.png",
       "bbox_norm": [
         0.0532,
         0.4134,
@@ -6618,18 +6877,21 @@
       "orientation_vec": [
         1.0,
         0.026
-      ]
+      ],
+      "checklist_no": 46,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 19,
-      "part_number": "90843-08220",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
-      "code": "90843-08220",
+      "part_number": "90843-08234",
+      "name": "ไขควงแฉก 150 มม.",
+      "code": "90843-08234",
       "class_key": "screwdriver",
       "code_id": "56",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08220.png",
+      "filename": "90843-08234.png",
       "bbox_norm": [
         0.5,
         0.395,
@@ -6710,18 +6972,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 33,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 20,
-      "part_number": "90843-08221",
-      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 150 มม.",
-      "code": "90843-08221",
+      "part_number": "90843-08207",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+      "code": "90843-08207",
       "class_key": "socket",
       "code_id": "5D",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08221.png",
+      "filename": "90843-08207.png",
       "bbox_norm": [
         0.9123,
         0.3932,
@@ -6782,18 +7047,21 @@
       "orientation_vec": [
         0.985,
         -0.174
-      ]
+      ],
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 21,
-      "part_number": "90843-08222",
-      "name": "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
-      "code": "90843-08222",
+      "part_number": "90843-08247",
+      "name": "ประแจรวม No. 14",
+      "code": "90843-08247",
       "class_key": "wrench",
       "code_id": "4f",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08222.png",
+      "filename": "90843-08247.png",
       "bbox_norm": [
         0.0594,
         0.4475,
@@ -6842,18 +7110,21 @@
       "orientation_vec": [
         1.0,
         0.018
-      ]
+      ],
+      "checklist_no": 45,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 22,
-      "part_number": "90843-08223",
-      "name": "ด้ามขันเลื่อน 3/8\"",
-      "code": "90843-08223",
+      "part_number": "90843-08206",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+      "code": "90843-08206",
       "class_key": "socket",
       "code_id": "5E",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08223.png",
+      "filename": "90843-08206.png",
       "bbox_norm": [
         0.9171,
         0.4595,
@@ -6918,18 +7189,21 @@
       "orientation_vec": [
         0.997,
         0.083
-      ]
+      ],
+      "checklist_no": 5,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 23,
-      "part_number": "90843-08224",
-      "name": "ข้อต่ออ่อน 3/8\"",
-      "code": "90843-08224",
+      "part_number": "90843-08245",
+      "name": "ประแจรวม No. 10",
+      "code": "90843-08245",
       "class_key": "wrench",
       "code_id": "4h",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08224.png",
+      "filename": "90843-08245.png",
       "bbox_norm": [
         0.0622,
         0.511,
@@ -6970,18 +7244,21 @@
       "orientation_vec": [
         1.0,
         0.003
-      ]
+      ],
+      "checklist_no": 43,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 24,
-      "part_number": "90843-08225",
-      "name": "ด้ามขันฟรี 3/8\" x 7\"",
-      "code": "90843-08225",
+      "part_number": "90843-08246",
+      "name": "ประแจรวม No. 12",
+      "code": "90843-08246",
       "class_key": "wrench",
       "code_id": "4g",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08225.png",
+      "filename": "90843-08246.png",
       "bbox_norm": [
         0.0601,
         0.4788,
@@ -7026,18 +7303,21 @@
       "orientation_vec": [
         1.0,
         0.009
-      ]
+      ],
+      "checklist_no": 44,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 25,
-      "part_number": "90843-08226",
-      "name": "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
-      "code": "90843-08226",
+      "part_number": "90843-08230",
+      "name": "ไขควงแบน 150 มม.",
+      "code": "90843-08230",
       "class_key": "screwdriver",
       "code_id": "57",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08226.png",
+      "filename": "90843-08230.png",
       "bbox_norm": [
         0.4157,
         0.4549,
@@ -7118,18 +7398,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 29,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 26,
-      "part_number": "90843-08227",
-      "name": "ไขควงแบน ก้านเล็ก 200 มม.",
-      "code": "90843-08227",
+      "part_number": "90843-11012",
+      "name": "ประแจแหวนรวม No. 6",
+      "code": "90843-11012",
       "class_key": "wrench",
       "code_id": "4j",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08227.png",
+      "filename": "90843-11012.png",
       "bbox_norm": [
         0.0608,
         0.5663,
@@ -7170,18 +7453,21 @@
       "orientation_vec": [
         1.0,
         0.01
-      ]
+      ],
+      "checklist_no": 64,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 27,
-      "part_number": "90843-08228",
-      "name": "ไขควงแบน 75 มม.",
-      "code": "90843-08228",
+      "part_number": "90843-08244",
+      "name": "ประแจรวม No. 08",
+      "code": "90843-08244",
       "class_key": "wrench",
       "code_id": "4i",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08228.png",
+      "filename": "90843-08244.png",
       "bbox_norm": [
         0.0628,
         0.5387,
@@ -7226,18 +7512,21 @@
       "orientation_vec": [
         1.0,
         -0.004
-      ]
+      ],
+      "checklist_no": 42,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 28,
-      "part_number": "90843-08229",
-      "name": "ไขควงแบน 100 มม.",
-      "code": "90843-08229",
+      "part_number": "90843-110C5",
+      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม. T50",
+      "code": "90843-110C5",
       "class_key": "socket",
       "code_id": "4v",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08229.png",
+      "filename": "90843-110C5.png",
       "bbox_norm": [
         0.3018,
         0.5304,
@@ -7298,18 +7587,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 67,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 29,
-      "part_number": "90843-08230",
-      "name": "ไขควงแบน 150 มม.",
-      "code": "90843-08230",
+      "part_number": "90843-08227",
+      "name": "ไขควงแบน ก้านเล็ก 200 มม.",
+      "code": "90843-08227",
       "class_key": "screwdriver",
       "code_id": "58",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08230.png",
+      "filename": "90843-08227.png",
       "bbox_norm": [
         0.4896,
         0.5258,
@@ -7366,18 +7658,21 @@
       "orientation_vec": [
         0.999,
         -0.035
-      ]
+      ],
+      "checklist_no": 26,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 30,
-      "part_number": "90843-08231",
-      "name": "ไขควงแบน ป้อม 25 มม.",
-      "code": "90843-08231",
+      "part_number": "90843-08205",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+      "code": "90843-08205",
       "class_key": "socket",
       "code_id": "5F",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08231.png",
+      "filename": "90843-08205.png",
       "bbox_norm": [
         0.9199,
         0.5212,
@@ -7450,18 +7745,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 4,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 31,
-      "part_number": "90843-08232",
-      "name": "ไขควงแฉก 75 มม.",
-      "code": "90843-08232",
+      "part_number": "90843-11011",
+      "name": "ประแจแหวนรวม No. 5.5",
+      "code": "90843-11011",
       "class_key": "wrench",
       "code_id": "4k",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08232.png",
+      "filename": "90843-11011.png",
       "bbox_norm": [
         0.0642,
         0.5921,
@@ -7506,18 +7804,21 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "checklist_no": 63,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 32,
-      "part_number": "90843-08233",
-      "name": "ไขควงแฉก 100 มม.",
-      "code": "90843-08233",
+      "part_number": "90843-11060",
+      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 3/8\" T30",
+      "code": "90843-11060",
       "class_key": "socket",
       "code_id": "4u",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08233.png",
+      "filename": "90843-11060.png",
       "bbox_norm": [
         0.3011,
         0.5838,
@@ -7586,18 +7887,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 65,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 33,
-      "part_number": "90843-08234",
-      "name": "ไขควงแฉก 150 มม.",
-      "code": "90843-08234",
+      "part_number": "90843-110M3",
+      "name": "ไขควงปากแฉก ก้านเล็กด้ามนิ่ม 1 x 150 มม.",
+      "code": "90843-110M3",
       "class_key": "screwdriver",
       "code_id": "59",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "90843-08234.png",
+      "filename": "90843-110M3.png",
       "bbox_norm": [
         0.4185,
         0.5599,
@@ -7654,18 +7958,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 35,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 34,
-      "part_number": "90843-08235",
-      "name": "ไขควงแฉก ป้อม 25 มม.",
-      "code": "90843-08235",
+      "part_number": "90843-08204",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+      "code": "90843-08204",
       "class_key": "socket",
       "code_id": "5G",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08235.png",
+      "filename": "90843-08204.png",
       "bbox_norm": [
         0.9199,
         0.5773,
@@ -7714,18 +8021,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 3,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 35,
-      "part_number": "90843-110M3",
-      "name": "ไขควงปากแฉก ก้านเล็กด้ามนุ่ม 1x150 มม.",
-      "code": "90843-110M3",
+      "part_number": "90843-08252",
+      "name": "ประแจปากตาย 6 x 7",
+      "code": "90843-08252",
       "class_key": "wrench",
       "code_id": "4m",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-110M3.png",
+      "filename": "90843-08252.png",
       "bbox_norm": [
         0.0649,
         0.6565,
@@ -7762,18 +8072,21 @@
       "orientation_vec": [
         1.0,
         -0.015
-      ]
+      ],
+      "checklist_no": 47,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 36,
-      "part_number": "90843-08238",
-      "name": "ประแจแหวน 8 x 10",
-      "code": "90843-08238",
+      "part_number": "90843-08253",
+      "name": "ประแจปากตาย 8 x 10",
+      "code": "90843-08253",
       "class_key": "wrench",
       "code_id": "4l",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08238.png",
+      "filename": "90843-08253.png",
       "bbox_norm": [
         0.0601,
         0.6289,
@@ -7814,18 +8127,21 @@
       "orientation_vec": [
         1.0,
         -0.016
-      ]
+      ],
+      "checklist_no": 48,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 37,
-      "part_number": "90843-08239",
-      "name": "ประแจแหวน 10 x 12",
-      "code": "90843-08239",
+      "part_number": "90843-21021",
+      "name": "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128",
+      "code": "90843-21021",
       "class_key": "socket",
       "code_id": "4t",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08239.png",
+      "filename": "90843-21021.png",
       "bbox_norm": [
         0.3004,
         0.6418,
@@ -7890,18 +8206,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 70,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 38,
-      "part_number": "90843-08240",
-      "name": "ประแจแหวน 12 x 14",
-      "code": "90843-08240",
+      "part_number": "90843-08F23",
+      "name": "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+      "code": "90843-08F23",
       "class_key": "socket",
       "code_id": "5R",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08240.png",
+      "filename": "90843-08F23.png",
       "bbox_norm": [
         0.4979,
         0.6298,
@@ -7950,18 +8269,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 58,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 39,
-      "part_number": "90843-08241",
-      "name": "ประแจแหวน 14 x 17",
-      "code": "90843-08241",
+      "part_number": "90843-11074",
+      "name": "ข้อต่อบ๊อกซ์ เพิ่ม 3/8\" - 1/2\"",
+      "code": "90843-11074",
       "class_key": "socket",
       "code_id": "5Q",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08241.png",
+      "filename": "90843-11074.png",
       "bbox_norm": [
         0.5387,
         0.6252,
@@ -8038,18 +8360,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 66,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 40,
-      "part_number": "90843-08242",
-      "name": "ประแจแหวน 17 x 19",
-      "code": "90843-08242",
+      "part_number": "90843-13013",
+      "name": "ข้อต่อลด จาก 1/2 ลด 3/8\"",
+      "code": "90843-13013",
       "class_key": "socket",
       "code_id": "5P",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08242.png",
+      "filename": "90843-13013.png",
       "bbox_norm": [
         0.5829,
         0.6133,
@@ -8110,18 +8435,21 @@
       "orientation_vec": [
         0.997,
         0.083
-      ]
+      ],
+      "checklist_no": 69,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 41,
-      "part_number": "90843-08243",
-      "name": "ประแจแหวน 22 x 24",
-      "code": "90843-08243",
+      "part_number": "90843-08F56",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 6",
+      "code": "90843-08F56",
       "class_key": "socket",
       "code_id": "5O",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08243.png",
+      "filename": "90843-08F56.png",
       "bbox_norm": [
         0.636,
         0.6243,
@@ -8182,18 +8510,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 61,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 42,
-      "part_number": "90843-08244",
-      "name": "ประแจรวม No. 08",
-      "code": "90843-08244",
+      "part_number": "90843-08F55",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 5",
+      "code": "90843-08F55",
       "class_key": "socket",
       "code_id": "5N",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08244.png",
+      "filename": "90843-08F55.png",
       "bbox_norm": [
         0.6796,
         0.6252,
@@ -8242,18 +8573,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 60,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 43,
-      "part_number": "90843-08245",
-      "name": "ประแจรวม No. 10",
-      "code": "90843-08245",
+      "part_number": "90843-08F54",
+      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4",
+      "code": "90843-08F54",
       "class_key": "socket",
       "code_id": "5M",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08245.png",
+      "filename": "90843-08F54.png",
       "bbox_norm": [
         0.7224,
         0.6243,
@@ -8306,18 +8640,21 @@
       "orientation_vec": [
         0.673,
         0.74
-      ]
+      ],
+      "checklist_no": 59,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 44,
-      "part_number": "90843-08246",
-      "name": "ประแจรวม No. 12",
-      "code": "90843-08246",
+      "part_number": "90843-08214",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
+      "code": "90843-08214",
       "class_key": "socket",
       "code_id": "5L",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08246.png",
+      "filename": "90843-08214.png",
       "bbox_norm": [
         0.7666,
         0.6326,
@@ -8366,18 +8703,21 @@
       "orientation_vec": [
         0.995,
         0.1
-      ]
+      ],
+      "checklist_no": 13,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 45,
-      "part_number": "90843-08247",
-      "name": "ประแจรวม No. 14",
-      "code": "90843-08247",
+      "part_number": "90843-08215",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+      "code": "90843-08215",
       "class_key": "socket",
       "code_id": "5K",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08247.png",
+      "filename": "90843-08215.png",
       "bbox_norm": [
         0.8039,
         0.6326,
@@ -8434,18 +8774,21 @@
       "orientation_vec": [
         0.973,
         0.229
-      ]
+      ],
+      "checklist_no": 14,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 46,
-      "part_number": "90843-08248",
-      "name": "ประแจรวม No. 17",
-      "code": "90843-08248",
+      "part_number": "90843-08216",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+      "code": "90843-08216",
       "class_key": "socket",
       "code_id": "5J",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08248.png",
+      "filename": "90843-08216.png",
       "bbox_norm": [
         0.8405,
         0.6317,
@@ -8498,18 +8841,21 @@
       "orientation_vec": [
         0.987,
         0.158
-      ]
+      ],
+      "checklist_no": 15,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 47,
-      "part_number": "90843-08252",
-      "name": "ประแจปากตาย 6 x 7",
-      "code": "90843-08252",
+      "part_number": "90843-08217",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+      "code": "90843-08217",
       "class_key": "socket",
       "code_id": "5I",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08252.png",
+      "filename": "90843-08217.png",
       "bbox_norm": [
         0.8791,
         0.628,
@@ -8574,18 +8920,21 @@
       "orientation_vec": [
         0.986,
         0.169
-      ]
+      ],
+      "checklist_no": 16,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 48,
-      "part_number": "90843-08253",
-      "name": "ประแจปากตาย 8 x 10",
-      "code": "90843-08253",
+      "part_number": "90843-08203",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+      "code": "90843-08203",
       "class_key": "socket",
       "code_id": "5H",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08253.png",
+      "filename": "90843-08203.png",
       "bbox_norm": [
         0.9282,
         0.6354,
@@ -8682,18 +9031,21 @@
       "orientation_vec": [
         0.196,
         0.981
-      ]
+      ],
+      "checklist_no": 2,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 49,
-      "part_number": "90843-08256",
-      "name": "ถาดล้างชิ้นส่วน มีแม่เหล็ก",
-      "code": "90843-08256",
+      "part_number": "90843-08223",
+      "name": "ด้ามขันเลื่อน 3/8\"",
+      "code": "90843-08223",
       "class_key": "wrench",
       "code_id": "4n",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-08256.png",
+      "filename": "90843-08223.png",
       "bbox_norm": [
         0.0691,
         0.6768,
@@ -8766,18 +9118,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 22,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 50,
-      "part_number": "90843-08F04",
-      "name": "ลูกบล๊อคลม 3/8\" # 8 (ดำ)",
-      "code": "90843-08F04",
+      "part_number": "90843-08222",
+      "name": "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+      "code": "90843-08222",
       "class_key": "socket",
       "code_id": "5g",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F04.png",
+      "filename": "90843-08222.png",
       "bbox_norm": [
         0.4075,
         0.6814,
@@ -8842,18 +9197,21 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 51,
-      "part_number": "90843-08F05",
-      "name": "ลูกบล๊อคลม 3/8\" # 10 (ดำ)",
-      "code": "90843-08F05",
+      "part_number": "90843-08F04",
+      "name": "ลูกบล็อคลม 3/8\" # 8 (ดำ)",
+      "code": "90843-08F04",
       "class_key": "socket",
       "code_id": "5a",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F05.png",
+      "filename": "90843-08F04.png",
       "bbox_norm": [
         0.4744,
         0.6915,
@@ -8902,18 +9260,21 @@
       "orientation_vec": [
         0.164,
         0.986
-      ]
+      ],
+      "checklist_no": 50,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 52,
-      "part_number": "90843-08F06",
-      "name": "ลูกบล๊อคลม 3/8\" # 12 (ดำ)",
-      "code": "90843-08F06",
+      "part_number": "90843-08202",
+      "name": "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+      "code": "90843-08202",
       "class_key": "socket",
       "code_id": "5f",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F06.png",
+      "filename": "90843-08202.png",
       "bbox_norm": [
         0.9399,
         0.6971,
@@ -9030,18 +9391,22 @@
       "orientation_vec": [
         0.447,
         0.894
-      ]
+      ],
+      "checklist_no": 1,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ลูกบ๊อกซ์ถูกบังด้วยลูกบล็อคลมเลข 68 polygon จึงเล็กผิดปกติ (16x21 px)"
     },
     {
       "slot_number": 53,
-      "part_number": "90843-08F07",
-      "name": "ลูกบล๊อคลม 3/8\" # 14 (ดำ)",
-      "code": "90843-08F07",
+      "part_number": "90843-08F05",
+      "name": "ลูกบล็อคลม 3/8\" # 10 (ดำ)",
+      "code": "90843-08F05",
       "class_key": "socket",
       "code_id": "5Z",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F07.png",
+      "filename": "90843-08F05.png",
       "bbox_norm": [
         0.5249,
         0.6915,
@@ -9094,18 +9459,21 @@
       "orientation_vec": [
         0.217,
         0.976
-      ]
+      ],
+      "checklist_no": 51,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 54,
-      "part_number": "90843-08F08",
-      "name": "ลูกบล๊อคลม 3/8\" # 17 (ดำ)",
-      "code": "90843-08F08",
+      "part_number": "90843-08F06",
+      "name": "ลูกบล็อคลม 3/8\" # 12 (ดำ)",
+      "code": "90843-08F06",
       "class_key": "socket",
       "code_id": "5Y",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F08.png",
+      "filename": "90843-08F06.png",
       "bbox_norm": [
         0.5732,
         0.6924,
@@ -9158,18 +9526,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 52,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 55,
-      "part_number": "90843-08F09",
-      "name": "ลูกบล๊อคลม 3/8\" # 19 (ดำ)",
-      "code": "90843-08F09",
+      "part_number": "90843-08F07",
+      "name": "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+      "code": "90843-08F07",
       "class_key": "socket",
       "code_id": "5X",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F09.png",
+      "filename": "90843-08F07.png",
       "bbox_norm": [
         0.6174,
         0.6924,
@@ -9230,18 +9601,21 @@
       "orientation_vec": [
         0.733,
         0.68
-      ]
+      ],
+      "checklist_no": 53,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 56,
-      "part_number": "90843-08F10",
-      "name": "ลูกบล๊อคลม 3/8\" # 21 (ดำ)",
-      "code": "90843-08F10",
+      "part_number": "90843-08F08",
+      "name": "ลูกบล็อคลม 3/8\" # 17 (ดำ)",
+      "code": "90843-08F08",
       "class_key": "socket",
       "code_id": "5W",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F10.png",
+      "filename": "90843-08F08.png",
       "bbox_norm": [
         0.663,
         0.6869,
@@ -9306,18 +9680,21 @@
       "orientation_vec": [
         0.707,
         0.707
-      ]
+      ],
+      "checklist_no": 54,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 57,
-      "part_number": "90843-08F11",
-      "name": "ลูกบล๊อคลม 3/8\" # 22 (ดำ)",
-      "code": "90843-08F11",
+      "part_number": "90843-08F09",
+      "name": "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+      "code": "90843-08F09",
       "class_key": "socket",
       "code_id": "5V",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F11.png",
+      "filename": "90843-08F09.png",
       "bbox_norm": [
         0.7113,
         0.6842,
@@ -9382,18 +9759,21 @@
       "orientation_vec": [
         0.923,
         0.385
-      ]
+      ],
+      "checklist_no": 55,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 58,
-      "part_number": "90843-08F23",
-      "name": "ข้อต่อบ็อกซ์ลมสำหรับใส่ดอกไขควง",
-      "code": "90843-08F23",
+      "part_number": "90843-08F10",
+      "name": "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+      "code": "90843-08F10",
       "class_key": "socket",
       "code_id": "5U",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F23.png",
+      "filename": "90843-08F10.png",
       "bbox_norm": [
         0.7638,
         0.6842,
@@ -9462,18 +9842,21 @@
       "orientation_vec": [
         0.914,
         0.406
-      ]
+      ],
+      "checklist_no": 56,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 59,
-      "part_number": "90843-08F54",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4",
-      "code": "90843-08F54",
+      "part_number": "90843-08F11",
+      "name": "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+      "code": "90843-08F11",
       "class_key": "socket",
       "code_id": "5T",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F54.png",
+      "filename": "90843-08F11.png",
       "bbox_norm": [
         0.817,
         0.6823,
@@ -9554,18 +9937,21 @@
       "orientation_vec": [
         0.935,
         0.355
-      ]
+      ],
+      "checklist_no": 57,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 60,
-      "part_number": "90843-08F55",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 5",
-      "code": "90843-08F55",
+      "part_number": "90843-13009",
+      "name": "ลูกบล็อคลม 1/2\" No. 24",
+      "code": "90843-13009",
       "class_key": "socket",
       "code_id": "5S",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F55.png",
+      "filename": "90843-13009.png",
       "bbox_norm": [
         0.875,
         0.6805,
@@ -9630,18 +10016,21 @@
       "orientation_vec": [
         0.98,
         0.2
-      ]
+      ],
+      "checklist_no": 68,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 61,
-      "part_number": "90843-08F56",
-      "name": "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 6",
-      "code": "90843-08F56",
+      "part_number": "90843-08213",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+      "code": "90843-08213",
       "class_key": "socket",
       "code_id": "4q",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F56.png",
+      "filename": "90843-08213.png",
       "bbox_norm": [
         0.0518,
         0.767,
@@ -9706,18 +10095,21 @@
       "orientation_vec": [
         1.0,
         0.015
-      ]
+      ],
+      "checklist_no": 12,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 62,
-      "part_number": "90843-08F62",
-      "name": "ประแจแหวน 8 - 10",
-      "code": "90843-08F62",
+      "part_number": "90843-08212",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+      "code": "90843-08212",
       "class_key": "socket",
       "code_id": "4r",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-08F62.png",
+      "filename": "90843-08212.png",
       "bbox_norm": [
         0.1651,
         0.7698,
@@ -9770,18 +10162,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 63,
-      "part_number": "90843-11011",
-      "name": "ประแจแหวนรวม No. 5.5",
-      "code": "90843-11011",
+      "part_number": "90843-08211",
+      "name": "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
+      "code": "90843-08211",
       "class_key": "socket",
       "code_id": "4s",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11011.png",
+      "filename": "90843-08211.png",
       "bbox_norm": [
         0.2756,
         0.7689,
@@ -9838,18 +10233,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 10,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 64,
-      "part_number": "90843-11012",
-      "name": "ประแจแหวนรวม No. 6",
-      "code": "90843-11012",
+      "part_number": "90843-08221",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 150 มม.",
+      "code": "90843-08221",
       "class_key": "socket",
       "code_id": "5b",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11012.png",
+      "filename": "90843-08221.png",
       "bbox_norm": [
         0.4365,
         0.7827,
@@ -9898,18 +10296,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 20,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 65,
-      "part_number": "90843-11060",
-      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 3/8\" T30",
-      "code": "90843-11060",
+      "part_number": "90843-08220",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+      "code": "90843-08220",
       "class_key": "socket",
       "code_id": "5c",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11060.png",
+      "filename": "90843-08220.png",
       "bbox_norm": [
         0.6692,
         0.7836,
@@ -9954,18 +10355,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 19,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 66,
-      "part_number": "90843-11074",
-      "name": "ข้อต่อบ๊อกซ์ เพิ่ม 3/8\" - 1/2\"",
-      "code": "90843-11074",
+      "part_number": "90843-08219",
+      "name": "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+      "code": "90843-08219",
       "class_key": "socket",
       "code_id": "5d",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-11074.png",
+      "filename": "90843-08219.png",
       "bbox_norm": [
         0.797,
         0.7827,
@@ -10018,18 +10422,21 @@
       "orientation_vec": [
         0.998,
         -0.067
-      ]
+      ],
+      "checklist_no": 18,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 67,
-      "part_number": "90843-110C5",
-      "name": "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม.T50",
-      "code": "90843-110C5",
+      "part_number": "90843-08224",
+      "name": "ข้อต่ออ่อน 3/8\"",
+      "code": "90843-08224",
       "class_key": "socket",
       "code_id": "5e",
       "category": "socket",
       "expected_class": "socket",
-      "filename": "90843-110C5.png",
+      "filename": "90843-08224.png",
       "bbox_norm": [
         0.8847,
         0.7808,
@@ -10086,18 +10493,21 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 23,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 68,
-      "part_number": "90843-13009",
-      "name": "ลูกบล๊อคลม 1/2\" No. 24",
-      "code": "90843-13009",
+      "part_number": "90843-08225",
+      "name": "ด้ามขันฟรี 3/8\" x 7\"",
+      "code": "90843-08225",
       "class_key": "wrench",
       "code_id": "4o",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-13009.png",
+      "filename": "90843-08225.png",
       "bbox_norm": [
         0.1036,
         0.8352,
@@ -10166,18 +10576,21 @@
       "orientation_vec": [
         0.998,
         -0.068
-      ]
+      ],
+      "checklist_no": 24,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 69,
-      "part_number": "90843-13013",
-      "name": "ข้อต่อลด จาก 1/2 ลด 3/8\"",
-      "code": "90843-13013",
+      "part_number": "90843-08226",
+      "name": "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
+      "code": "90843-08226",
       "class_key": "wrench",
       "code_id": "4p",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "90843-13013.png",
+      "filename": "90843-08226.png",
       "bbox_norm": [
         0.4586,
         0.8435,
@@ -10238,7 +10651,10 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "checklist_no": 25,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     }
   ]
 }

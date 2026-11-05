@@ -1,8 +1,8 @@
 {
   "tray_id": "box2-template01_31-item",
   "tray_name": "box2-template01_31-item",
-  "description": "แผงแขวนเครื่องมือพิเศษ Yamaha ชุด box2-template01_31-item (41 รายการ) พร้อมตำแหน่งและพิกัด Polygon จาก Mask แม่นยำ",
-  "version": "1.0.0",
+  "description": "แผงแขวนเครื่องมือพิเศษ Yamaha ชุด box2-template01_31-item (41 ช่องตำแหน่ง) พร้อมพิกัด Polygon จาก Mask แม่นยำ",
+  "version": "1.0.1",
   "image_size": [
     3840,
     2880
@@ -17,7 +17,7 @@
     {
       "slot_number": 1,
       "box_id": "5U",
-      "name": "ชุดถอดลูกปืนรูในแบบ 2 ขา Mio/Nouvo",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
       "code": "bearing_puller_internal_2leg",
       "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
@@ -154,12 +154,17 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 2,
       "box_id": "4D",
-      "name": "ชุดถอดลูกปืนรูในแบบ 2 ขา Mio/Nouvo",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
       "code": "bearing_puller_internal_2leg",
       "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
@@ -280,14 +285,18 @@
       "orientation_vec": [
         0.006,
         1.0
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
       "box_id": "4B",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         820.0,
@@ -422,14 +431,19 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 4,
       "box_id": "4C",
-      "name": "เครื่องมือพิเศษประจำตำแหน่ง 4",
-      "code": "special_tool_04",
-      "filename": "special_tool_04.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         567.5,
@@ -528,14 +542,19 @@
       "orientation_vec": [
         1.0,
         0.02
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 5,
       "box_id": "49",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         821.0,
@@ -658,12 +677,17 @@
       "orientation_vec": [
         1.0,
         0.024
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 6,
       "box_id": "4l",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -840,12 +864,17 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชุดน็อตยาวของตัวดูดจานไฟแบบกลม (ชุดนี้มีน็อต 3 แบบ x 3 ตัว)"
     },
     {
       "slot_number": 7,
       "box_id": "44",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -950,12 +979,16 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
       "box_id": "4f",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -1108,7 +1141,12 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชุดน็อตของตัวดูดจานไฟแบบกลม"
     },
     {
       "slot_number": 9,
@@ -1246,14 +1284,18 @@
       "orientation_vec": [
         0.011,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01135",
+      "checklist_no": 29,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
       "box_id": "4i",
-      "name": "ชุดประกอบแบริ่งข้อเหวี่ยง X-MAX",
-      "code": "crankshaft_bearing_installer",
-      "filename": "crankshaft_bearing_installer.png",
+      "name": "ตัวดูดจานไฟ แบบกลม",
+      "code": "flywheel_puller_round",
+      "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
       "center": [
         539.5,
@@ -1404,7 +1446,12 @@
       "orientation_vec": [
         1.0,
         0.01
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "inferred",
+      "match_note": "ชั้นน็อตไม่มีเลขกำกับ ภาพชุดเครื่องมือแสดงว่าน็อต 3 ชุดเป็นของตัวดูดจานไฟแบบกลม (ชุด X-MAX ไม่มีน็อต)"
     },
     {
       "slot_number": 11,
@@ -1518,14 +1565,18 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-110K9",
+      "checklist_no": 25,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 12,
       "box_id": "4E",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "เครื่องมือตั้งศูนย์ล้อ Nouvo Mio",
+      "code": "wheel_aligner_nouvo_mio",
+      "filename": "wheel_aligner_nouvo_mio.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1070.0,
@@ -1600,14 +1651,18 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F48",
+      "checklist_no": 9,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
       "box_id": "4L",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
-      "code": "front_fork_t_wrench_10",
-      "filename": "front_fork_t_wrench_10.png",
+      "name": "ประแจ L ล็อกสกรูปรับตั้งวาล์ว",
+      "code": "valve_adjuster_l_wrench",
+      "filename": "valve_adjuster_l_wrench.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1427.0,
@@ -1694,14 +1749,18 @@
       "orientation_vec": [
         0.116,
         0.993
-      ]
+      ],
+      "part_number": "90843-110A7",
+      "checklist_no": 20,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
       "box_id": "4k",
-      "name": "เครื่องมือขันคอรถ",
-      "code": "steering_stem_wrench",
-      "filename": "steering_stem_wrench.png",
+      "name": "ตัวตัดโซ่ พร้อมแกนตัดอะไหล่สำรอง",
+      "code": "chain_cutter_tool",
+      "filename": "chain_cutter_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1076.5,
@@ -1820,14 +1879,18 @@
       "orientation_vec": [
         1.0,
         -0.005
-      ]
+      ],
+      "part_number": "90843-08F22",
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
       "box_id": "4F",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
-      "code": "front_fork_t_wrench_10",
-      "filename": "front_fork_t_wrench_10.png",
+      "name": "ตัวตัดโซ่ พร้อมแกนตัดอะไหล่สำรอง",
+      "code": "chain_cutter_tool",
+      "filename": "chain_cutter_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1224.5,
@@ -1930,12 +1993,17 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F22",
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แกนตัดอะไหล่สำรองของตัวตัดโซ่"
     },
     {
       "slot_number": 16,
       "box_id": "47",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
+      "name": "ตัว T ถอด-ประกอบโช๊คอัพหน้า # 10",
       "code": "front_fork_t_wrench_10",
       "filename": "front_fork_t_wrench_10.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
@@ -2012,7 +2080,11 @@
       "orientation_vec": [
         0.11,
         -0.994
-      ]
+      ],
+      "part_number": "90843-08F29",
+      "checklist_no": 7,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
@@ -2114,12 +2186,17 @@
       "orientation_vec": [
         0.061,
         -0.998
-      ]
+      ],
+      "part_number": "90890-01268",
+      "checklist_no": 30,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "inferred",
+      "match_note": "ประแจขอไม่มีเลขกำกับ เป็นรายการเดียวที่เหลือ (เครื่องมือขันคอรถ = ประแจขอ)"
     },
     {
       "slot_number": 18,
       "box_id": "4b",
-      "name": "ด้ามขันแกนโช๊คหน้า USD",
+      "name": "ด้ามขันแกนโช๊คหน้า usd",
       "code": "usd_fork_assembly_tool",
       "filename": "usd_fork_assembly_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
@@ -2196,7 +2273,11 @@
       "orientation_vec": [
         0.002,
         1.0
-      ]
+      ],
+      "part_number": "90843-110L3",
+      "checklist_no": 26,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 19,
@@ -2298,7 +2379,11 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01274",
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 20,
@@ -2380,14 +2465,19 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01274",
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชิ้นส่วนเล็กบนชั้นเดียวกับเลข 31"
     },
     {
       "slot_number": 21,
       "box_id": "4G",
-      "name": "ประแจ L ล็อกสกรูปรับตั้งวาล์ว",
-      "code": "valve_adjuster_l_wrench",
-      "filename": "valve_adjuster_l_wrench.png",
+      "name": "ลูกบ๊อกซ์ลม เดือย 6 เหลี่ยม 3/8\" (10ชิ้น)",
+      "code": "hex_impact_bit_socket_set",
+      "filename": "hex_impact_bit_socket_set.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         1825.5,
@@ -2542,7 +2632,11 @@
       "orientation_vec": [
         1.0,
         0.007
-      ]
+      ],
+      "part_number": "90843-08F87",
+      "checklist_no": 14,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 22,
@@ -2652,7 +2746,12 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แผงดอกตอกของไขควงตอก KTC SD6 (ชุดเดียวกับเลข 11)"
     },
     {
       "slot_number": 23,
@@ -2766,14 +2865,19 @@
       "orientation_vec": [
         0.025,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แผงดอกตอกของไขควงตอก KTC SD6 (ชุดเดียวกับเลข 11)"
     },
     {
       "slot_number": 24,
       "box_id": "4J",
-      "name": "ไขควงตอก KTC SD6",
-      "code": "impact_driver_ktc_sd6",
-      "filename": "impact_driver_ktc_sd6.png",
+      "name": "ชุดเหล็กสกัด และตอก (5อัน/ชุด)",
+      "code": "punch_chisel_set",
+      "filename": "punch_chisel_set.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         1957.5,
@@ -2936,7 +3040,11 @@
       "orientation_vec": [
         0.186,
         -0.982
-      ]
+      ],
+      "part_number": "90843-08F66",
+      "checklist_no": 12,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 25,
@@ -3014,12 +3122,16 @@
       "orientation_vec": [
         1.0,
         0.007
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 26,
       "box_id": "4O",
-      "name": "เวอร์เนียร์ 150 มม.",
+      "name": "เวอร์เนียร์ 150 mm.",
       "code": "vernier_caliper_150mm",
       "filename": "vernier_caliper_150mm.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -3116,7 +3228,11 @@
       "orientation_vec": [
         0.994,
         0.109
-      ]
+      ],
+      "part_number": "90843-08F33",
+      "checklist_no": 8,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 27,
@@ -3182,12 +3298,16 @@
       "orientation_vec": [
         0.005,
         1.0
-      ]
+      ],
+      "part_number": "90843-12104",
+      "checklist_no": 27,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 28,
       "box_id": "4P",
-      "name": "ประแจปอนด์ออโตเมติก",
+      "name": "ประแจปอนด์ ออโตเมติก 3/8\"sq.5-25 N-m.",
       "code": "preset_torque_wrench",
       "filename": "preset_torque_wrench.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -3264,12 +3384,16 @@
       "orientation_vec": [
         1.0,
         -0.026
-      ]
+      ],
+      "part_number": "90843-11119",
+      "checklist_no": 15,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 29,
       "box_id": "4S",
-      "name": "ประแจปอนด์ดิจิตอล",
+      "name": "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m.",
       "code": "digital_torque_wrench",
       "filename": "digital_torque_wrench.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -3346,14 +3470,18 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-12007",
+      "checklist_no": 13,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 30,
       "box_id": "4U",
-      "name": "ตัวถอดเพลากระเดื่องวาล์ว",
-      "code": "rocker_arm_shaft_puller",
-      "filename": "rocker_arm_shaft_puller.png",
+      "name": "ชุดใส่ปลอกวาล์ว",
+      "code": "valve_guide_installer",
+      "filename": "valve_guide_installer.png",
       "category": "เครื่องมือชุดถอดฝาสูบ (Cylinder Head Tools)",
       "center": [
         2655.0,
@@ -3424,14 +3552,18 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08E09",
+      "checklist_no": 2,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 31,
       "box_id": "4I",
-      "name": "ชุดเหล็กสกัดและตอก",
-      "code": "punch_chisel_set",
-      "filename": "punch_chisel_set.png",
+      "name": "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม.",
+      "code": "oil_filter_wrench_64mm",
+      "filename": "oil_filter_wrench_64mm.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         2151.0,
@@ -3522,12 +3654,16 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-110C3",
+      "checklist_no": 22,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 32,
       "box_id": "4H",
-      "name": "ประแจเลื่อน 300 มม.",
+      "name": "ประแจเลื่อน 300 mm.",
       "code": "adjustable_wrench_300mm",
       "filename": "adjustable_wrench_300mm.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
@@ -3616,7 +3752,11 @@
       "orientation_vec": [
         0.044,
         0.999
-      ]
+      ],
+      "part_number": "90843-08F53",
+      "checklist_no": 10,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 33,
@@ -3714,7 +3854,11 @@
       "orientation_vec": [
         0.004,
         1.0
-      ]
+      ],
+      "part_number": "90843-08E10",
+      "checklist_no": 3,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 34,
@@ -3812,14 +3956,18 @@
       "orientation_vec": [
         0.059,
         0.998
-      ]
+      ],
+      "part_number": "90843-110A0",
+      "checklist_no": 19,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 35,
       "box_id": "4V",
-      "name": "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค",
-      "code": "timing_hole_cap_tool",
-      "filename": "timing_hole_cap_tool.png",
+      "name": "ตัวถอดเพลากระเดื่องวาล์ว",
+      "code": "rocker_arm_shaft_puller",
+      "filename": "rocker_arm_shaft_puller.png",
       "category": "เครื่องมือชุดถอดฝาสูบ (Cylinder Head Tools)",
       "center": [
         2774.0,
@@ -3914,7 +4062,11 @@
       "orientation_vec": [
         0.139,
         -0.99
-      ]
+      ],
+      "part_number": "90843-08E11",
+      "checklist_no": 4,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 36,
@@ -4044,7 +4196,11 @@
       "orientation_vec": [
         0.051,
         -0.999
-      ]
+      ],
+      "part_number": "90843-08E16",
+      "checklist_no": 5,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 37,
@@ -4146,7 +4302,11 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08E06",
+      "checklist_no": 1,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 38,
@@ -4272,7 +4432,11 @@
       "orientation_vec": [
         0.372,
         -0.928
-      ]
+      ],
+      "part_number": "90843-08H02",
+      "checklist_no": 16,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 39,
@@ -4386,7 +4550,11 @@
       "orientation_vec": [
         0.032,
         0.999
-      ]
+      ],
+      "part_number": "90843-11099",
+      "checklist_no": 18,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 40,
@@ -4528,12 +4696,16 @@
       "orientation_vec": [
         0.424,
         -0.906
-      ]
+      ],
+      "part_number": "90843-110C7",
+      "checklist_no": 23,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 41,
       "box_id": "4Z",
-      "name": "เครื่องมือถอดชุดคลัทช์หลัง เบอร์ 46",
+      "name": "เครื่องมือถอดชุดคลัทช์หลัง (เบอร์ 46)",
       "code": "rear_clutch_wrench_46",
       "filename": "rear_clutch_wrench_46.png",
       "category": "เครื่องมือถอดชุดส่งกำลัง (Transmission Tools)",
@@ -4634,6 +4806,18 @@
       "orientation_vec": [
         1.0,
         0.0
+      ],
+      "part_number": "90843-110D1",
+      "checklist_no": 24,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled",
+      "match_note": "ชั้นวางเดียวกันวางเลข 24 และเลข 28 คู่กัน",
+      "extra_items": [
+        {
+          "checklist_no": 28,
+          "part_number": "90843-21022",
+          "name": "ลูกบ๊อกซ์ถอดพูลเลย์ 1/2\"หกเหลี่ยม 39x41"
+        }
       ]
     }
   ],
@@ -4641,7 +4825,7 @@
     {
       "slot_number": 1,
       "box_id": "5U",
-      "name": "ชุดถอดลูกปืนรูในแบบ 2 ขา Mio/Nouvo",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
       "code": "bearing_puller_internal_2leg",
       "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
@@ -4778,12 +4962,17 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 2,
       "box_id": "4D",
-      "name": "ชุดถอดลูกปืนรูในแบบ 2 ขา Mio/Nouvo",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
       "code": "bearing_puller_internal_2leg",
       "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
@@ -4904,14 +5093,18 @@
       "orientation_vec": [
         0.006,
         1.0
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
       "box_id": "4B",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         820.0,
@@ -5046,14 +5239,19 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 4,
       "box_id": "4C",
-      "name": "เครื่องมือพิเศษประจำตำแหน่ง 4",
-      "code": "special_tool_04",
-      "filename": "special_tool_04.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         567.5,
@@ -5152,14 +5350,19 @@
       "orientation_vec": [
         1.0,
         0.02
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 5,
       "box_id": "49",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+      "code": "bearing_puller_internal_2leg",
+      "filename": "bearing_puller_internal_2leg.png",
       "category": "เครื่องมือถอดชุดลูกปืน (Bearing Puller)",
       "center": [
         821.0,
@@ -5282,12 +5485,17 @@
       "orientation_vec": [
         1.0,
         0.024
-      ]
+      ],
+      "part_number": "90843-110A8",
+      "checklist_no": 21,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "หัวจับของชุดถอดลูกปืนรูใน"
     },
     {
       "slot_number": 6,
       "box_id": "4l",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -5464,12 +5672,17 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชุดน็อตยาวของตัวดูดจานไฟแบบกลม (ชุดนี้มีน็อต 3 แบบ x 3 ตัว)"
     },
     {
       "slot_number": 7,
       "box_id": "44",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -5574,12 +5787,16 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
       "box_id": "4f",
-      "name": "ตัวดูดจานไฟแบบกลม",
+      "name": "ตัวดูดจานไฟ แบบกลม",
       "code": "flywheel_puller_round",
       "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
@@ -5732,7 +5949,12 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชุดน็อตของตัวดูดจานไฟแบบกลม"
     },
     {
       "slot_number": 9,
@@ -5870,14 +6092,18 @@
       "orientation_vec": [
         0.011,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01135",
+      "checklist_no": 29,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
       "box_id": "4i",
-      "name": "ชุดประกอบแบริ่งข้อเหวี่ยง X-MAX",
-      "code": "crankshaft_bearing_installer",
-      "filename": "crankshaft_bearing_installer.png",
+      "name": "ตัวดูดจานไฟ แบบกลม",
+      "code": "flywheel_puller_round",
+      "filename": "flywheel_puller_round.png",
       "category": "เครื่องมือถอดชุดเพลาข้อเหวี่ยง (Crankshaft Tools)",
       "center": [
         539.5,
@@ -6028,7 +6254,12 @@
       "orientation_vec": [
         1.0,
         0.01
-      ]
+      ],
+      "part_number": "90843-08H03",
+      "checklist_no": 17,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "inferred",
+      "match_note": "ชั้นน็อตไม่มีเลขกำกับ ภาพชุดเครื่องมือแสดงว่าน็อต 3 ชุดเป็นของตัวดูดจานไฟแบบกลม (ชุด X-MAX ไม่มีน็อต)"
     },
     {
       "slot_number": 11,
@@ -6142,14 +6373,18 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-110K9",
+      "checklist_no": 25,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 12,
       "box_id": "4E",
-      "name": "ตัวตัดโซ่ พร้อมแกนตัดสำรอง",
-      "code": "chain_cutter_tool",
-      "filename": "chain_cutter_tool.png",
+      "name": "เครื่องมือตั้งศูนย์ล้อ Nouvo Mio",
+      "code": "wheel_aligner_nouvo_mio",
+      "filename": "wheel_aligner_nouvo_mio.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1070.0,
@@ -6224,14 +6459,18 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F48",
+      "checklist_no": 9,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
       "box_id": "4L",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
-      "code": "front_fork_t_wrench_10",
-      "filename": "front_fork_t_wrench_10.png",
+      "name": "ประแจ L ล็อกสกรูปรับตั้งวาล์ว",
+      "code": "valve_adjuster_l_wrench",
+      "filename": "valve_adjuster_l_wrench.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1427.0,
@@ -6318,14 +6557,18 @@
       "orientation_vec": [
         0.116,
         0.993
-      ]
+      ],
+      "part_number": "90843-110A7",
+      "checklist_no": 20,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
       "box_id": "4k",
-      "name": "เครื่องมือขันคอรถ",
-      "code": "steering_stem_wrench",
-      "filename": "steering_stem_wrench.png",
+      "name": "ตัวตัดโซ่ พร้อมแกนตัดอะไหล่สำรอง",
+      "code": "chain_cutter_tool",
+      "filename": "chain_cutter_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1076.5,
@@ -6444,14 +6687,18 @@
       "orientation_vec": [
         1.0,
         -0.005
-      ]
+      ],
+      "part_number": "90843-08F22",
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
       "box_id": "4F",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
-      "code": "front_fork_t_wrench_10",
-      "filename": "front_fork_t_wrench_10.png",
+      "name": "ตัวตัดโซ่ พร้อมแกนตัดอะไหล่สำรอง",
+      "code": "chain_cutter_tool",
+      "filename": "chain_cutter_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
       "center": [
         1224.5,
@@ -6554,12 +6801,17 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F22",
+      "checklist_no": 6,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แกนตัดอะไหล่สำรองของตัวตัดโซ่"
     },
     {
       "slot_number": 16,
       "box_id": "47",
-      "name": "ตัว T ถอด–ประกอบโช๊คอัพหน้า #10",
+      "name": "ตัว T ถอด-ประกอบโช๊คอัพหน้า # 10",
       "code": "front_fork_t_wrench_10",
       "filename": "front_fork_t_wrench_10.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
@@ -6636,7 +6888,11 @@
       "orientation_vec": [
         0.11,
         -0.994
-      ]
+      ],
+      "part_number": "90843-08F29",
+      "checklist_no": 7,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
@@ -6738,12 +6994,17 @@
       "orientation_vec": [
         0.061,
         -0.998
-      ]
+      ],
+      "part_number": "90890-01268",
+      "checklist_no": 30,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "inferred",
+      "match_note": "ประแจขอไม่มีเลขกำกับ เป็นรายการเดียวที่เหลือ (เครื่องมือขันคอรถ = ประแจขอ)"
     },
     {
       "slot_number": 18,
       "box_id": "4b",
-      "name": "ด้ามขันแกนโช๊คหน้า USD",
+      "name": "ด้ามขันแกนโช๊คหน้า usd",
       "code": "usd_fork_assembly_tool",
       "filename": "usd_fork_assembly_tool.png",
       "category": "เครื่องมือถอดชุดโครงรถ (Chassis Tools)",
@@ -6820,7 +7081,11 @@
       "orientation_vec": [
         0.002,
         1.0
-      ]
+      ],
+      "part_number": "90843-110L3",
+      "checklist_no": 26,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 19,
@@ -6922,7 +7187,11 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01274",
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 20,
@@ -7004,14 +7273,19 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90890-01274",
+      "checklist_no": 31,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "ชิ้นส่วนเล็กบนชั้นเดียวกับเลข 31"
     },
     {
       "slot_number": 21,
       "box_id": "4G",
-      "name": "ประแจ L ล็อกสกรูปรับตั้งวาล์ว",
-      "code": "valve_adjuster_l_wrench",
-      "filename": "valve_adjuster_l_wrench.png",
+      "name": "ลูกบ๊อกซ์ลม เดือย 6 เหลี่ยม 3/8\" (10ชิ้น)",
+      "code": "hex_impact_bit_socket_set",
+      "filename": "hex_impact_bit_socket_set.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         1825.5,
@@ -7166,7 +7440,11 @@
       "orientation_vec": [
         1.0,
         0.007
-      ]
+      ],
+      "part_number": "90843-08F87",
+      "checklist_no": 14,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 22,
@@ -7276,7 +7554,12 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แผงดอกตอกของไขควงตอก KTC SD6 (ชุดเดียวกับเลข 11)"
     },
     {
       "slot_number": 23,
@@ -7390,14 +7673,19 @@
       "orientation_vec": [
         0.025,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "set_part",
+      "match_note": "แผงดอกตอกของไขควงตอก KTC SD6 (ชุดเดียวกับเลข 11)"
     },
     {
       "slot_number": 24,
       "box_id": "4J",
-      "name": "ไขควงตอก KTC SD6",
-      "code": "impact_driver_ktc_sd6",
-      "filename": "impact_driver_ktc_sd6.png",
+      "name": "ชุดเหล็กสกัด และตอก (5อัน/ชุด)",
+      "code": "punch_chisel_set",
+      "filename": "punch_chisel_set.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         1957.5,
@@ -7560,7 +7848,11 @@
       "orientation_vec": [
         0.186,
         -0.982
-      ]
+      ],
+      "part_number": "90843-08F66",
+      "checklist_no": 12,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 25,
@@ -7638,12 +7930,16 @@
       "orientation_vec": [
         1.0,
         0.007
-      ]
+      ],
+      "part_number": "90843-08F63",
+      "checklist_no": 11,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 26,
       "box_id": "4O",
-      "name": "เวอร์เนียร์ 150 มม.",
+      "name": "เวอร์เนียร์ 150 mm.",
       "code": "vernier_caliper_150mm",
       "filename": "vernier_caliper_150mm.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -7740,7 +8036,11 @@
       "orientation_vec": [
         0.994,
         0.109
-      ]
+      ],
+      "part_number": "90843-08F33",
+      "checklist_no": 8,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 27,
@@ -7806,12 +8106,16 @@
       "orientation_vec": [
         0.005,
         1.0
-      ]
+      ],
+      "part_number": "90843-12104",
+      "checklist_no": 27,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 28,
       "box_id": "4P",
-      "name": "ประแจปอนด์ออโตเมติก",
+      "name": "ประแจปอนด์ ออโตเมติก 3/8\"sq.5-25 N-m.",
       "code": "preset_torque_wrench",
       "filename": "preset_torque_wrench.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -7888,12 +8192,16 @@
       "orientation_vec": [
         1.0,
         -0.026
-      ]
+      ],
+      "part_number": "90843-11119",
+      "checklist_no": 15,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 29,
       "box_id": "4S",
-      "name": "ประแจปอนด์ดิจิตอล",
+      "name": "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m.",
       "code": "digital_torque_wrench",
       "filename": "digital_torque_wrench.png",
       "category": "เครื่องมือวัดทางกล และ ไฟฟ้า (Mechanical & Electrical)",
@@ -7970,14 +8278,18 @@
       "orientation_vec": [
         1.0,
         0.0
-      ]
+      ],
+      "part_number": "90843-12007",
+      "checklist_no": 13,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 30,
       "box_id": "4U",
-      "name": "ตัวถอดเพลากระเดื่องวาล์ว",
-      "code": "rocker_arm_shaft_puller",
-      "filename": "rocker_arm_shaft_puller.png",
+      "name": "ชุดใส่ปลอกวาล์ว",
+      "code": "valve_guide_installer",
+      "filename": "valve_guide_installer.png",
       "category": "เครื่องมือชุดถอดฝาสูบ (Cylinder Head Tools)",
       "center": [
         2655.0,
@@ -8048,14 +8360,18 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08E09",
+      "checklist_no": 2,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 31,
       "box_id": "4I",
-      "name": "ชุดเหล็กสกัดและตอก",
-      "code": "punch_chisel_set",
-      "filename": "punch_chisel_set.png",
+      "name": "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม.",
+      "code": "oil_filter_wrench_64mm",
+      "filename": "oil_filter_wrench_64mm.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
       "center": [
         2151.0,
@@ -8146,12 +8462,16 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-110C3",
+      "checklist_no": 22,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 32,
       "box_id": "4H",
-      "name": "ประแจเลื่อน 300 มม.",
+      "name": "ประแจเลื่อน 300 mm.",
       "code": "adjustable_wrench_300mm",
       "filename": "adjustable_wrench_300mm.png",
       "category": "เครื่องมือชุดอเนกประสงค์ (Universal Tools)",
@@ -8240,7 +8560,11 @@
       "orientation_vec": [
         0.044,
         0.999
-      ]
+      ],
+      "part_number": "90843-08F53",
+      "checklist_no": 10,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 33,
@@ -8338,7 +8662,11 @@
       "orientation_vec": [
         0.004,
         1.0
-      ]
+      ],
+      "part_number": "90843-08E10",
+      "checklist_no": 3,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 34,
@@ -8436,14 +8764,18 @@
       "orientation_vec": [
         0.059,
         0.998
-      ]
+      ],
+      "part_number": "90843-110A0",
+      "checklist_no": 19,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 35,
       "box_id": "4V",
-      "name": "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค",
-      "code": "timing_hole_cap_tool",
-      "filename": "timing_hole_cap_tool.png",
+      "name": "ตัวถอดเพลากระเดื่องวาล์ว",
+      "code": "rocker_arm_shaft_puller",
+      "filename": "rocker_arm_shaft_puller.png",
       "category": "เครื่องมือชุดถอดฝาสูบ (Cylinder Head Tools)",
       "center": [
         2774.0,
@@ -8538,7 +8870,11 @@
       "orientation_vec": [
         0.139,
         -0.99
-      ]
+      ],
+      "part_number": "90843-08E11",
+      "checklist_no": 4,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 36,
@@ -8668,7 +9004,11 @@
       "orientation_vec": [
         0.051,
         -0.999
-      ]
+      ],
+      "part_number": "90843-08E16",
+      "checklist_no": 5,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 37,
@@ -8770,7 +9110,11 @@
       "orientation_vec": [
         0.0,
         -1.0
-      ]
+      ],
+      "part_number": "90843-08E06",
+      "checklist_no": 1,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 38,
@@ -8896,7 +9240,11 @@
       "orientation_vec": [
         0.372,
         -0.928
-      ]
+      ],
+      "part_number": "90843-08H02",
+      "checklist_no": 16,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 39,
@@ -9010,7 +9358,11 @@
       "orientation_vec": [
         0.032,
         0.999
-      ]
+      ],
+      "part_number": "90843-11099",
+      "checklist_no": 18,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 40,
@@ -9152,12 +9504,16 @@
       "orientation_vec": [
         0.424,
         -0.906
-      ]
+      ],
+      "part_number": "90843-110C7",
+      "checklist_no": 23,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 41,
       "box_id": "4Z",
-      "name": "เครื่องมือถอดชุดคลัทช์หลัง เบอร์ 46",
+      "name": "เครื่องมือถอดชุดคลัทช์หลัง (เบอร์ 46)",
       "code": "rear_clutch_wrench_46",
       "filename": "rear_clutch_wrench_46.png",
       "category": "เครื่องมือถอดชุดส่งกำลัง (Transmission Tools)",
@@ -9258,6 +9614,18 @@
       "orientation_vec": [
         1.0,
         0.0
+      ],
+      "part_number": "90843-110D1",
+      "checklist_no": 24,
+      "checklist_sheet": "เครื่องมือพิเศษ(รุ่นใหม่) 31 รา",
+      "match_confidence": "labeled",
+      "match_note": "ชั้นวางเดียวกันวางเลข 24 และเลข 28 คู่กัน",
+      "extra_items": [
+        {
+          "checklist_no": 28,
+          "part_number": "90843-21022",
+          "name": "ลูกบ๊อกซ์ถอดพูลเลย์ 1/2\"หกเหลี่ยม 39x41"
+        }
       ]
     }
   ]

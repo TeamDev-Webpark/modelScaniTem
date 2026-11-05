@@ -16,14 +16,14 @@
   "slots": [
     {
       "slot_number": 1,
-      "part_number": "TRAY2-01",
-      "name": "คีม (Pliers) #1 (Q)",
-      "code": "TRAY2-01",
+      "part_number": "90843-11092",
+      "name": "คีมคอม้าปากขยาย 257 mm.",
+      "code": "90843-11092",
       "class_key": "pliers",
       "code_id": "Q",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-01.png",
+      "filename": "90843-11092.png",
       "bbox_norm": [
         0.5635,
         0.108,
@@ -88,18 +88,21 @@
       "orientation_vec": [
         0.999,
         0.052
-      ]
+      ],
+      "checklist_no": 84,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 2,
-      "part_number": "TRAY2-02",
-      "name": "คีม (Pliers) #2 (P)",
-      "code": "TRAY2-02",
+      "part_number": "90843-08F60",
+      "name": "คีมล็อคปากตรง 250 mm.",
+      "code": "90843-08F60",
       "class_key": "pliers",
       "code_id": "P",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-02.png",
+      "filename": "90843-08F60.png",
       "bbox_norm": [
         0.1391,
         0.1285,
@@ -176,18 +179,21 @@
       "orientation_vec": [
         0.997,
         0.079
-      ]
+      ],
+      "checklist_no": 82,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
-      "part_number": "TRAY2-03",
-      "name": "ค้อน (Hammer) #3 (O)",
-      "code": "TRAY2-03",
+      "part_number": "90843-08255",
+      "name": "ฆ้อนเหล็ก & พลาสติก",
+      "code": "90843-08255",
       "class_key": "hammer",
       "code_id": "O",
       "category": "hammer",
       "expected_class": "hammer",
-      "filename": "TRAY2-03.png",
+      "filename": "90843-08255.png",
       "bbox_norm": [
         0.0445,
         0.1941,
@@ -276,18 +282,21 @@
       "orientation_vec": [
         1.0,
         0.023
-      ]
+      ],
+      "checklist_no": 76,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 4,
-      "part_number": "TRAY2-04",
-      "name": "คีม (Pliers) #4 (R)",
-      "code": "TRAY2-04",
+      "part_number": "90843-08F58",
+      "name": "คีมหุบแหวน",
+      "code": "90843-08F58",
       "class_key": "pliers",
       "code_id": "R",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-04.png",
+      "filename": "90843-08F58.png",
       "bbox_norm": [
         0.6888,
         0.2361,
@@ -364,18 +373,21 @@
       "orientation_vec": [
         1.0,
         -0.029
-      ]
+      ],
+      "checklist_no": 81,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 5,
-      "part_number": "TRAY2-05",
-      "name": "ด้ามขัน/ประแจ (Wrench) #5 (W)",
-      "code": "TRAY2-05",
+      "part_number": "90843-110A2",
+      "name": "ด้ามขันบ๊อกซ์ตัว T 3/8\" ยาว 250 มม.",
+      "code": "90843-110A2",
       "class_key": "wrench",
       "code_id": "W",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-05.png",
+      "filename": "90843-110A2.png",
       "bbox_norm": [
         0.2112,
         0.2191,
@@ -428,18 +440,21 @@
       "orientation_vec": [
         1.0,
         -0.009
-      ]
+      ],
+      "checklist_no": 85,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 6,
-      "part_number": "TRAY2-06",
-      "name": "คีม (Pliers) #6 (S)",
-      "code": "TRAY2-06",
+      "part_number": "90843-08F57",
+      "name": "คีมถ่างแหวน",
+      "code": "90843-08F57",
       "class_key": "pliers",
       "code_id": "S",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-06.png",
+      "filename": "90843-08F57.png",
       "bbox_norm": [
         0.6813,
         0.3972,
@@ -532,18 +547,22 @@
       "orientation_vec": [
         1.0,
         0.006
-      ]
+      ],
+      "checklist_no": 80,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "inferred",
+      "match_note": "คีมด้ามเหลืองไม่มีเลขกำกับ เป็นคีมแหวนตัวเดียวที่เหลือ (เลข 11 กำกับคีมด้ามแดงแล้ว)"
     },
     {
       "slot_number": 7,
-      "part_number": "TRAY2-07",
-      "name": "ด้ามขัน/ประแจ (Wrench) #7 (b)",
-      "code": "TRAY2-07",
+      "part_number": "90843-110C2",
+      "name": "ฟิลเลอร์เกจ 0.05 mm. - 1.00 mm. 25 ใบ/ชุด",
+      "code": "90843-110C2",
       "class_key": "wrench",
       "code_id": "b",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-07.png",
+      "filename": "90843-110C2.png",
       "bbox_norm": [
         0.0979,
         0.4997,
@@ -596,18 +615,21 @@
       "orientation_vec": [
         1.0,
         -0.022
-      ]
+      ],
+      "checklist_no": 86,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
-      "part_number": "TRAY2-08",
-      "name": "ไขควง (Screwdriver) #8 (c)",
-      "code": "TRAY2-08",
+      "part_number": "90843-08F12",
+      "name": "ดอกไขควงลม 3 x 100",
+      "code": "90843-08F12",
       "class_key": "screwdriver",
       "code_id": "c",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "TRAY2-08.png",
+      "filename": "90843-08F12.png",
       "bbox_norm": [
         0.0977,
         0.5465,
@@ -656,18 +678,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 77,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 9,
-      "part_number": "TRAY2-09",
-      "name": "ไขควง (Screwdriver) #9 (d)",
-      "code": "TRAY2-09",
+      "part_number": "90843-08F13",
+      "name": "ดอกไขควงลม 3 x 100",
+      "code": "90843-08F13",
       "class_key": "screwdriver",
       "code_id": "d",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "TRAY2-09.png",
+      "filename": "90843-08F13.png",
       "bbox_norm": [
         0.0984,
         0.583,
@@ -720,18 +745,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 78,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
-      "part_number": "TRAY2-10",
-      "name": "ด้ามขัน/ประแจ (Wrench) #10 (a)",
-      "code": "TRAY2-10",
+      "part_number": "90843-08254",
+      "name": "ชุดด้ามขันฟรีไขควง และ 6 เหลี่ยม",
+      "code": "90843-08254",
       "class_key": "wrench",
       "code_id": "a",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-10.png",
+      "filename": "90843-08254.png",
       "bbox_norm": [
         0.2844,
         0.5347,
@@ -788,18 +816,22 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "checklist_no": 75,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ด้ามขันฟรี (ตัวด้าม)"
     },
     {
       "slot_number": 11,
-      "part_number": "TRAY2-11",
-      "name": "ด้ามขัน/ประแจ (Wrench) #11 (Z)",
-      "code": "TRAY2-11",
+      "part_number": "90843-08254",
+      "name": "ชุดด้ามขันฟรีไขควง และ 6 เหลี่ยม",
+      "code": "90843-08254",
       "class_key": "wrench",
       "code_id": "Z",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-11.png",
+      "filename": "90843-08254.png",
       "bbox_norm": [
         0.4841,
         0.5358,
@@ -872,18 +904,22 @@
       "orientation_vec": [
         1.0,
         -0.012
-      ]
+      ],
+      "checklist_no": 75,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ชุดดอกไขควง/หกเหลี่ยม ของด้ามขันฟรี"
     },
     {
       "slot_number": 12,
-      "part_number": "TRAY2-12",
-      "name": "คีม (Pliers) #12 (T)",
-      "code": "TRAY2-12",
+      "part_number": "90843-08250",
+      "name": "คีมตัดปากเฉียง 150 มม.",
+      "code": "90843-08250",
       "class_key": "pliers",
       "code_id": "T",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-12.png",
+      "filename": "90843-08250.png",
       "bbox_norm": [
         0.7203,
         0.5733,
@@ -964,18 +1000,21 @@
       "orientation_vec": [
         1.0,
         -0.031
-      ]
+      ],
+      "checklist_no": 73,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
-      "part_number": "TRAY2-13",
-      "name": "ด้ามขัน/ประแจ (Wrench) #13 (X)",
-      "code": "TRAY2-13",
+      "part_number": "90843-08F47",
+      "name": "ประแจตัวที # 8",
+      "code": "90843-08F47",
       "class_key": "wrench",
       "code_id": "X",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-13.png",
+      "filename": "90843-08F47.png",
       "bbox_norm": [
         0.2391,
         0.4649,
@@ -1024,18 +1063,21 @@
       "orientation_vec": [
         1.0,
         -0.013
-      ]
+      ],
+      "checklist_no": 79,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
-      "part_number": "TRAY2-14",
-      "name": "ด้ามขัน/ประแจ (Wrench) #14 (Y)",
-      "code": "TRAY2-14",
+      "part_number": "90843-08F95",
+      "name": "ประแจตัวที # 10",
+      "code": "90843-08F95",
       "class_key": "wrench",
       "code_id": "Y",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-14.png",
+      "filename": "90843-08F95.png",
       "bbox_norm": [
         0.0563,
         0.5139,
@@ -1080,18 +1122,21 @@
       "orientation_vec": [
         1.0,
         -0.017
-      ]
+      ],
+      "checklist_no": 83,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
-      "part_number": "TRAY2-15",
-      "name": "คีม (Pliers) #15 (U)",
-      "code": "TRAY2-15",
+      "part_number": "90843-08251",
+      "name": "คีมปากแหลม 160 มม.",
+      "code": "90843-08251",
       "class_key": "pliers",
       "code_id": "U",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-15.png",
+      "filename": "90843-08251.png",
       "bbox_norm": [
         0.712,
         0.6847,
@@ -1164,18 +1209,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 74,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 16,
-      "part_number": "TRAY2-16",
-      "name": "ชุดประแจหกเหลี่ยม (Hex Key Set) #16 (e)",
-      "code": "TRAY2-16",
+      "part_number": "90843-08237",
+      "name": "ประแจ L ปลายบอลล์ 9 ตัว/ชุด",
+      "code": "90843-08237",
       "class_key": "hex key",
       "code_id": "e",
       "category": "hex key",
       "expected_class": "hex key",
-      "filename": "TRAY2-16.png",
+      "filename": "90843-08237.png",
       "bbox_norm": [
         0.1398,
         0.7413,
@@ -1248,18 +1296,21 @@
       "orientation_vec": [
         0.988,
         -0.154
-      ]
+      ],
+      "checklist_no": 71,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
-      "part_number": "TRAY2-17",
-      "name": "คีม (Pliers) #17 (V)",
-      "code": "TRAY2-17",
+      "part_number": "90843-08249",
+      "name": "คีมปากขยาย 200 มม.",
+      "code": "90843-08249",
       "class_key": "pliers",
       "code_id": "V",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-17.png",
+      "filename": "90843-08249.png",
       "bbox_norm": [
         0.6612,
         0.8031,
@@ -1344,20 +1395,23 @@
       "orientation_vec": [
         1.0,
         -0.005
-      ]
+      ],
+      "checklist_no": 72,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     }
   ],
   "tools": [
     {
       "slot_number": 1,
-      "part_number": "TRAY2-01",
-      "name": "คีม (Pliers) #1 (Q)",
-      "code": "TRAY2-01",
+      "part_number": "90843-11092",
+      "name": "คีมคอม้าปากขยาย 257 mm.",
+      "code": "90843-11092",
       "class_key": "pliers",
       "code_id": "Q",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-01.png",
+      "filename": "90843-11092.png",
       "bbox_norm": [
         0.5635,
         0.108,
@@ -1422,18 +1476,21 @@
       "orientation_vec": [
         0.999,
         0.052
-      ]
+      ],
+      "checklist_no": 84,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 2,
-      "part_number": "TRAY2-02",
-      "name": "คีม (Pliers) #2 (P)",
-      "code": "TRAY2-02",
+      "part_number": "90843-08F60",
+      "name": "คีมล็อคปากตรง 250 mm.",
+      "code": "90843-08F60",
       "class_key": "pliers",
       "code_id": "P",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-02.png",
+      "filename": "90843-08F60.png",
       "bbox_norm": [
         0.1391,
         0.1285,
@@ -1510,18 +1567,21 @@
       "orientation_vec": [
         0.997,
         0.079
-      ]
+      ],
+      "checklist_no": 82,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 3,
-      "part_number": "TRAY2-03",
-      "name": "ค้อน (Hammer) #3 (O)",
-      "code": "TRAY2-03",
+      "part_number": "90843-08255",
+      "name": "ฆ้อนเหล็ก & พลาสติก",
+      "code": "90843-08255",
       "class_key": "hammer",
       "code_id": "O",
       "category": "hammer",
       "expected_class": "hammer",
-      "filename": "TRAY2-03.png",
+      "filename": "90843-08255.png",
       "bbox_norm": [
         0.0445,
         0.1941,
@@ -1610,18 +1670,21 @@
       "orientation_vec": [
         1.0,
         0.023
-      ]
+      ],
+      "checklist_no": 76,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 4,
-      "part_number": "TRAY2-04",
-      "name": "คีม (Pliers) #4 (R)",
-      "code": "TRAY2-04",
+      "part_number": "90843-08F58",
+      "name": "คีมหุบแหวน",
+      "code": "90843-08F58",
       "class_key": "pliers",
       "code_id": "R",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-04.png",
+      "filename": "90843-08F58.png",
       "bbox_norm": [
         0.6888,
         0.2361,
@@ -1698,18 +1761,21 @@
       "orientation_vec": [
         1.0,
         -0.029
-      ]
+      ],
+      "checklist_no": 81,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 5,
-      "part_number": "TRAY2-05",
-      "name": "ด้ามขัน/ประแจ (Wrench) #5 (W)",
-      "code": "TRAY2-05",
+      "part_number": "90843-110A2",
+      "name": "ด้ามขันบ๊อกซ์ตัว T 3/8\" ยาว 250 มม.",
+      "code": "90843-110A2",
       "class_key": "wrench",
       "code_id": "W",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-05.png",
+      "filename": "90843-110A2.png",
       "bbox_norm": [
         0.2112,
         0.2191,
@@ -1762,18 +1828,21 @@
       "orientation_vec": [
         1.0,
         -0.009
-      ]
+      ],
+      "checklist_no": 85,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 6,
-      "part_number": "TRAY2-06",
-      "name": "คีม (Pliers) #6 (S)",
-      "code": "TRAY2-06",
+      "part_number": "90843-08F57",
+      "name": "คีมถ่างแหวน",
+      "code": "90843-08F57",
       "class_key": "pliers",
       "code_id": "S",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-06.png",
+      "filename": "90843-08F57.png",
       "bbox_norm": [
         0.6813,
         0.3972,
@@ -1866,18 +1935,22 @@
       "orientation_vec": [
         1.0,
         0.006
-      ]
+      ],
+      "checklist_no": 80,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "inferred",
+      "match_note": "คีมด้ามเหลืองไม่มีเลขกำกับ เป็นคีมแหวนตัวเดียวที่เหลือ (เลข 11 กำกับคีมด้ามแดงแล้ว)"
     },
     {
       "slot_number": 7,
-      "part_number": "TRAY2-07",
-      "name": "ด้ามขัน/ประแจ (Wrench) #7 (b)",
-      "code": "TRAY2-07",
+      "part_number": "90843-110C2",
+      "name": "ฟิลเลอร์เกจ 0.05 mm. - 1.00 mm. 25 ใบ/ชุด",
+      "code": "90843-110C2",
       "class_key": "wrench",
       "code_id": "b",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-07.png",
+      "filename": "90843-110C2.png",
       "bbox_norm": [
         0.0979,
         0.4997,
@@ -1930,18 +2003,21 @@
       "orientation_vec": [
         1.0,
         -0.022
-      ]
+      ],
+      "checklist_no": 86,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 8,
-      "part_number": "TRAY2-08",
-      "name": "ไขควง (Screwdriver) #8 (c)",
-      "code": "TRAY2-08",
+      "part_number": "90843-08F12",
+      "name": "ดอกไขควงลม 3 x 100",
+      "code": "90843-08F12",
       "class_key": "screwdriver",
       "code_id": "c",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "TRAY2-08.png",
+      "filename": "90843-08F12.png",
       "bbox_norm": [
         0.0977,
         0.5465,
@@ -1990,18 +2066,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 77,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 9,
-      "part_number": "TRAY2-09",
-      "name": "ไขควง (Screwdriver) #9 (d)",
-      "code": "TRAY2-09",
+      "part_number": "90843-08F13",
+      "name": "ดอกไขควงลม 3 x 100",
+      "code": "90843-08F13",
       "class_key": "screwdriver",
       "code_id": "d",
       "category": "screwdriver",
       "expected_class": "screwdriver",
-      "filename": "TRAY2-09.png",
+      "filename": "90843-08F13.png",
       "bbox_norm": [
         0.0984,
         0.583,
@@ -2054,18 +2133,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 78,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 10,
-      "part_number": "TRAY2-10",
-      "name": "ด้ามขัน/ประแจ (Wrench) #10 (a)",
-      "code": "TRAY2-10",
+      "part_number": "90843-08254",
+      "name": "ชุดด้ามขันฟรีไขควง และ 6 เหลี่ยม",
+      "code": "90843-08254",
       "class_key": "wrench",
       "code_id": "a",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-10.png",
+      "filename": "90843-08254.png",
       "bbox_norm": [
         0.2844,
         0.5347,
@@ -2122,18 +2204,22 @@
       "orientation_vec": [
         1.0,
         0.011
-      ]
+      ],
+      "checklist_no": 75,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ด้ามขันฟรี (ตัวด้าม)"
     },
     {
       "slot_number": 11,
-      "part_number": "TRAY2-11",
-      "name": "ด้ามขัน/ประแจ (Wrench) #11 (Z)",
-      "code": "TRAY2-11",
+      "part_number": "90843-08254",
+      "name": "ชุดด้ามขันฟรีไขควง และ 6 เหลี่ยม",
+      "code": "90843-08254",
       "class_key": "wrench",
       "code_id": "Z",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-11.png",
+      "filename": "90843-08254.png",
       "bbox_norm": [
         0.4841,
         0.5358,
@@ -2206,18 +2292,22 @@
       "orientation_vec": [
         1.0,
         -0.012
-      ]
+      ],
+      "checklist_no": 75,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled",
+      "match_note": "ชุดดอกไขควง/หกเหลี่ยม ของด้ามขันฟรี"
     },
     {
       "slot_number": 12,
-      "part_number": "TRAY2-12",
-      "name": "คีม (Pliers) #12 (T)",
-      "code": "TRAY2-12",
+      "part_number": "90843-08250",
+      "name": "คีมตัดปากเฉียง 150 มม.",
+      "code": "90843-08250",
       "class_key": "pliers",
       "code_id": "T",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-12.png",
+      "filename": "90843-08250.png",
       "bbox_norm": [
         0.7203,
         0.5733,
@@ -2298,18 +2388,21 @@
       "orientation_vec": [
         1.0,
         -0.031
-      ]
+      ],
+      "checklist_no": 73,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 13,
-      "part_number": "TRAY2-13",
-      "name": "ด้ามขัน/ประแจ (Wrench) #13 (X)",
-      "code": "TRAY2-13",
+      "part_number": "90843-08F47",
+      "name": "ประแจตัวที # 8",
+      "code": "90843-08F47",
       "class_key": "wrench",
       "code_id": "X",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-13.png",
+      "filename": "90843-08F47.png",
       "bbox_norm": [
         0.2391,
         0.4649,
@@ -2358,18 +2451,21 @@
       "orientation_vec": [
         1.0,
         -0.013
-      ]
+      ],
+      "checklist_no": 79,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 14,
-      "part_number": "TRAY2-14",
-      "name": "ด้ามขัน/ประแจ (Wrench) #14 (Y)",
-      "code": "TRAY2-14",
+      "part_number": "90843-08F95",
+      "name": "ประแจตัวที # 10",
+      "code": "90843-08F95",
       "class_key": "wrench",
       "code_id": "Y",
       "category": "wrench",
       "expected_class": "wrench",
-      "filename": "TRAY2-14.png",
+      "filename": "90843-08F95.png",
       "bbox_norm": [
         0.0563,
         0.5139,
@@ -2414,18 +2510,21 @@
       "orientation_vec": [
         1.0,
         -0.017
-      ]
+      ],
+      "checklist_no": 83,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 15,
-      "part_number": "TRAY2-15",
-      "name": "คีม (Pliers) #15 (U)",
-      "code": "TRAY2-15",
+      "part_number": "90843-08251",
+      "name": "คีมปากแหลม 160 มม.",
+      "code": "90843-08251",
       "class_key": "pliers",
       "code_id": "U",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-15.png",
+      "filename": "90843-08251.png",
       "bbox_norm": [
         0.712,
         0.6847,
@@ -2498,18 +2597,21 @@
       "orientation_vec": [
         1.0,
         0.013
-      ]
+      ],
+      "checklist_no": 74,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 16,
-      "part_number": "TRAY2-16",
-      "name": "ชุดประแจหกเหลี่ยม (Hex Key Set) #16 (e)",
-      "code": "TRAY2-16",
+      "part_number": "90843-08237",
+      "name": "ประแจ L ปลายบอลล์ 9 ตัว/ชุด",
+      "code": "90843-08237",
       "class_key": "hex key",
       "code_id": "e",
       "category": "hex key",
       "expected_class": "hex key",
-      "filename": "TRAY2-16.png",
+      "filename": "90843-08237.png",
       "bbox_norm": [
         0.1398,
         0.7413,
@@ -2582,18 +2684,21 @@
       "orientation_vec": [
         0.988,
         -0.154
-      ]
+      ],
+      "checklist_no": 71,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     },
     {
       "slot_number": 17,
-      "part_number": "TRAY2-17",
-      "name": "คีม (Pliers) #17 (V)",
-      "code": "TRAY2-17",
+      "part_number": "90843-08249",
+      "name": "คีมปากขยาย 200 มม.",
+      "code": "90843-08249",
       "class_key": "pliers",
       "code_id": "V",
       "category": "pliers",
       "expected_class": "pliers",
-      "filename": "TRAY2-17.png",
+      "filename": "90843-08249.png",
       "bbox_norm": [
         0.6612,
         0.8031,
@@ -2678,7 +2783,10 @@
       "orientation_vec": [
         1.0,
         -0.005
-      ]
+      ],
+      "checklist_no": 72,
+      "checklist_sheet": "เครื่องมือมาตรฐาน(รุ่นใหม่) 86",
+      "match_confidence": "labeled"
     }
   ]
 }
