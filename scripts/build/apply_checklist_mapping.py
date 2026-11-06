@@ -1,8 +1,8 @@
 """Match tray template slots to the Merchandise Visit Checklist (Excel) and verify the result.
 
 Inputs
-  mock_database/merchandise_checklist.json   - the Excel sheets exported to JSON
-  mock_database/checklist_slot_mapping.json  - slot -> checklist number (read from the numbered tray photos)
+  data/merchandise_checklist.json   - the Excel sheets exported to JSON
+  data/checklist_slot_mapping.json  - slot -> checklist number (read from the numbered tray photos)
 
 Usage
   python scripts/apply_checklist_mapping.py           # verify only, write report + check images
@@ -19,9 +19,9 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from config import (CATALOG_PATH, CHECKLIST_MAPPING_PATH, CHECKLIST_MATCH_DIR, CHECKLIST_PATH,  # noqa: E402
+from core.config import (CATALOG_PATH, CHECKLIST_MAPPING_PATH, CHECKLIST_MATCH_DIR, CHECKLIST_PATH,  # noqa: E402
                     CLASSES_70_PATH, MASTER_DATA_DIR, TRAY_TEMPLATES_DIR)
 
 DB = MASTER_DATA_DIR

@@ -1,22 +1,22 @@
 """
 Tool Class Manager module for the Admin backend.
 Manages YOLO tool classes (classes defined for detection).
-Includes 1-click import from mock_database/data.json.
+Includes 1-click import from data/data.json.
 """
 import json
 from pathlib import Path
 import streamlit as st
-from db import get_db
-from models_db import ToolClass, ImageLabel
-from config import CATALOG_PATH
+from core.db import get_db
+from core.models_db import ToolClass, ImageLabel
+from core.config import CATALOG_PATH
 
 
 def import_classes_from_legacy_data(custom_data=None):
-    """Imports tool classes from existing mock_database/data.json or passed data."""
+    """Imports tool classes from existing data/data.json or passed data."""
     if custom_data is None:
         json_path = CATALOG_PATH
         if not json_path.exists():
-            st.error("ไม่พบไฟล์ mock_database/data.json")
+            st.error("ไม่พบไฟล์ data/data.json")
             return 0
         try:
             with open(json_path, "r", encoding="utf-8") as f:
@@ -189,12 +189,12 @@ def render_class_manager():
     # TAB 3: Import from Legacy Data
     with tab_import:
         st.markdown("#### 📥 นำเข้ารายการเครื่องมือ (Import Classes)")
-        st.write("ระบบจะแปลงรายการอุปกรณ์ 31 รายการจาก `mock_database/data.json` หรือจากไฟล์ JSON ที่อัปโหลด เข้าสู่ตาราง `tool_classes` ใน PostgreSQL อัตโนมัติ")
+        st.write("ระบบจะแปลงรายการอุปกรณ์ 31 รายการจาก `data/data.json` หรือจากไฟล์ JSON ที่อัปโหลด เข้าสู่ตาราง `tool_classes` ใน PostgreSQL อัตโนมัติ")
         
         col_def, col_up = st.columns(2)
         with col_def:
             st.markdown("##### ⚡ นำเข้าจากไฟล์ค่าเริ่มต้น")
-            st.caption("อ่านไฟล์ `mock_database/data.json` ที่ระบบเตรียมไว้ (31 รายการเครื่องมือพิเศษ)")
+            st.caption("อ่านไฟล์ `data/data.json` ที่ระบบเตรียมไว้ (31 รายการเครื่องมือพิเศษ)")
             if st.button("🚀 เริ่มนำเข้าจาก data.json (31 รายการ)", use_container_width=True):
                 count = import_classes_from_legacy_data()
                 if count > 0:

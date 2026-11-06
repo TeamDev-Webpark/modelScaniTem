@@ -10,9 +10,9 @@ import uuid
 from pathlib import Path
 from PIL import Image
 import streamlit as st
-from config import IMAGES_DIR
-from db import get_db
-from models_db import TrainingImage, ImageLabel, ToolClass
+from core.config import IMAGES_DIR
+from core.db import get_db
+from core.models_db import TrainingImage, ImageLabel, ToolClass
 
 
 SUPPORTED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".bmp", ".cr2"]

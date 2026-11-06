@@ -6,9 +6,9 @@ and activating the production model for the scanner.
 from datetime import datetime
 from pathlib import Path
 import streamlit as st
-from config import MODELS_DIR
-from db import get_db
-from models_db import TrainedModel
+from core.config import MODELS_DIR
+from core.db import get_db
+from core.models_db import TrainedModel
 
 
 def save_trained_model_file(uploaded_file, version: str, notes: str, user_id: int = None) -> tuple[bool, str]:

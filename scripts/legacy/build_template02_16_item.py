@@ -1,3 +1,8 @@
+import sys as _sys
+if "--i-know-this-overwrites-data" not in _sys.argv:
+    _sys.exit("Legacy script, disabled: it overwrites the 16-item reference photo with an annotated image from a deleted upload folder. "
+              "See scripts/legacy/README.md. Pass --i-know-this-overwrites-data to run it anyway.")
+
 import json
 import base64
 import zlib

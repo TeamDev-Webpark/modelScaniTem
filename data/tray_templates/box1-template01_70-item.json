@@ -11,8 +11,8 @@
   "image_height": 1086,
   "slot_count": 69,
   "total_slots": 69,
-  "reference_image": "admin_data/tray_refs/box1-template01_70-item.jpg",
-  "sketch_image": "admin_data/tray_refs/box1-template01_70-item_sketch.png",
+  "reference_image": "data/tray_refs/box1-template01_70-item.jpg",
+  "sketch_image": "data/tray_refs/box1-template01_70-item_sketch.png",
   "slots": [
     {
       "slot_number": 1,

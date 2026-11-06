@@ -28,10 +28,10 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from scan_workflow import ScanAggregator  # noqa: E402
-from config import CHECKLIST_PATH, SCAN_SIMULATION_DIR, TRAY_PHOTOS_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
+from core.config import CHECKLIST_PATH, SCAN_SIMULATION_DIR, TRAY_PHOTOS_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 logging.disable(logging.WARNING)
 
@@ -275,7 +275,7 @@ def main():
                     cv2.resize(cv2.addWeighted(full, 0.5, empty_aligned, 0.5, 0), (1448, 1086)))
         prep[t] = {"empty_align_inliers": inliers, "empty_align_matches": matches}
         print(f"  {t}: empty->full homography inliers {inliers}/{matches}")
-        # the app's reference (admin_data/tray_refs/<tray>.jpg), with and without the empty-tray reference
+        # the app's reference (data/tray_refs/<tray>.jpg), with and without the empty-tray reference
         ref = cv2.resize(cv2.imread(str(TRAY_REFS_DIR / f"{t}.jpg")), (W, H))
         for label, use_empty in (("golden+empty", True), ("golden_only", False)):
             rows += run_detection(t, tpl, full, empty_aligned, ref, label,

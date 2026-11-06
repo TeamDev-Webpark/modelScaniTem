@@ -20,5 +20,5 @@ admin_data/exports/
 state/
 
 # Test output images (reports json/csv are kept)
-admin_data/scan_simulation/samples/
-admin_data/real_photo_test/*/results/
+reports/scan_simulation/samples/
+reports/real_photo_test/*/results/

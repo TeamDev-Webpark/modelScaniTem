@@ -7,9 +7,9 @@ import time
 import io
 from typing import Optional
 from PIL import Image, ImageOps
-from scanner_module import ShapeScanner
+from scanners.scanner_module import ShapeScanner
 from scan_workflow import ScanAggregator, ImageQualityGate, generate_tray_guide_overlay
-from config import CATALOG_PATH, MASTER_DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
+from core.config import CATALOG_PATH, MASTER_DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
 
 st.set_page_config(layout="wide", page_title="ระบบเช็คลิสต์เครื่องมือ")
 

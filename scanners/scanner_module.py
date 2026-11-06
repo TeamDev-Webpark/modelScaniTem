@@ -29,7 +29,7 @@ class ShapeScanner:
     # ===== SECTION 1: INITIALIZATION =====
     def __init__(self, db_folder=None):
         if db_folder is None:
-            from config import MASTER_DATA_DIR
+            from core.config import MASTER_DATA_DIR
             db_folder = str(MASTER_DATA_DIR)
         self.db_folder = db_folder
         

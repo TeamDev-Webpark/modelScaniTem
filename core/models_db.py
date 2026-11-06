@@ -15,7 +15,7 @@ from sqlalchemy import (
     DateTime, ForeignKey, UniqueConstraint, Index
 )
 from sqlalchemy.orm import relationship
-from db import Base
+from core.db import Base
 
 
 class User(Base):

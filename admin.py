@@ -12,9 +12,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-from config import DATABASE_URL, ADMIN_DEFAULT_USER
-from db import check_connection, init_db, get_db
-from models_db import ToolClass, TrainingImage, TrainedModel, TrayTemplate
+from core.config import DATABASE_URL, ADMIN_DEFAULT_USER
+from core.db import check_connection, init_db, get_db
+from core.models_db import ToolClass, TrainingImage, TrainedModel, TrayTemplate
 from admin_modules.auth import (
     init_auth_session,
     ensure_default_admin,

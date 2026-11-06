@@ -1,9 +1,9 @@
-"""Build the scan reference images in admin_data/tray_refs from the clean tray photos.
+"""Build the scan reference images in data/tray_refs from the clean tray photos.
 
 For each tray it writes:
   <tray_id>.jpg        the full tray photo (no annotation boxes), at the template size
   <tray_id>_empty.jpg  the empty tray photo, warped onto the full photo so every slot lines up
-and a check image (admin_data/tray_refs/check/<tray_id>.jpg) with the template polygons drawn on both.
+and a check image (reports/tray_refs_check/<tray_id>.jpg) with the template polygons drawn on both.
 
 The photos folder needs <tray_id>_full.png or <tray_id>.png, plus <tray_id>_empty.png,
 e.g. dataYamaha/Merchecklist/Tools/tian.
@@ -19,9 +19,9 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from config import TRAY_PHOTOS_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
+from core.config import TRAY_PHOTOS_DIR, TRAY_REFS_CHECK_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 TRAYS = ["box1-template01_70-item", "box1-template02_16-item", "box2-template01_31-item"]
 REFS = TRAY_REFS_DIR
@@ -63,7 +63,7 @@ def main():
                     help="default: <YAMAHA_DATA_DIR>/Merchecklist/Tools/tian from .env")
     ap.add_argument("--trays", default=",".join(TRAYS))
     args = ap.parse_args()
-    (REFS / "check").mkdir(parents=True, exist_ok=True)
+    TRAY_REFS_CHECK_DIR.mkdir(parents=True, exist_ok=True)
 
     for tid in args.trays.split(","):
         tpl = json.loads((TRAY_TEMPLATES_DIR / f"{tid}.json").read_text(encoding="utf-8"))
@@ -80,7 +80,7 @@ def main():
             for s in tpl["slots"]:
                 cv2.polylines(im, [np.array(s["polygon"], np.int32)], True, (0, 0, 255), max(1, W // 900))
         k = 1448 / W
-        cv2.imwrite(str(REFS / "check" / f"{tid}.jpg"),
+        cv2.imwrite(str(TRAY_REFS_CHECK_DIR / f"{tid}.jpg"),
                     cv2.resize(np.hstack(check), None, fx=k, fy=k, interpolation=cv2.INTER_AREA))
         print(f"{tid}: {W}x{H}, empty aligned with {inliers}/{matches} inliers")
 

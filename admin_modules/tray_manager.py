@@ -7,13 +7,13 @@ and setting up Tray 3 (16 items).
 import json
 from pathlib import Path
 import streamlit as st
-from db import get_db
-from models_db import TrayTemplate, TraySlot, ToolClass
-from config import TRAY_TEMPLATES_DIR
+from core.db import get_db
+from core.models_db import TrayTemplate, TraySlot, ToolClass
+from core.config import TRAY_TEMPLATES_DIR
 
 
 def import_existing_json_trays(custom_json_data=None):
-    """Imports existing tray JSON files from mock_database/tray_templates or custom dict into PostgreSQL."""
+    """Imports existing tray JSON files from data/tray_templates or custom dict into PostgreSQL."""
     data_list = []
     if custom_json_data is not None:
         data_list = [(custom_json_data, "uploaded_file.json")]
@@ -182,7 +182,7 @@ def render_tray_manager(current_user: dict):
     # TAB 3: Import from JSON
     with tab_import:
         st.markdown("#### 📥 นำเข้าแม่แบบถาด (Import Tray Templates)")
-        st.write("นำเข้าแม่แบบถาดจากโฟลเดอร์ `mock_database/tray_templates` หรืออัปโหลดไฟล์ JSON ถาดเครื่องมือใหม่")
+        st.write("นำเข้าแม่แบบถาดจากโฟลเดอร์ `data/tray_templates` หรืออัปโหลดไฟล์ JSON ถาดเครื่องมือใหม่")
 
         col_t_def, col_t_up = st.columns(2)
         with col_t_def:

@@ -5,7 +5,7 @@ import logging
 from contextlib import contextmanager
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
-from config import DATABASE_URL
+from core.config import DATABASE_URL
 
 logger = logging.getLogger(__name__)
 
@@ -73,7 +73,7 @@ def check_connection() -> tuple[bool, str]:
 
 def init_db():
     """Creates all tables registered in Base metadata if they don't exist."""
-    import models_db  # Ensure models are imported before creating tables
+    from core import models_db  # Ensure models are imported before creating tables
     eng = get_engine()
     Base.metadata.create_all(bind=eng)
 

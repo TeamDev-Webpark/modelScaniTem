@@ -55,10 +55,10 @@ class YOLOToolScanner:
             self.load_model(model_path)
 
     def _load_tool_mappings(self):
-        """Loads tool code/part-number to class_name alias mappings from mock_database/data.json."""
+        """Loads tool code/part-number to class_name alias mappings from data/data.json."""
         try:
             import json
-            from config import CATALOG_PATH
+            from core.config import CATALOG_PATH
             data_file = CATALOG_PATH
             if data_file.exists():
                 with open(data_file, "r", encoding="utf-8") as f:
@@ -101,8 +101,8 @@ class YOLOToolScanner:
     def load_active_model_from_db(cls) -> "YOLOToolScanner":
         """Factory method to load the currently active model registered in PostgreSQL."""
         try:
-            from db import get_db
-            from models_db import TrainedModel
+            from core.db import get_db
+            from core.models_db import TrainedModel
 
             with get_db() as db:
                 active = db.query(TrainedModel).filter(TrainedModel.is_active == True).first()

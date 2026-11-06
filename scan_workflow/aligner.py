@@ -8,7 +8,7 @@ Strategy: Option B+C (Overlay-guided + Reference Image)
     - slot bbox_norm ใน JSON จึงนำไปใช้ได้ตรงกับ aligned image ทันที
 
 ความต้องการ:
-    - template_ref_image: ภาพถาดที่ถ่ายตรง (เก็บใน admin_data/tray_refs/<tray_id>.jpg)
+    - template_ref_image: ภาพถาดที่ถ่ายตรง (เก็บใน data/tray_refs/<tray_id>.jpg)
     - template JSON: มี bbox_norm และ image_size
 """
 from __future__ import annotations
@@ -22,8 +22,8 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
-# ค่า default: <project>/admin_data/tray_refs (ไม่ขึ้นกับโฟลเดอร์ที่รัน) — แอปส่ง config.TRAY_REFS_DIR มาเอง
-DEFAULT_TRAY_REFS_DIR = Path(__file__).resolve().parent.parent / "admin_data" / "tray_refs"
+# ค่า default: <project>/data/tray_refs (ไม่ขึ้นกับโฟลเดอร์ที่รัน) — แอปส่ง config.TRAY_REFS_DIR มาเอง
+DEFAULT_TRAY_REFS_DIR = Path(__file__).resolve().parent.parent / "data" / "tray_refs"
 
 
 class AlignResult:
@@ -98,7 +98,7 @@ class TrayAligner:
         """
         โหลด reference image สำหรับ tray_id เข้า cache
         
-        ค้นหาไฟล์ใน: admin_data/tray_refs/<tray_id>.(jpg|jpeg|png)
+        ค้นหาไฟล์ใน: data/tray_refs/<tray_id>.(jpg|jpeg|png)
         
         Returns:
             True ถ้าโหลดสำเร็จ

@@ -7,9 +7,9 @@ import shutil
 import zipfile
 from pathlib import Path
 import streamlit as st
-from config import EXPORTS_DIR, IMAGES_DIR
-from db import get_db
-from models_db import ToolClass, TrainingImage, ImageLabel
+from core.config import EXPORTS_DIR, IMAGES_DIR
+from core.db import get_db
+from core.models_db import ToolClass, TrainingImage, ImageLabel
 
 
 def build_yolo_dataset_zip() -> tuple[bool, str, Path | None]:

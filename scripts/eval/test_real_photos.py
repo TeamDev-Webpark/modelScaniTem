@@ -4,13 +4,13 @@ For each photo it:
   - runs the quality gate (recorded only, the scan still runs)
   - tries every candidate tray template and keeps the one with the most alignment matches
     (so mixed folders of YA 1/2 and YA 2/2 trays are sorted automatically)
-  - scans with the reference image the app uses today (admin_data/tray_refs) and, if
+  - scans with the reference image the app uses today (data/tray_refs) and, if
     --photos is given, also with the clean tray photo, to compare the two
   - saves the annotated result and a report (json + csv)
 
 Usage
   python scripts/test_real_photos.py --images <folder> --trays box1-template01_70-item,box1-template02_16-item
-      [--photos <dir with <tray_id>.png / <tray_id>_full.png>] [--out admin_data/real_photo_test/86]
+      [--photos <dir with <tray_id>.png / <tray_id>_full.png>] [--out reports/real_photo_test/86]
 """
 import argparse
 import csv
@@ -23,10 +23,10 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from scan_workflow import ScanAggregator  # noqa: E402
-from config import TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
+from core.config import TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 logging.disable(logging.WARNING)
 MAX_SIDE = 2400  # phone photos are downscaled to this before scanning

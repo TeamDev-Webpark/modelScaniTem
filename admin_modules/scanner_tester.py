@@ -9,10 +9,10 @@ from PIL import Image
 import cv2
 import numpy as np
 import streamlit as st
-from config import MODELS_DIR
-from db import get_db
-from models_db import TrainedModel, TrayTemplate
-from yolo_scanner import YOLOToolScanner, ULTRALYTICS_AVAILABLE
+from core.config import MODELS_DIR
+from core.db import get_db
+from core.models_db import TrainedModel, TrayTemplate
+from scanners.yolo_scanner import YOLOToolScanner, ULTRALYTICS_AVAILABLE
 from admin_modules.image_collector import decode_image_file
 
 

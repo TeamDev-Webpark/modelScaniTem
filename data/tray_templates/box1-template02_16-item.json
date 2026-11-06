@@ -11,8 +11,8 @@
   "image_height": 2880,
   "slot_count": 17,
   "total_slots": 17,
-  "reference_image": "admin_data/tray_refs/box1-template02_16-item.jpg",
-  "sketch_image": "admin_data/tray_refs/box1-template02_16-item_sketch.png",
+  "reference_image": "data/tray_refs/box1-template02_16-item.jpg",
+  "sketch_image": "data/tray_refs/box1-template02_16-item_sketch.png",
   "slots": [
     {
       "slot_number": 1,

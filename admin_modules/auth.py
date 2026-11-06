@@ -4,9 +4,9 @@ Uses bcrypt for secure password hashing with fallback to hashlib.
 """
 from datetime import datetime
 import streamlit as st
-from config import ADMIN_DEFAULT_USER, ADMIN_DEFAULT_PASS
-from db import get_db, check_connection
-from models_db import User
+from core.config import ADMIN_DEFAULT_USER, ADMIN_DEFAULT_PASS
+from core.db import get_db, check_connection
+from core.models_db import User
 
 # Safe password hashing with bcrypt or hashlib fallback
 try:

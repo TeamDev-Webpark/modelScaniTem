@@ -6,10 +6,10 @@ import numpy as np
 from pathlib import Path
 
 # Add project root to sys.path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from scan_workflow import ScanAggregator
-from config import DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
+from core.config import BENCHMARK_PATH, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 def benchmark_trays():
     trays = [
@@ -85,7 +85,7 @@ def benchmark_trays():
         })
 
     # Save summary json
-    out_summary = DATA_DIR / "benchmark_3_trays_results.json"
+    out_summary = BENCHMARK_PATH
     with open(out_summary, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
