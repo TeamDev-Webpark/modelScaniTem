@@ -205,6 +205,17 @@ class ScanAggregator:
                     if p.exists():
                         empty_img = cv2.imread(str(p))
                         break
+                # <tray_id>_empty.jpg ถูกจัดให้ตรงกับ <tray_id>.jpg เท่านั้น
+                # ถ้าส่งภาพต้นแบบอื่นเข้ามา (มุมกล้องต่างกัน) จะเทียบกันไม่ได้ → ไม่ใช้ภาพถาดว่าง
+                if empty_img is not None and reference_image is not None:
+                    stored = self.aligner._find_ref_image(tray_id)
+                    stored_img = cv2.imread(str(stored)) if stored else None
+                    if stored_img is None or not self._same_image(reference_image, stored_img):
+                        logger.info(
+                            f"ScanAggregator: ภาพต้นแบบที่ส่งมาไม่ใช่ {tray_id}.jpg ใน tray_refs "
+                            "— ไม่ใช้ภาพถาดว่าง (เทียบกับต้นแบบอย่างเดียว)"
+                        )
+                        empty_img = None
             if empty_img is not None and empty_img.shape[:2] != ref_img.shape[:2]:
                 empty_img = cv2.resize(empty_img, (ref_img.shape[1], ref_img.shape[0]))
             loaded = self.checker.load_empty_refs(
@@ -214,6 +225,14 @@ class ScanAggregator:
 
         self._ready = True
         return True
+
+    @staticmethod
+    def _same_image(a: np.ndarray, b: np.ndarray, max_diff: float = 8.0) -> bool:
+        """ภาพสองภาพเป็นภาพเดียวกันไหม (ยอมให้ต่างจากการบีบอัด/ย่อขนาดเล็กน้อย)"""
+        def small(im):
+            g = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) if len(im.shape) == 3 else im
+            return cv2.resize(g, (256, 192), interpolation=cv2.INTER_AREA).astype(np.float32)
+        return float(np.abs(small(a) - small(b)).mean()) <= max_diff
 
     def scan(
         self,

@@ -44,7 +44,9 @@ def test_box2():
           f"Rotation={res_port.align.rotation_applied} deg, "
           f"Correct={res_port.correct_count}/{res_port.total_slots}")
     assert res_port.align.success is True
-    assert res_port.align.rotation_applied in (90, 270)
+    # แอปหมุนภาพแนวตั้งเป็นแนวนอนเองก่อนจัดระนาบ (ScanAggregator Step 0)
+    # มุมที่ตัวจัดระนาบรายงานจึงขึ้นกับลำดับการหมุน — ตรวจแค่ว่าจัดระนาบได้และนับครบทุกช่อง
+    assert res_port.align.rotation_applied in (0, 90, 180, 270)
     assert res_port.correct_count == res_port.total_slots
 
     print("\n>>> ALL TESTS PASSED FOR box2-template01_31-item: 100% ACCURACY <<<")

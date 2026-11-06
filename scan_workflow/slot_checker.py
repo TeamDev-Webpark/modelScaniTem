@@ -46,6 +46,8 @@ MATCH_SEARCH_FRAC = 0.008   # เลื่อนหาตำแหน่งท�
 MIN_MASK_AREA = 150         # polygon เล็กกว่านี้ (px ในภาพย่อ) จะถูกขยายออกก่อนเทียบ
 GOLDEN_MATCH_OK = 0.55      # มีภาพถาดว่าง: คล้ายต้นแบบอย่างน้อยเท่านี้ → วางตรงตำแหน่ง (ต่ำกว่า → วางผิด)
 EMPTY_MARGIN = 0.10         # มีภาพถาดว่าง: ต้องคล้ายภาพหนึ่งมากกว่าอีกภาพอย่างน้อยเท่านี้จึงตัดสิน
+FLAT_SCENE_STD = 3.0        # พื้นที่ในช่องเรียบกว่านี้ = ไม่มีรายละเอียดให้เทียบ (เทียบความคล้ายไม่ได้)
+GLARE_MEAN = 235.0          # พื้นที่เรียบที่สว่างกว่านี้ = แสงสะท้อนจ้า ไม่ใช่ช่องว่าง
 # ไม่มีภาพถาดว่าง: ช่องโฟมว่างยังมีขอบรอยตัดรูปทรงเดียวกับเครื่องมือ คะแนนต้นแบบจึงสูงได้ถึง ~0.85
 # ใช้เกณฑ์เข้มและเผื่อช่วง "ตรวจซ้ำ" ไว้ตรงกลาง — ควรมี <tray_id>_empty.jpg เสมอ
 GOLDEN_ONLY_OK = 0.80       # คล้ายต้นแบบอย่างน้อยเท่านี้ → มีเครื่องมือ
@@ -294,11 +296,17 @@ class SlotChecker:
             return None
         x, y, w, h, mask, gold, empty = geo
         r = max(2, int(round(MATCH_SEARCH_FRAC * max(self._work_size))))
+        region = scene_work[y:y + h, x:x + w][mask > 0]
+        flat = None
+        if region.size and float(region.std()) < FLAT_SCENE_STD:
+            # ไม่มีรายละเอียดให้เทียบ: ถ้าต้นแบบมีลวดลายชัด แปลว่าไม่มีเครื่องมืออยู่ (หรือแสงจ้ากลบ)
+            if float(gold[mask > 0].std()) >= 3 * FLAT_SCENE_STD:
+                flat = "glare" if float(region.mean()) >= GLARE_MEAN else "flat"
         g, shift = self._masked_match(scene_work, gold, mask, x, y, r)
         e = None
         if empty is not None and float(empty[mask > 0].std()) >= 2.0:
             e, _ = self._masked_match(scene_work, empty, mask, x, y, r)
-        return {"golden": g, "empty": e, "shift": shift}
+        return {"golden": g, "empty": e, "shift": shift, "flat": flat}
 
     # ──────────────────────────────────────────────────────────────────────────
     # Main check
@@ -459,6 +467,15 @@ class SlotChecker:
             cx, cy = result.template_center
             result.contour_center = (int(cx + dx * k), int(cy + dy * k))
         txt = f"ต้นแบบ {g:.0%}" + (f", ถาดว่าง {e:.0%}" if e is not None else "")
+
+        if scores.get("flat") == "glare":
+            result.status, result.confidence = "recheck", 0.50
+            result.reason = "แสงสะท้อนจ้ากลบรายละเอียดในช่อง — ถ่ายใหม่ให้ไม่มีแสงสะท้อน"
+            return
+        if scores.get("flat") == "flat":
+            result.status, result.confidence = "missing", 0.80
+            result.reason = "ช่องว่าง — พื้นที่ในช่องเรียบ ไม่มีรายละเอียดของเครื่องมือ"
+            return
 
         if e is not None:
             d = g - e
