@@ -9,12 +9,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scan_workflow import ScanAggregator
+from config import DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 def benchmark_trays():
     trays = [
-        ("box1-template01_70-item", "mock_database/tray_templates/box1-template01_70-item.json"),
-        ("box1-template02_16-item", "mock_database/tray_templates/box1-template02_16-item.json"),
-        ("box2-template01_31-item", "mock_database/tray_templates/box2-template01_31-item.json"),
+        ("box1-template01_70-item", TRAY_TEMPLATES_DIR / "box1-template01_70-item.json"),
+        ("box1-template02_16-item", TRAY_TEMPLATES_DIR / "box1-template02_16-item.json"),
+        ("box2-template01_31-item", TRAY_TEMPLATES_DIR / "box2-template01_31-item.json"),
     ]
 
     results = []
@@ -28,11 +29,11 @@ def benchmark_trays():
         with open(tmpl_file, "r", encoding="utf-8") as f:
             tray_data = json.load(f)
 
-        ref_img_path = Path(f"admin_data/tray_refs/{tray_id}.jpg")
+        ref_img_path = TRAY_REFS_DIR / f"{tray_id}.jpg"
         ref_img = cv2.imread(str(ref_img_path))
         assert ref_img is not None, f"Cannot load image {ref_img_path}"
 
-        agg = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+        agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
         agg.setup(tray_data, reference_image=ref_img)
 
         # 1. Landscape Test
@@ -84,7 +85,7 @@ def benchmark_trays():
         })
 
     # Save summary json
-    out_summary = Path("admin_data/benchmark_3_trays_results.json")
+    out_summary = DATA_DIR / "benchmark_3_trays_results.json"
     with open(out_summary, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

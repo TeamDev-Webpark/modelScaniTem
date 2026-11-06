@@ -58,7 +58,27 @@ DATA_DIR = BASE_DIR / os.getenv("DATA_DIR", "admin_data")
 IMAGES_DIR = DATA_DIR / "images"
 MODELS_DIR = DATA_DIR / "models"
 EXPORTS_DIR = DATA_DIR / "exports"
-TRAY_REFS_DIR = DATA_DIR / "tray_refs"
+TRAY_REFS_DIR = DATA_DIR / "tray_refs"          # ภาพถาดต้นแบบ (<tray_id>.jpg) และถาดว่าง (<tray_id>_empty.jpg)
+
+# Master data: tray templates, tool catalog and checklist (tracked in git)
+MASTER_DATA_DIR = BASE_DIR / "mock_database"
+TRAY_TEMPLATES_DIR = MASTER_DATA_DIR / "tray_templates"
+CATALOG_PATH = MASTER_DATA_DIR / "data.json"                     # รายการเครื่องมือ + ภาพตัวอย่าง
+CHECKLIST_PATH = MASTER_DATA_DIR / "merchandise_checklist.json"  # Excel Merchandise Visit Checklist
+CHECKLIST_MAPPING_PATH = MASTER_DATA_DIR / "checklist_slot_mapping.json"
+CLASSES_70_PATH = MASTER_DATA_DIR / "classes_ya1_2_70_tools.json"
+SAMPLE_IMAGES_DIR = BASE_DIR / "sample_images"
+
+# Test / evaluation outputs
+CHECKLIST_MATCH_DIR = DATA_DIR / "checklist_match"
+SCAN_SIMULATION_DIR = DATA_DIR / "scan_simulation"
+REAL_PHOTO_TEST_DIR = DATA_DIR / "real_photo_test"
+
+# Raw Yamaha photos outside the repo (optional), e.g. C:/MyProject/Webpark/dataYamaha
+# Scripts use it as the default for --photos / --images when it is set.
+_ext = os.getenv("YAMAHA_DATA_DIR", "").strip()
+YAMAHA_DATA_DIR = Path(_ext) if _ext else None
+TRAY_PHOTOS_DIR = YAMAHA_DATA_DIR / "Merchecklist" / "Tools" / "tian" if YAMAHA_DATA_DIR else None
 
 # Ensure required directories exist
 for path in [DATA_DIR, IMAGES_DIR, MODELS_DIR, EXPORTS_DIR, TRAY_REFS_DIR]:

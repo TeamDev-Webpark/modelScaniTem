@@ -8,12 +8,13 @@ from pathlib import Path
 import streamlit as st
 from db import get_db
 from models_db import ToolClass, ImageLabel
+from config import CATALOG_PATH
 
 
 def import_classes_from_legacy_data(custom_data=None):
     """Imports tool classes from existing mock_database/data.json or passed data."""
     if custom_data is None:
-        json_path = Path("mock_database/data.json")
+        json_path = CATALOG_PATH
         if not json_path.exists():
             st.error("ไม่พบไฟล์ mock_database/data.json")
             return 0

@@ -31,11 +31,12 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from scan_workflow import ScanAggregator  # noqa: E402
+from config import CHECKLIST_PATH, SCAN_SIMULATION_DIR, TRAY_PHOTOS_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 logging.disable(logging.WARNING)
 
 TRAYS = ["box1-template01_70-item", "box1-template02_16-item", "box2-template01_31-item"]
-OUT_DIR = ROOT / "admin_data" / "scan_simulation"
+OUT_DIR = SCAN_SIMULATION_DIR
 
 LEVELS = {
     # name: (max tilt deg, min zoom, perspective jitter, light change, max blur kernel, noise sigma, min jpeg quality)
@@ -48,7 +49,7 @@ LEVELS = {
 # --------------------------------------------------------------------------- helpers
 
 def load_template(tray_id):
-    return json.loads((ROOT / "mock_database" / "tray_templates" / f"{tray_id}.json").read_text(encoding="utf-8"))
+    return json.loads((TRAY_TEMPLATES_DIR / f"{tray_id}.json").read_text(encoding="utf-8"))
 
 
 def find_photo(photo_dir, tray_id, kind):
@@ -151,7 +152,7 @@ def data_matching_test(templates, checklist):
 
 def run_detection(tray_id, tpl, full, empty_aligned, ref_img, ref_label, levels, trials, rng, sample_dir,
                   use_empty_ref=True):
-    agg = ScanAggregator(tray_refs_dir=str(ROOT / "admin_data" / "tray_refs"))
+    agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
     agg.setup(tpl, reference_image=ref_img, use_empty_ref=use_empty_ref)
     slots = tpl["slots"]
     names = {s["slot_number"]: s["name"] for s in slots}
@@ -241,7 +242,8 @@ def pct(v):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--photos", required=True)
+    ap.add_argument("--photos", default=TRAY_PHOTOS_DIR, required=TRAY_PHOTOS_DIR is None,
+                    help="default: <YAMAHA_DATA_DIR>/Merchecklist/Tools/tian from .env")
     ap.add_argument("--trials", type=int, default=12)
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--levels", default="clean,mild,hard")
@@ -254,7 +256,7 @@ def main():
     rng = np.random.default_rng(args.seed)
     trays = args.trays.split(",")
     templates = {t: load_template(t) for t in trays}
-    checklist = json.loads((ROOT / "mock_database" / "merchandise_checklist.json").read_text(encoding="utf-8"))
+    checklist = json.loads((CHECKLIST_PATH).read_text(encoding="utf-8"))
 
     print("== 1) Data matching test ==")
     dm = data_matching_test(templates, checklist)
@@ -274,7 +276,7 @@ def main():
         prep[t] = {"empty_align_inliers": inliers, "empty_align_matches": matches}
         print(f"  {t}: empty->full homography inliers {inliers}/{matches}")
         # the app's reference (admin_data/tray_refs/<tray>.jpg), with and without the empty-tray reference
-        ref = cv2.resize(cv2.imread(str(ROOT / "admin_data" / "tray_refs" / f"{t}.jpg")), (W, H))
+        ref = cv2.resize(cv2.imread(str(TRAY_REFS_DIR / f"{t}.jpg")), (W, H))
         for label, use_empty in (("golden+empty", True), ("golden_only", False)):
             rows += run_detection(t, tpl, full, empty_aligned, ref, label,
                                   args.levels.split(","), args.trials, rng, sample_dir, use_empty_ref=use_empty)

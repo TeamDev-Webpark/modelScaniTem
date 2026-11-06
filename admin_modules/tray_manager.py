@@ -9,6 +9,7 @@ from pathlib import Path
 import streamlit as st
 from db import get_db
 from models_db import TrayTemplate, TraySlot, ToolClass
+from config import TRAY_TEMPLATES_DIR
 
 
 def import_existing_json_trays(custom_json_data=None):
@@ -17,7 +18,7 @@ def import_existing_json_trays(custom_json_data=None):
     if custom_json_data is not None:
         data_list = [(custom_json_data, "uploaded_file.json")]
     else:
-        templates_dir = Path("mock_database/tray_templates")
+        templates_dir = TRAY_TEMPLATES_DIR
         if not templates_dir.exists():
             return 0
         for json_file in templates_dir.glob("*.json"):

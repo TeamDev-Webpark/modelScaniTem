@@ -8,19 +8,20 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scan_workflow import ScanAggregator
+from config import DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 def test_box2():
     print("=== Testing box2-template01_31-item Scanning Pipeline ===")
     
-    tmpl_path = Path("mock_database/tray_templates/box2-template01_31-item.json")
+    tmpl_path = TRAY_TEMPLATES_DIR / "box2-template01_31-item.json"
     with open(tmpl_path, "r", encoding="utf-8") as f:
         tray_data = json.load(f)
         
-    ref_img_path = Path("admin_data/tray_refs/box2-template01_31-item.jpg")
+    ref_img_path = TRAY_REFS_DIR / "box2-template01_31-item.jpg"
     ref_img = cv2.imread(str(ref_img_path))
     assert ref_img is not None, "Failed to load reference image"
     
-    agg = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+    agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
     agg.setup(tray_data, reference_image=ref_img)
     
     # 1. Landscape scan

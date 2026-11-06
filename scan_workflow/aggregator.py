@@ -131,7 +131,7 @@ class ScanAggregator:
 
     def __init__(
         self,
-        tray_refs_dir: str = "admin_data/tray_refs",
+        tray_refs_dir: Optional[str] = None,
         quality_gate: Optional[ImageQualityGate] = None,
         cropper: Optional[TrayBoxCropper] = None,
     ):
@@ -484,7 +484,7 @@ class ScanAggregator:
     def from_template(
         cls,
         tray_template: dict,
-        tray_refs_dir: str = "admin_data/tray_refs",
+        tray_refs_dir: Optional[str] = None,
     ) -> "ScanAggregator":
         """
         สร้าง ScanAggregator จาก tray template dict โดยตรง

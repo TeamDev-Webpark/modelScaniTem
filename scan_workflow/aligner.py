@@ -22,6 +22,9 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
+# ค่า default: <project>/admin_data/tray_refs (ไม่ขึ้นกับโฟลเดอร์ที่รัน) — แอปส่ง config.TRAY_REFS_DIR มาเอง
+DEFAULT_TRAY_REFS_DIR = Path(__file__).resolve().parent.parent / "admin_data" / "tray_refs"
+
 
 class AlignResult:
     __slots__ = ("success", "aligned_image", "homography", "match_count", "message", "inlier_ratio", "rotation_applied")
@@ -73,8 +76,8 @@ class TrayAligner:
     MIN_MATCHES = 15          # จำนวน inlier ขั้นต่ำที่ยอมรับ
     MIN_INLIER_RATIO = 0.25   # สัดส่วน inlier/total matches ขั้นต่ำ
 
-    def __init__(self, tray_refs_dir: str = "admin_data/tray_refs"):
-        self.tray_refs_dir = Path(tray_refs_dir)
+    def __init__(self, tray_refs_dir: Optional[str] = None):
+        self.tray_refs_dir = Path(tray_refs_dir) if tray_refs_dir else DEFAULT_TRAY_REFS_DIR
 
         # SIFT ปรับค่าสำหรับผิวโลหะ (เหมือนกับที่ scanner_module.py ใช้)
         self._sift = cv2.SIFT_create(contrastThreshold=0.03, edgeThreshold=10)

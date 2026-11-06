@@ -26,6 +26,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from scan_workflow import ScanAggregator  # noqa: E402
+from config import TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 logging.disable(logging.WARNING)
 MAX_SIDE = 2400  # phone photos are downscaled to this before scanning
@@ -49,7 +50,7 @@ def clean_photo(photo_dir, tray_id):
 
 
 def make_scanner(tpl, ref):
-    agg = ScanAggregator(tray_refs_dir=str(ROOT / "admin_data" / "tray_refs"))
+    agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
     agg.setup(tpl, reference_image=cv2.resize(ref, (tpl["image_width"], tpl["image_height"])))
     return agg
 
@@ -65,11 +66,11 @@ def main():
 
     out = Path(args.out)
     (out / "results").mkdir(parents=True, exist_ok=True)
-    templates = {t: json.loads((ROOT / "mock_database" / "tray_templates" / f"{t}.json").read_text(encoding="utf-8"))
+    templates = {t: json.loads((TRAY_TEMPLATES_DIR / f"{t}.json").read_text(encoding="utf-8"))
                  for t in args.trays.split(",")}
     scanners = {}
     for t, tpl in templates.items():
-        scanners[(t, "current_ref")] = make_scanner(tpl, cv2.imread(str(ROOT / "admin_data" / "tray_refs" / f"{t}.jpg")))
+        scanners[(t, "current_ref")] = make_scanner(tpl, cv2.imread(str(TRAY_REFS_DIR / f"{t}.jpg")))
         if args.photos and (cp := clean_photo(args.photos, t)) is not None:
             scanners[(t, "clean_photo_ref")] = make_scanner(tpl, cp)
 

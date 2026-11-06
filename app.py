@@ -9,6 +9,7 @@ from typing import Optional
 from PIL import Image, ImageOps
 from scanner_module import ShapeScanner
 from scan_workflow import ScanAggregator, ImageQualityGate, generate_tray_guide_overlay
+from config import CATALOG_PATH, MASTER_DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
 
 st.set_page_config(layout="wide", page_title="ระบบเช็คลิสต์เครื่องมือ")
 
@@ -603,12 +604,12 @@ def load_image_with_exif(img_file, force_landscape: bool = True) -> Optional[np.
 
 @st.cache_resource
 def load_scanner():
-    if not os.path.exists('mock_database'): os.makedirs('mock_database')
-    return ShapeScanner()
+    MASTER_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    return ShapeScanner(db_folder=str(MASTER_DATA_DIR))
 
 def get_product_info(filename):
     try:
-        with open('mock_database/data.json', 'r', encoding='utf-8') as f:
+        with open(CATALOG_PATH, 'r', encoding='utf-8') as f:
             data = json.load(f)
             base = os.path.basename(filename)
             base_no_ext = os.path.splitext(base)[0]
@@ -967,7 +968,7 @@ def render_checklist():
                         
                         with c2:
                             try:
-                                st.image(f"mock_database/{item['filename']}", width=40)
+                                st.image(str(MASTER_DATA_DIR / item['filename']), width=40)
                             except: 
                                 st.write("")
                         
@@ -1100,7 +1101,7 @@ def render_tray_check():
 
     # โหลดไฟล์ Template JSON ของถาดที่เลือก
     from pathlib import Path
-    template_dir = Path("mock_database/tray_templates")
+    template_dir = TRAY_TEMPLATES_DIR
     template_file = template_dir / f"{selected_id}.json"
     if not template_file.exists():
         for f in template_dir.glob("*.json"):
@@ -1124,11 +1125,11 @@ def render_tray_check():
     slots = tray_data.get("slots", [])
 
     # โหลด Template Reference Image (Golden Sample)
-    ref_img_path = Path(f"admin_data/tray_refs/{selected_id}.jpg")
+    ref_img_path = TRAY_REFS_DIR / f"{selected_id}.jpg"
     if not ref_img_path.exists():
-        ref_img_path = Path(f"admin_data/tray_refs/{selected_id}.png")
+        ref_img_path = TRAY_REFS_DIR / f"{selected_id}.png"
     if not ref_img_path.exists():
-        for fallback in [Path("sample_images/test_verified.jpg"), Path("test_verified.jpg")]:
+        for fallback in [SAMPLE_IMAGES_DIR / "test_verified.jpg"]:
             if fallback.exists():
                 ref_img_path = fallback
                 break
@@ -1252,7 +1253,7 @@ def render_tray_check():
 
         if inspect_clicked:
             with st.spinner(f"กำลังปรับแนวภาพและตรวจสอบช่องเครื่องมือทั้ง {len(slots)} รายการ..."):
-                agg = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+                agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
                 agg.setup(tray_data, reference_image=ref_img)
                 summary = agg.scan(opencv_img, skip_quality=False, crop_mode=crop_mode_param)
 
@@ -1278,7 +1279,7 @@ def render_tray_check():
         with c_res_act1:
             if st.button("🔄 ตรวจสอบซ้ำอีกครั้ง (Re-Scan Current Image)", key="tray_rescan_top_btn", type="primary", use_container_width=True):
                 with st.spinner(f"กำลังประมวลผลการตรวจสอบซ้ำทั้ง {len(slots)} ช่อง..."):
-                    agg = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+                    agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
                     agg.setup(tray_data, reference_image=ref_img)
                     new_summary = agg.scan(opencv_img, skip_quality=False, crop_mode=crop_mode_param)
                     st.session_state.tray_check_summary = new_summary

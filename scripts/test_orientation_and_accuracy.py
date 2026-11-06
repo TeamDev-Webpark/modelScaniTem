@@ -8,20 +8,21 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scan_workflow import ScanAggregator
+from config import DATA_DIR, SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
 
 def test_auto_orientation():
     print("=== Testing Auto-Orientation & Multi-Angle Alignment ===")
     
     # 1. Load template 02
-    tmpl_path = Path("mock_database/tray_templates/box1-template02_16-item.json")
+    tmpl_path = TRAY_TEMPLATES_DIR / "box1-template02_16-item.json"
     with open(tmpl_path, "r", encoding="utf-8") as f:
         tray_data = json.load(f)
         
-    ref_img_path = Path("admin_data/tray_refs/box1-template02_16-item.jpg")
+    ref_img_path = TRAY_REFS_DIR / "box1-template02_16-item.jpg"
     ref_img = cv2.imread(str(ref_img_path))
     assert ref_img is not None, "Failed to load reference image"
     
-    agg = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+    agg = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
     agg.setup(tray_data, reference_image=ref_img)
     
     # Normal landscape scan
@@ -63,12 +64,12 @@ def test_auto_orientation():
 
     # 4. Test Template 01 (box1-template01_70-item) with portrait rotation
     print("\n4. Testing Template 01 (box1-template01_70-item) with Portrait (90 deg CW)...")
-    tmpl1_path = Path("mock_database/tray_templates/box1-template01_70-item.json")
+    tmpl1_path = TRAY_TEMPLATES_DIR / "box1-template01_70-item.json"
     with open(tmpl1_path, "r", encoding="utf-8") as f:
         tray_data1 = json.load(f)
-    ref_img1 = cv2.imread("sample_images/test_verified.jpg")
+    ref_img1 = cv2.imread(str(SAMPLE_IMAGES_DIR / "test_verified.jpg"))
     if ref_img1 is not None:
-        agg1 = ScanAggregator(tray_refs_dir="admin_data/tray_refs")
+        agg1 = ScanAggregator(tray_refs_dir=str(TRAY_REFS_DIR))
         agg1.setup(tray_data1, reference_image=ref_img1)
         # Check landscape first
         res1_land = agg1.scan(ref_img1.copy(), skip_quality=True)

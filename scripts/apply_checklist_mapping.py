@@ -20,9 +20,13 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-DB = ROOT / "mock_database"
-TEMPLATES = DB / "tray_templates"
-OUT_DIR = ROOT / "admin_data" / "checklist_match"
+sys.path.insert(0, str(ROOT))
+from config import (CATALOG_PATH, CHECKLIST_MAPPING_PATH, CHECKLIST_MATCH_DIR, CHECKLIST_PATH,  # noqa: E402
+                    CLASSES_70_PATH, MASTER_DATA_DIR, TRAY_TEMPLATES_DIR)
+
+DB = MASTER_DATA_DIR
+TEMPLATES = TRAY_TEMPLATES_DIR
+OUT_DIR = CHECKLIST_MATCH_DIR
 
 
 def load(path):
@@ -130,7 +134,7 @@ def special_catalog():
     """data.json holds two lists that reuse ids 1..N: the 31 special tools (snake_case codes)
     and the standard tools (part-number codes). Keep only the special-tool entries."""
     out = {}
-    for d in load(DB / "data.json"):
+    for d in load(CATALOG_PATH):
         if isinstance(d.get("id"), int) and not str(d.get("code", "")).startswith("90"):
             out.setdefault(d["id"], d)
     return out
@@ -139,7 +143,7 @@ def special_catalog():
 def check_catalogs(rep, sheets):
     s86 = sheets["standard_new_86"]["items"]
     s31 = sheets["special_new_31"]["items"]
-    classes = load(DB / "classes_ya1_2_70_tools.json")
+    classes = load(CLASSES_70_PATH)
     by_code = {c["code"]: c for c in classes}
     for it in s86[:70]:
         c = by_code.get(it["part_number"])
@@ -297,9 +301,9 @@ def main():
     ap.add_argument("--photos", help="folder with <tray_id>_number.png photos to draw the check images on")
     args = ap.parse_args()
 
-    checklist = load(DB / "merchandise_checklist.json")
+    checklist = load(CHECKLIST_PATH)
     sheets = {s["key"]: s for s in checklist["sheets"]}
-    mapping = load(DB / "checklist_slot_mapping.json")
+    mapping = load(CHECKLIST_MAPPING_PATH)
     data_codes = {i: d["code"] for i, d in special_catalog().items()}
 
     rep = Report()

@@ -58,7 +58,8 @@ class YOLOToolScanner:
         """Loads tool code/part-number to class_name alias mappings from mock_database/data.json."""
         try:
             import json
-            data_file = Path(__file__).parent / "mock_database" / "data.json"
+            from config import CATALOG_PATH
+            data_file = CATALOG_PATH
             if data_file.exists():
                 with open(data_file, "r", encoding="utf-8") as f:
                     items = json.load(f)

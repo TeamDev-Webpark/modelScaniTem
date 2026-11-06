@@ -20,8 +20,11 @@ import cv2
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from config import TRAY_PHOTOS_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR  # noqa: E402
+
 TRAYS = ["box1-template01_70-item", "box1-template02_16-item", "box2-template01_31-item"]
-REFS = ROOT / "admin_data" / "tray_refs"
+REFS = TRAY_REFS_DIR
 
 
 def read(path):
@@ -56,13 +59,14 @@ def align_to(src, dst):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--photos", required=True)
+    ap.add_argument("--photos", default=TRAY_PHOTOS_DIR, required=TRAY_PHOTOS_DIR is None,
+                    help="default: <YAMAHA_DATA_DIR>/Merchecklist/Tools/tian from .env")
     ap.add_argument("--trays", default=",".join(TRAYS))
     args = ap.parse_args()
     (REFS / "check").mkdir(parents=True, exist_ok=True)
 
     for tid in args.trays.split(","):
-        tpl = json.loads((ROOT / "mock_database" / "tray_templates" / f"{tid}.json").read_text(encoding="utf-8"))
+        tpl = json.loads((TRAY_TEMPLATES_DIR / f"{tid}.json").read_text(encoding="utf-8"))
         W, H = tpl["image_width"], tpl["image_height"]
         full = cv2.resize(find_photo(args.photos, tid, "full"), (W, H), interpolation=cv2.INTER_AREA)
         empty, inliers, matches = align_to(find_photo(args.photos, tid, "empty"), full)
