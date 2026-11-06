@@ -1,0 +1,703 @@
+[
+ {
+  "file": "1110917.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 1,
+   "misplaced": 33,
+   "recheck": 7,
+   "missing_items": [
+    "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo"
+   ],
+   "seconds": 6.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 1,
+   "misplaced": 34,
+   "recheck": 6,
+   "missing_items": [
+    "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo"
+   ],
+   "seconds": 6.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773306328187.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 1,
+   "misplaced": 15,
+   "recheck": 25,
+   "missing_items": [
+    "ประแจปอนด์ ออโตเมติก 3/8\"sq.5-25 N-m."
+   ],
+   "seconds": 3.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 1,
+   "misplaced": 15,
+   "recheck": 25,
+   "missing_items": [
+    "ประแจปอนด์ ออโตเมติก 3/8\"sq.5-25 N-m."
+   ],
+   "seconds": 4.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773656631249.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 2,
+   "misplaced": 25,
+   "recheck": 12,
+   "missing_items": [
+    "ชุดใส่ปลอกวาล์ว",
+    "เครื่องมือขันคอรถ"
+   ],
+   "seconds": 3.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 2,
+   "misplaced": 26,
+   "recheck": 11,
+   "missing_items": [
+    "ชุดใส่ปลอกวาล์ว",
+    "เครื่องมือขันคอรถ"
+   ],
+   "seconds": 4.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911671358.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 3,
+   "missing": 1,
+   "misplaced": 25,
+   "recheck": 12,
+   "missing_items": [
+    "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม."
+   ],
+   "seconds": 2.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 1,
+   "misplaced": 27,
+   "recheck": 11,
+   "missing_items": [
+    "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม."
+   ],
+   "seconds": 4.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323378180.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 19,
+   "recheck": 21,
+   "missing_items": [],
+   "seconds": 3.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 16,
+   "recheck": 24,
+   "missing_items": [],
+   "seconds": 4.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774417651114.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 1,
+   "misplaced": 19,
+   "recheck": 19,
+   "missing_items": [
+    "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค"
+   ],
+   "seconds": 2.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 1,
+   "misplaced": 17,
+   "recheck": 21,
+   "missing_items": [
+    "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค"
+   ],
+   "seconds": 4.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775554134369.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 32,
+   "recheck": 9,
+   "missing_items": [],
+   "seconds": 5.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 32,
+   "recheck": 9,
+   "missing_items": [],
+   "seconds": 7.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775620127988.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 21,
+   "recheck": 20,
+   "missing_items": [],
+   "seconds": 3.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 19,
+   "recheck": 22,
+   "missing_items": [],
+   "seconds": 4.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777016399962.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 29,
+   "recheck": 11,
+   "missing_items": [],
+   "seconds": 3.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 31,
+   "recheck": 9,
+   "missing_items": [],
+   "seconds": 5.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777451196496.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 29% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 29% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786335323716.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 1,
+   "misplaced": 29,
+   "recheck": 10,
+   "missing_items": [
+    "เครื่องมือประกอบเพลาข้อเหวี่ยง"
+   ],
+   "seconds": 5.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 1,
+   "misplaced": 28,
+   "recheck": 11,
+   "missing_items": [
+    "เครื่องมือประกอบเพลาข้อเหวี่ยง"
+   ],
+   "seconds": 7.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347972841.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 29,
+   "recheck": 11,
+   "missing_items": [],
+   "seconds": 4.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 30,
+   "recheck": 10,
+   "missing_items": [],
+   "seconds": 6.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786592848132.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 5,
+   "misplaced": 25,
+   "recheck": 11,
+   "missing_items": [
+    "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+    "ชุดประกอบแบริ่งข้อเหวี่ยง X-MAX",
+    "ตัวดูดจานไฟ แบบกลม"
+   ],
+   "seconds": 5.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 5,
+   "misplaced": 27,
+   "recheck": 9,
+   "missing_items": [
+    "ชุดถอดลูกปืนรูใน แบบ 2 ขา Mio,Nouvo",
+    "ชุดประกอบแบริ่งข้อเหวี่ยง X-MAX",
+    "ตัวดูดจานไฟ แบบกลม"
+   ],
+   "seconds": 7.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786695046036.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 0,
+   "misplaced": 28,
+   "recheck": 11,
+   "missing_items": [],
+   "seconds": 2.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 0,
+   "misplaced": 30,
+   "recheck": 9,
+   "missing_items": [],
+   "seconds": 3.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786957022096.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 0,
+   "misplaced": 16,
+   "recheck": 23,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 0,
+   "misplaced": 19,
+   "recheck": 20,
+   "missing_items": [],
+   "seconds": 3.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787129738687.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 27,
+   "recheck": 13,
+   "missing_items": [],
+   "seconds": 4.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 27,
+   "recheck": 13,
+   "missing_items": [],
+   "seconds": 5.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201809296.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 32,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 4.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 0,
+   "misplaced": 32,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 5.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285783917.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 3,
+   "misplaced": 27,
+   "recheck": 9,
+   "missing_items": [
+    "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม.",
+    "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m.",
+    "เครื่องมือขันคอรถ"
+   ],
+   "seconds": 4.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 3,
+   "misplaced": 27,
+   "recheck": 9,
+   "missing_items": [
+    "บ๊อกซ์ถอดกรองน้ำมันเครื่อง 64 มม.",
+    "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m.",
+    "เครื่องมือขันคอรถ"
+   ],
+   "seconds": 5.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787558969130.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 29,
+   "recheck": 12,
+   "missing_items": [],
+   "seconds": 4.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 30,
+   "recheck": 11,
+   "missing_items": [],
+   "seconds": 6.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_112307.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 1,
+   "misplaced": 25,
+   "recheck": 14,
+   "missing_items": [
+    "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค"
+   ],
+   "seconds": 5.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 1,
+   "misplaced": 25,
+   "recheck": 14,
+   "missing_items": [
+    "เครื่องมือถอดฝาปิดช่องตั้งมาร์ค"
+   ],
+   "seconds": 6.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "Picture12.jpg",
+  "tray": "box2-template01_31-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box2-template01_31-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 1,
+   "missing": 1,
+   "misplaced": 34,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 2,
+   "missing": 1,
+   "misplaced": 33,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจปอนด์ ดิจิตอล 1/2\"sq.27-135 N-m."
+   ],
+   "seconds": 2.7,
+   "error": ""
+  }
+ }
+]

@@ -1,0 +1,5898 @@
+[
+ {
+  "file": "1110906_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 31,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 3.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 31,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1110907_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 3.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 3.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1110908_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1110909_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 4.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1110910_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1110911_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [
+    "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [
+    "ด้ามขันบ๊อกซ์ 3/8\" x 300 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1110912_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 0,
+   "misplaced": 47,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 0,
+   "misplaced": 47,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "1110913_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1772440847075.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1772440847345.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจรวม No. 10",
+    "ประแจแหวน 10 x 12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจรวม No. 10",
+    "ประแจแหวน 10 x 12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1772440848220.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 2,
+   "misplaced": 39,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจแหวน 22 x 24",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 2,
+   "misplaced": 39,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจแหวน 22 x 24",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1772440848919.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 9,
+   "misplaced": 36,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 9,
+   "misplaced": 36,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773306324948.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773306325790.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 2,
+   "misplaced": 48,
+   "recheck": 2,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 2,
+   "misplaced": 48,
+   "recheck": 2,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773306326464.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773306327394.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 17 (ดำ)"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 17 (ดำ)"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773656614786.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773656627008.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 6,
+   "missing_items": [
+    "ประแจแหวน 8 - 10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 6,
+   "missing_items": [
+    "ประแจแหวน 8 - 10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773656627322.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773656627608.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 5,
+   "misplaced": 34,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 5,
+   "misplaced": 34,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773719278233.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 33% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 33% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773719279671.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773719280461.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773719281186.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773730971192.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773730973161.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773730973771.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773730983150.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม."
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911671893.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911672530.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 2,
+   "missing_items": [
+    "ประแจแหวน 22 x 24"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 2,
+   "missing_items": [
+    "ประแจแหวน 22 x 24"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911673103.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911682801.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911682991.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 2,
+   "misplaced": 36,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 2,
+   "misplaced": 36,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ลูกบ๊อกซ์ลมเดือย 6 เหลี่ยม 3/8 # 4"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1773911683237.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 15,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 15,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323380739.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 41,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 41,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323395380.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1774323395510.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 42,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 42,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323395657.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323396641.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 44,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 4,
+   "misplaced": 44,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774323397837.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 4,
+   "misplaced": 38,
+   "recheck": 4,
+   "missing_items": [
+    "ด้ามขันเลื่อน 3/8\"",
+    "ประแจรวม No. 14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 4,
+   "misplaced": 38,
+   "recheck": 4,
+   "missing_items": [
+    "ด้ามขันเลื่อน 3/8\"",
+    "ประแจรวม No. 14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774336888384.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 2,
+   "misplaced": 42,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 2,
+   "misplaced": 42,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774336889124.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774336889744.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774336890324.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 29,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 29,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774417651804.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 6,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 6,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774417652367.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 1.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774417652963.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 11,
+   "misplaced": 38,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+    "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 11,
+   "misplaced": 38,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+    "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774417663830.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 13,
+   "missing": 9,
+   "misplaced": 39,
+   "recheck": 8,
+   "missing_items": [
+    "ประแจรวม No. 08",
+    "ประแจรวม No. 10",
+    "ประแจรวม No. 12",
+    "ประแจรวม No. 14",
+    "ประแจแหวน 8 - 10",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม. T50",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 13,
+   "missing": 9,
+   "misplaced": 40,
+   "recheck": 7,
+   "missing_items": [
+    "ประแจรวม No. 08",
+    "ประแจรวม No. 10",
+    "ประแจรวม No. 12",
+    "ประแจรวม No. 14",
+    "ประแจแหวน 8 - 10",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ลูกบ๊อกซ์ดอกจีบ เดือยมีรู 42 มม. T50",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 1.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774429144412.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774429156446.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774429156561.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774429157138.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจรวม No. 10"
+   ],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [
+    "ประแจรวม No. 10"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774429158025.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 42,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 42,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774581795905.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1774581795986.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 39,
+   "recheck": 7,
+   "missing_items": [
+    "ประแจแหวน 8 - 10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงปากแฉก ก้านเล็กด้ามนิ่ม 1 x 150 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 39,
+   "recheck": 7,
+   "missing_items": [
+    "ประแจแหวน 8 - 10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงปากแฉก ก้านเล็กด้ามนิ่ม 1 x 150 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775539142218.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 4,
+   "misplaced": 45,
+   "recheck": 2,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 4,
+   "misplaced": 45,
+   "recheck": 2,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775539142328.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 3.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 47,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775539142426.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775539143332.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 51,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 3.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 51,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775554286701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775554287256.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775554320534.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 40,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775554320701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775620115354.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 1,
+   "misplaced": 40,
+   "recheck": 4,
+   "missing_items": [
+    "ประแจแหวนรวม No. 6"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 1,
+   "misplaced": 40,
+   "recheck": 4,
+   "missing_items": [
+    "ประแจแหวนรวม No. 6"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775620127203.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775620127334.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 4,
+   "misplaced": 41,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1775620127452.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 5,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
+    "ไขควงแฉก 75 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 5,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 16 มม.",
+    "ไขควงแฉก 75 มม."
+   ],
+   "seconds": 1.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777016396323.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 15,
+   "missing": 4,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 15,
+   "missing": 4,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777016396992.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 1,
+   "misplaced": 48,
+   "recheck": 4,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 1,
+   "misplaced": 48,
+   "recheck": 4,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777016398157.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777016398798.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 48,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 48,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777451199083.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1777451200176.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1777451213858.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 23% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 23% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1777451214768.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335249037.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 42,
+   "recheck": 7,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 12 (ดำ)"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 42,
+   "recheck": 7,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 12 (ดำ)"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335249771.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 13,
+   "missing": 4,
+   "misplaced": 46,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 13,
+   "missing": 4,
+   "misplaced": 46,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335250489.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 8,
+   "misplaced": 37,
+   "recheck": 2,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามขันเลื่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+    "ประแจรวม No. 17",
+    "ประแจแหวนรวม No. 5.5",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 8,
+   "misplaced": 36,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามขันเลื่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+    "ประแจรวม No. 17",
+    "ประแจแหวนรวม No. 5.5",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335251189.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335251851.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 21% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 21% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786335252497.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335261650.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786335261754.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 28,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347049358.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 5,
+   "misplaced": 45,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 5,
+   "misplaced": 45,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347050062.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 40,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 0,
+   "misplaced": 40,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347060612.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 4,
+   "misplaced": 37,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 4,
+   "misplaced": 37,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347060701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 3.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347060852.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 34% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 34% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786347061679.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786347062604.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 27% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 27% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786347063284.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595037967.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595038699.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 7,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 7,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595039386.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 30,
+   "missing": 3,
+   "misplaced": 33,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 10 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 30,
+   "missing": 3,
+   "misplaced": 33,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 10 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595040080.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 1,
+   "misplaced": 40,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 1,
+   "misplaced": 40,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595040758.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 8,
+   "misplaced": 35,
+   "recheck": 4,
+   "missing_items": [
+    "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+    "ประแจปากตาย 8 x 10",
+    "ประแจรวม No. 12",
+    "ลูกบล็อคลม 3/8\" # 8 (ดำ)",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 8,
+   "misplaced": 35,
+   "recheck": 4,
+   "missing_items": [
+    "ข้อต่อบ๊อกซ์ลมสำหรับใส่ดอกไขควง",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม.",
+    "ด้ามต่อบ๊อกซ์ ขันเร็ว 3/8\"",
+    "ประแจปากตาย 8 x 10",
+    "ประแจรวม No. 12",
+    "ลูกบล็อคลม 3/8\" # 8 (ดำ)",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ลูกบ๊อกซ์เดือยโผล่หัวหกเหลี่ยม 3 x 128"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595041473.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 2,
+   "misplaced": 41,
+   "recheck": 3,
+   "missing_items": [
+    "ประแจแหวน 8 x 10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 2,
+   "misplaced": 41,
+   "recheck": 3,
+   "missing_items": [
+    "ประแจแหวน 8 x 10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786595051649.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786595051825.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 7,
+   "missing_items": [],
+   "seconds": 3.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 7,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786695042845.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786695043001.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786695044437.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786695045131.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 38,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786940683192.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786940693517.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786957022978.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 2.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786957023659.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 27,
+   "missing": 0,
+   "misplaced": 37,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786957024334.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 3,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 3,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1786957025024.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787129739061.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787129739152.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 4,
+   "missing_items": [
+    "ประแจแหวน 22 x 24"
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 4,
+   "missing_items": [
+    "ประแจแหวน 22 x 24"
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201809694.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 48,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 2,
+   "misplaced": 48,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201809800.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 44,
+   "recheck": 8,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201811346.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201812078.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 3,
+   "misplaced": 43,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 3,
+   "misplaced": 43,
+   "recheck": 0,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม.",
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201812904.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 0,
+   "misplaced": 47,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 0,
+   "misplaced": 47,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201813546.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 10,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 10,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201814467.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 45,
+   "recheck": 1,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787201815508.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 2,
+   "misplaced": 39,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 24,
+   "missing": 2,
+   "misplaced": 39,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285802368.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 1,
+   "misplaced": 46,
+   "recheck": 4,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285803087.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 51,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 0,
+   "misplaced": 51,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285816750.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12"
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 2,
+   "misplaced": 45,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285816859.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 11,
+   "missing": 8,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจปากตาย 8 x 10",
+    "ประแจแหวนรวม No. 5.5",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 11,
+   "missing": 8,
+   "misplaced": 49,
+   "recheck": 1,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจปากตาย 8 x 10",
+    "ประแจแหวนรวม No. 5.5",
+    "ประแจแหวนรวม No. 6",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.10",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285817020.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 7,
+   "misplaced": 39,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 7,
+   "misplaced": 39,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 22 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285817721.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 6,
+   "misplaced": 42,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 6,
+   "misplaced": 42,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787285818403.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 3,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจแหวน 8 x 10",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 3,
+   "misplaced": 46,
+   "recheck": 3,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจแหวน 8 x 10",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787558966685.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787558967072.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787714528529.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 2,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787714529345.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 29% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 29% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787714530052.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 19% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 19% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787714542306.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 29,
+   "missing": 2,
+   "misplaced": 30,
+   "recheck": 8,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 29,
+   "missing": 2,
+   "misplaced": 30,
+   "recheck": 8,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 75 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787802950607.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787802950733.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 0,
+   "misplaced": 46,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787981543762.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 25,
+   "missing": 0,
+   "misplaced": 42,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787981554739.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 0,
+   "misplaced": 43,
+   "recheck": 4,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787981554836.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 26% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 26% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787981554978.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 21,
+   "missing": 1,
+   "misplaced": 41,
+   "recheck": 6,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม."
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787983836110.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 2,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "1787983836359.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [
+    "ด้ามขันฟรี 3/8\" x 7\""
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [
+    "ด้ามขันฟรี 3/8\" x 7\""
+   ],
+   "seconds": 1.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "20260917_130159.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 570,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": true,
+   "matches": 570,
+   "correct": 61,
+   "missing": 0,
+   "misplaced": 8,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 1.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": true,
+   "matches": 518,
+   "correct": 58,
+   "missing": 0,
+   "misplaced": 11,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 1.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "20260917_130431.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 12 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 17 (ดำ)"
+   ],
+   "seconds": 8.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 43,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบล็อคลม 3/8\" # 12 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 14 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 17 (ดำ)"
+   ],
+   "seconds": 7.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_095922.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 39,
+   "recheck": 10,
+   "missing_items": [
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 1,
+   "misplaced": 39,
+   "recheck": 10,
+   "missing_items": [
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 1.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_100120.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 4,
+   "misplaced": 45,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14"
+   ],
+   "seconds": 2.4,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 4,
+   "misplaced": 45,
+   "recheck": 3,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14"
+   ],
+   "seconds": 2.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_100155.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "IMG_20260917_100230.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 7,
+   "misplaced": 38,
+   "recheck": 7,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 17,
+   "missing": 7,
+   "misplaced": 38,
+   "recheck": 7,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.10",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน 75 มม."
+   ],
+   "seconds": 2.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_100240.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม."
+   ],
+   "seconds": 2.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 18 มม."
+   ],
+   "seconds": 2.2,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_114453.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 12,
+   "missing": 6,
+   "misplaced": 40,
+   "recheck": 11,
+   "missing_items": [
+    "ประแจแหวน 22 x 24",
+    "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 3.7,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 12,
+   "missing": 6,
+   "misplaced": 40,
+   "recheck": 11,
+   "missing_items": [
+    "ประแจแหวน 22 x 24",
+    "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 3.1,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_114513.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 11,
+   "missing": 4,
+   "misplaced": 44,
+   "recheck": 10,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจปากตาย 8 x 10",
+    "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)"
+   ],
+   "seconds": 7.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 11,
+   "missing": 4,
+   "misplaced": 44,
+   "recheck": 10,
+   "missing_items": [
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม.",
+    "ประแจปากตาย 8 x 10",
+    "ลูกบล็อคลม 3/8\" # 19 (ดำ)",
+    "ลูกบล็อคลม 3/8\" # 21 (ดำ)"
+   ],
+   "seconds": 6.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_114550.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 2,
+   "misplaced": 32,
+   "recheck": 15,
+   "missing_items": [
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 2,
+   "misplaced": 32,
+   "recheck": 15,
+   "missing_items": [
+    "ลูกบล็อคลม 1/2\" No. 24",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.22"
+   ],
+   "seconds": 1.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_114608.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 5,
+   "misplaced": 32,
+   "recheck": 14,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 8.9,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 18,
+   "missing": 5,
+   "misplaced": 32,
+   "recheck": 14,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 6.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_114704.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "IMG_20260917_130119.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 433,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": true,
+   "matches": 433,
+   "correct": 55,
+   "missing": 0,
+   "misplaced": 14,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 1.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": true,
+   "matches": 348,
+   "correct": 49,
+   "missing": 0,
+   "misplaced": 20,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_130500.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 7.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 23,
+   "missing": 0,
+   "misplaced": 41,
+   "recheck": 5,
+   "missing_items": [],
+   "seconds": 6.9,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_103820.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 1,
+   "missing_items": [
+    "ไขควงแฉก 75 มม."
+   ],
+   "seconds": 4.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 1,
+   "misplaced": 45,
+   "recheck": 1,
+   "missing_items": [
+    "ไขควงแฉก 75 มม."
+   ],
+   "seconds": 3.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_103827.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 2,
+   "misplaced": 35,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 4.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 26,
+   "missing": 2,
+   "misplaced": 35,
+   "recheck": 6,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.19",
+    "ลูกบ๊อกซ์หัวเทียน 3/8\" ขนาด 20.8 มม."
+   ],
+   "seconds": 3.4,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_103850.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 4.0,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 19,
+   "missing": 3,
+   "misplaced": 44,
+   "recheck": 3,
+   "missing_items": [
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm.",
+    "ไขควงแบน ป้อม 25 มม."
+   ],
+   "seconds": 3.3,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_103858.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 6,
+   "missing_items": [],
+   "seconds": 3.8,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 0,
+   "misplaced": 49,
+   "recheck": 6,
+   "missing_items": [],
+   "seconds": 3.5,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_104001.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 1,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 4.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 16,
+   "missing": 1,
+   "misplaced": 49,
+   "recheck": 3,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.21"
+   ],
+   "seconds": 3.6,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_104004.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 40,
+   "recheck": 6,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามขันฟรี 3/8\" x 7\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม."
+   ],
+   "seconds": 2.1,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 20,
+   "missing": 3,
+   "misplaced": 40,
+   "recheck": 6,
+   "missing_items": [
+    "ข้อต่ออ่อน 3/8\"",
+    "ด้ามขันฟรี 3/8\" x 7\"",
+    "ด้ามต่อบ๊อกซ์ 3/8\" x 50 มม."
+   ],
+   "seconds": 1.8,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_111452.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 3,
+   "misplaced": 51,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 4.5,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 14,
+   "missing": 3,
+   "misplaced": 51,
+   "recheck": 1,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.17",
+    "ไขควงแฉก ป้อม 25 มม.",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 3.7,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260921_111500.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 34,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 3.6,
+   "error": ""
+  },
+  "clean_photo_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 22,
+   "missing": 5,
+   "misplaced": 34,
+   "recheck": 8,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.12",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.13",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.14",
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" ตัวยาว No.8",
+    "ไขควงแบน (จิ๋ว) 75 mm."
+   ],
+   "seconds": 3.3,
+   "error": ""
+  }
+ }
+]

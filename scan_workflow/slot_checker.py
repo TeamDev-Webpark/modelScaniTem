@@ -39,6 +39,18 @@ PRESENCE_EDGE_THRESHOLD = 0.035     # สัดส่วน edge pixel
 PRESENCE_SSIM_THRESHOLD = 0.82     # ถ้าคล้าย empty_ref มาก → ว่าง
 RECHECK_CONFIDENCE_THRESHOLD = 0.55 # ถ้า confidence ต่ำกว่านี้ → recheck
 
+# Masked reference comparison: เทียบภาพเฉพาะพื้นที่ polygon ของช่องกับภาพต้นแบบ (ถาดครบ)
+# และภาพถาดว่าง (ถ้ามี) — ใช้แทนการดูความหยาบของภาพในกรอบสี่เหลี่ยม ซึ่งช่องโฟมว่างก็มีขอบรอยตัดชัด
+WORK_MAX_SIDE = 1600        # ย่อภาพให้ด้านยาวไม่เกินนี้ก่อนเทียบ (เร็วขึ้น และลด noise)
+MATCH_SEARCH_FRAC = 0.008   # เลื่อนหาตำแหน่งที่ตรงที่สุดได้ ± สัดส่วนนี้ของด้านยาว (ชดเชย align เพี้ยนเล็กน้อย)
+MIN_MASK_AREA = 150         # polygon เล็กกว่านี้ (px ในภาพย่อ) จะถูกขยายออกก่อนเทียบ
+GOLDEN_MATCH_OK = 0.55      # มีภาพถาดว่าง: คล้ายต้นแบบอย่างน้อยเท่านี้ → วางตรงตำแหน่ง (ต่ำกว่า → วางผิด)
+EMPTY_MARGIN = 0.10         # มีภาพถาดว่าง: ต้องคล้ายภาพหนึ่งมากกว่าอีกภาพอย่างน้อยเท่านี้จึงตัดสิน
+# ไม่มีภาพถาดว่าง: ช่องโฟมว่างยังมีขอบรอยตัดรูปทรงเดียวกับเครื่องมือ คะแนนต้นแบบจึงสูงได้ถึง ~0.85
+# ใช้เกณฑ์เข้มและเผื่อช่วง "ตรวจซ้ำ" ไว้ตรงกลาง — ควรมี <tray_id>_empty.jpg เสมอ
+GOLDEN_ONLY_OK = 0.80       # คล้ายต้นแบบอย่างน้อยเท่านี้ → มีเครื่องมือ
+GOLDEN_ONLY_MISSING = 0.50  # ต่ำกว่านี้ → ไม่พบเครื่องมือตามต้นแบบ
+
 
 class SlotResult:
     """ผลตรวจสอบของช่องเดียว"""
@@ -49,6 +61,8 @@ class SlotResult:
         "angle_deg", "iou_score",
         "reason",        # ข้อความอธิบายเหตุผล
         "crop",          # numpy array ของ slot crop (สำหรับ debug/UI)
+        "golden_score",  # ความคล้ายกับภาพต้นแบบในพื้นที่ polygon (None = ไม่ได้เทียบ)
+        "empty_score",   # ความคล้ายกับภาพถาดว่างในพื้นที่ polygon (None = ไม่มีภาพถาดว่าง)
     )
 
     def __init__(self, slot_number: int):
@@ -63,8 +77,11 @@ class SlotResult:
         self.iou_score: float = 0.0
         self.reason: str = ""
         self.crop: Optional[np.ndarray] = None
+        self.golden_score: Optional[float] = None
+        self.empty_score: Optional[float] = None
 
     def to_dict(self) -> dict[str, Any]:
+        rnd = lambda v: None if v is None else round(v, 3)
         return {
             "slot_number": self.slot_number,
             "status": self.status,
@@ -74,6 +91,8 @@ class SlotResult:
             "center_offset_px": round(self.center_offset_px, 1),
             "angle_deg": round(self.angle_deg, 1),
             "iou_score": round(self.iou_score, 3),
+            "golden_score": rnd(self.golden_score),
+            "empty_score": rnd(self.empty_score),
         }
 
 
@@ -91,6 +110,13 @@ class SlotChecker:
         # ref_mode: "golden" (ภาพถาดที่มีเครื่องมือครบ — default) หรือ "empty" (ถาดว่างเปล่า)
         self.ref_mode = ref_mode
         self._refs: dict[int, np.ndarray] = {}
+        # ขนาดภาพที่ใช้วาด polygon ในเทมเพลต (image_width, image_height)
+        self._template_size: Optional[tuple[int, int]] = None
+        # ภาพต้นแบบ/ถาดว่างที่ย่อแล้ว และข้อมูล polygon ต่อช่อง สำหรับ masked comparison
+        self._work_size: Optional[tuple[int, int]] = None
+        self._golden_work: Optional[np.ndarray] = None
+        self._empty_work: Optional[np.ndarray] = None
+        self._geo: dict[int, tuple] = {}
         # CLAHE สำหรับลดแสงสะท้อนจ้า (Specular Glare) บนผิวโลหะชุบโครเมียม
         self._clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 
@@ -104,6 +130,8 @@ class SlotChecker:
         slots: list[dict],
         ref_image_size: Optional[tuple[int, int]] = None,
         ref_mode: Optional[str] = None,
+        template_size: Optional[tuple[int, int]] = None,
+        empty_image: Optional[np.ndarray] = None,
     ) -> int:
         """
         สร้าง reference crops (golden sample หรือ empty ref) โดย ROI crop จาก template reference image
@@ -113,6 +141,9 @@ class SlotChecker:
             slots           : รายการช่องจาก JSON (มี bbox_norm)
             ref_image_size  : (w, h) ถ้าต้องการ override ขนาดจาก image
             ref_mode        : "golden" (เครื่องมือครบ) หรือ "empty" (ถาดว่าง)
+            template_size   : (image_width, image_height) ของเทมเพลตที่ใช้วาด polygon
+                              ถ้าไม่ระบุจะคำนวณจาก polygon เทียบกับ bbox_norm
+            empty_image     : ภาพถาดว่างที่จัดระนาบตรงกับ reference_image แล้ว (ไม่บังคับ)
 
         Returns:
             จำนวน slot ที่โหลดสำเร็จ
@@ -151,8 +182,123 @@ class SlotChecker:
             self._refs[sn] = crop
             loaded += 1
 
-        logger.info(f"SlotChecker: โหลด reference ({self.ref_mode}) สำเร็จ {loaded}/{len(slots)} ช่อง")
+        self._template_size = tuple(template_size) if template_size else self._infer_template_size(slots)
+
+        # ── เตรียม masked comparison (golden mode เท่านั้น) ──
+        self._geo = {}
+        self._golden_work = self._empty_work = None
+        if self.ref_mode == "golden":
+            k = min(1.0, WORK_MAX_SIDE / float(max(w, h)))
+            self._work_size = (max(1, int(round(w * k))), max(1, int(round(h * k))))
+            self._golden_work = self._prep_work(gray_ref)
+            if empty_image is not None:
+                gray_empty = (
+                    cv2.cvtColor(empty_image, cv2.COLOR_BGR2GRAY)
+                    if len(empty_image.shape) == 3 else empty_image
+                )
+                self._empty_work = self._prep_work(gray_empty)
+            for slot in slots:
+                geo = self._slot_geometry(slot)
+                if geo is not None:
+                    self._geo[slot.get("slot_number", 0)] = geo
+
+        logger.info(
+            f"SlotChecker: โหลด reference ({self.ref_mode}) สำเร็จ {loaded}/{len(slots)} ช่อง, "
+            f"masked compare {len(self._geo)} ช่อง, empty ref={'มี' if self._empty_work is not None else 'ไม่มี'}"
+        )
         return loaded
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Helpers: template geometry & masked comparison
+    # ──────────────────────────────────────────────────────────────────────────
+
+    @staticmethod
+    def _infer_template_size(slots: list[dict]) -> Optional[tuple[int, int]]:
+        """หา (width, height) ของภาพที่ใช้วาด polygon จาก polygon เทียบกับ bbox_norm ของช่องเดียวกัน"""
+        ws, hs = [], []
+        for s in slots:
+            poly, b = s.get("polygon") or [], s.get("bbox_norm") or []
+            if len(poly) < 3 or len(b) < 4:
+                continue
+            xs = [p[0] for p in poly]
+            ys = [p[1] for p in poly]
+            if b[2] > 0.05:
+                ws.append(max(xs) / b[2])
+            if b[3] > 0.05:
+                hs.append(max(ys) / b[3])
+        if not ws or not hs:
+            return None
+        return int(round(float(np.median(ws)))), int(round(float(np.median(hs))))
+
+    def _polygon_px(self, polygon: list, img_w: int, img_h: int) -> Optional[np.ndarray]:
+        """แปลง polygon จากพิกัดเทมเพลตเป็นพิกัดภาพขนาด img_w x img_h"""
+        if not polygon or len(polygon) < 3:
+            return None
+        tw, th = self._template_size or (img_w, img_h)
+        pts = np.array(polygon, dtype=np.float32).reshape(-1, 2)
+        pts[:, 0] *= img_w / float(tw)
+        pts[:, 1] *= img_h / float(th)
+        return np.round(pts).astype(np.int32)
+
+    def _prep_work(self, gray: np.ndarray) -> np.ndarray:
+        img = cv2.resize(gray, self._work_size, interpolation=cv2.INTER_AREA).astype(np.float32)
+        return cv2.GaussianBlur(img, (3, 3), 0)
+
+    def _slot_geometry(self, slot: dict) -> Optional[tuple]:
+        """ตำแหน่งและ mask ของช่องในภาพย่อ: (x, y, w, h, mask, golden_patch, empty_patch)"""
+        W, H = self._work_size
+        poly = self._polygon_px(slot.get("polygon") or [], W, H)
+        mask_full = np.zeros((H, W), np.uint8)
+        if poly is not None:
+            cv2.fillPoly(mask_full, [poly.reshape(-1, 1, 2)], 255)
+        else:
+            b = slot.get("bbox_norm") or []
+            if len(b) < 4:
+                return None
+            cv2.rectangle(mask_full, (int(b[0] * W), int(b[1] * H)), (int(b[2] * W), int(b[3] * H)), 255, -1)
+        if np.count_nonzero(mask_full) < MIN_MASK_AREA:
+            mask_full = cv2.dilate(mask_full, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 9)))
+        x, y, w, h = cv2.boundingRect(mask_full)
+        if w < 3 or h < 3:
+            return None
+        mask = mask_full[y:y + h, x:x + w]
+        gold = self._golden_work[y:y + h, x:x + w]
+        if float(gold[mask > 0].std()) < 2.0:  # ภาพต้นแบบในช่องเรียบเกินไป เทียบไม่ได้
+            return None
+        empty = self._empty_work[y:y + h, x:x + w] if self._empty_work is not None else None
+        return x, y, w, h, mask.astype(np.float32), gold, empty
+
+    @staticmethod
+    def _masked_match(scene: np.ndarray, patch: np.ndarray, mask: np.ndarray,
+                      x: int, y: int, r: int) -> tuple[float, tuple[int, int]]:
+        """NCC เฉพาะใน mask ระหว่าง patch กับ scene รอบตำแหน่ง (x, y) เลื่อนได้ ±r px → (คะแนนสูงสุด, (dx, dy))"""
+        H, W = scene.shape[:2]
+        h, w = patch.shape[:2]
+        sx1, sy1 = max(0, x - r), max(0, y - r)
+        sx2, sy2 = min(W, x + w + r), min(H, y + h + r)
+        search = scene[sy1:sy2, sx1:sx2]
+        if search.shape[0] < h or search.shape[1] < w:
+            return 0.0, (0, 0)
+        try:
+            res = cv2.matchTemplate(search, patch, cv2.TM_CCOEFF_NORMED, mask=mask)
+        except cv2.error:
+            return 0.0, (0, 0)
+        res = np.nan_to_num(res, nan=-1.0, posinf=-1.0, neginf=-1.0)
+        _, best, _, loc = cv2.minMaxLoc(res)
+        return float(best), (sx1 + loc[0] - x, sy1 + loc[1] - y)
+
+    def _reference_scores(self, scene_work: np.ndarray, sn: int) -> Optional[dict]:
+        """คะแนนความคล้ายของช่องกับภาพต้นแบบ (golden) และภาพถาดว่าง (empty)"""
+        geo = self._geo.get(sn)
+        if geo is None:
+            return None
+        x, y, w, h, mask, gold, empty = geo
+        r = max(2, int(round(MATCH_SEARCH_FRAC * max(self._work_size))))
+        g, shift = self._masked_match(scene_work, gold, mask, x, y, r)
+        e = None
+        if empty is not None and float(empty[mask > 0].std()) >= 2.0:
+            e, _ = self._masked_match(scene_work, empty, mask, x, y, r)
+        return {"golden": g, "empty": e, "shift": shift}
 
     # ──────────────────────────────────────────────────────────────────────────
     # Main check
@@ -175,11 +321,12 @@ class SlotChecker:
         """
         h, w = aligned_image.shape[:2]
         gray = cv2.cvtColor(aligned_image, cv2.COLOR_BGR2GRAY) if len(aligned_image.shape) == 3 else aligned_image.copy()
+        scene_work = self._prep_work(gray) if self._golden_work is not None else None
 
         results: list[SlotResult] = []
 
         for slot in slots:
-            result = self._check_single_slot(gray, aligned_image, slot, w, h)
+            result = self._check_single_slot(gray, aligned_image, slot, w, h, scene_work)
             results.append(result)
 
         return results
@@ -192,7 +339,8 @@ class SlotChecker:
         """ตรวจช่องเดียว (สำหรับทดสอบ)"""
         h, w = aligned_image.shape[:2]
         gray = cv2.cvtColor(aligned_image, cv2.COLOR_BGR2GRAY) if len(aligned_image.shape) == 3 else aligned_image.copy()
-        return self._check_single_slot(gray, aligned_image, slot, w, h)
+        scene_work = self._prep_work(gray) if self._golden_work is not None else None
+        return self._check_single_slot(gray, aligned_image, slot, w, h, scene_work)
 
     # ──────────────────────────────────────────────────────────────────────────
     # Private: slot-level logic
@@ -205,6 +353,7 @@ class SlotChecker:
         slot: dict,
         img_w: int,
         img_h: int,
+        scene_work: Optional[np.ndarray] = None,
     ) -> SlotResult:
         sn = slot.get("slot_number", 0)
         bbox_norm = slot.get("bbox_norm", [])
@@ -244,8 +393,14 @@ class SlotChecker:
         template_cy = bh // 2
         result.template_center = (template_cx, template_cy)
 
-        # ── Step 3: ตรวจว่ามีวัตถุ ──────────────────────────────────────────
-        # ── Step 3: ตรวจว่ามีวัตถุ ──────────────────────────────────────────
+        # ── Step 3+4 (แบบใหม่): เทียบเฉพาะพื้นที่ polygon กับภาพต้นแบบและภาพถาดว่าง ──
+        if scene_work is not None:
+            scores = self._reference_scores(scene_work, sn)
+            if scores is not None:
+                self._decide_from_scores(result, scores, img_w)
+                return result
+
+        # ── Step 3: ตรวจว่ามีวัตถุ (แบบเดิม: ใช้เมื่อไม่มีภาพต้นแบบ) ─────────
         ref_crop = self._refs.get(sn)
         is_occupied, presence_conf, presence_reason = self._check_presence(
             slot_gray, ref_crop
@@ -292,6 +447,52 @@ class SlotChecker:
             result.reason = shape_detail.get("reason", "รูปทรงหรือตำแหน่งไม่ตรง")
 
         return result
+
+    def _decide_from_scores(self, result: SlotResult, scores: dict, img_w: int) -> None:
+        """ตัดสินสถานะจากความคล้ายกับภาพต้นแบบ (g) และภาพถาดว่าง (e) ในพื้นที่ polygon"""
+        g, e = scores["golden"], scores["empty"]
+        result.golden_score, result.empty_score = g, e
+        dx, dy = scores["shift"]
+        k = img_w / float(self._work_size[0])
+        result.center_offset_px = float(np.hypot(dx, dy)) * k
+        if result.template_center:
+            cx, cy = result.template_center
+            result.contour_center = (int(cx + dx * k), int(cy + dy * k))
+        txt = f"ต้นแบบ {g:.0%}" + (f", ถาดว่าง {e:.0%}" if e is not None else "")
+
+        if e is not None:
+            d = g - e
+            if d <= -EMPTY_MARGIN:
+                result.status = "missing"
+                result.confidence = min(0.98, 0.60 + 0.40 * min(1.0, -d / 0.5))
+                result.reason = f"ช่องว่าง — คล้ายถาดว่างมากกว่าต้นแบบ ({txt})"
+            elif d >= EMPTY_MARGIN and g >= GOLDEN_MATCH_OK:
+                result.status = "correct"
+                result.confidence = min(0.98, 0.60 + 0.40 * min(1.0, d / 0.5) * min(1.0, g))
+                result.reason = f"มีเครื่องมือตรงตำแหน่งต้นแบบ ({txt})"
+            elif d >= EMPTY_MARGIN:
+                result.status = "misplaced"
+                result.confidence = min(0.90, 0.55 + 0.35 * min(1.0, d / 0.5))
+                result.reason = f"มีวัตถุแต่ไม่ตรงต้นแบบ — อาจวางผิดช่อง/กลับด้าน ({txt})"
+            else:
+                result.status = "recheck"
+                result.confidence = 0.50
+                result.reason = f"แยกไม่ออกว่ามีของหรือว่าง ({txt})"
+            return
+
+        # ไม่มีภาพถาดว่าง: ใช้ความคล้ายต้นแบบอย่างเดียว
+        if g >= GOLDEN_ONLY_OK:
+            result.status = "correct"
+            result.confidence = min(0.95, 0.55 + 0.40 * g)
+            result.reason = f"มีเครื่องมือตรงตำแหน่งต้นแบบ ({txt})"
+        elif g < GOLDEN_ONLY_MISSING:
+            result.status = "missing"
+            result.confidence = min(0.90, 0.60 + 0.60 * (GOLDEN_ONLY_MISSING - g))
+            result.reason = f"ไม่พบเครื่องมือตามต้นแบบ ({txt})"
+        else:
+            result.status = "recheck"
+            result.confidence = 0.50
+            result.reason = f"คล้ายต้นแบบปานกลาง ตัดสินไม่ได้ ({txt})"
 
     # ──────────────────────────────────────────────────────────────────────────
     # Private: presence detection
@@ -451,12 +652,10 @@ class SlotChecker:
                 angle_deg = 0.0
         detail["angle_deg"] = angle_deg
 
-        # ── Scale polygon จาก 3840x2880 สู่ current resolution ──────────────
-        scaled_polygon = []
-        if polygon and len(polygon) >= 3:
-            scale_x = img_w / 3840.0
-            scale_y = img_h / 2880.0
-            scaled_polygon = [[int(pt[0] * scale_x), int(pt[1] * scale_y)] for pt in polygon]
+        # ── Scale polygon จากขนาดภาพของเทมเพลต (image_width x image_height) สู่ current resolution ──
+        # (เดิมสมมติว่าเทมเพลตกว้าง 3840 เสมอ ทำให้ถาด 70 ช่องที่ใช้ภาพ 1448 px ได้ polygon ผิดขนาด)
+        poly_px = self._polygon_px(polygon, img_w, img_h)
+        scaled_polygon = poly_px.tolist() if poly_px is not None else []
 
         iou_score = 0.0
         if scaled_polygon:

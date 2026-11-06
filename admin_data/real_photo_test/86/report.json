@@ -1,0 +1,3406 @@
+[
+ {
+  "file": "1110906_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1110907_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1110908_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1110909_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1110910_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1110911_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1110912_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1110913_0.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1772440847075.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1772440847345.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1772440848220.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1772440848919.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773306324948.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773306325790.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773306326464.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773306327394.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773656614786.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773656627008.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773656627322.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773656627608.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773719278233.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 33% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773719279671.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773719280461.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773719281186.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1773730971192.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773730973161.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773730973771.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773730983150.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911671893.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911672530.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911673103.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911682801.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911682991.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1773911683237.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774323380739.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774323395380.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1774323395510.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774323395657.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774323396641.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774323397837.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774336888384.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774336889124.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774336889744.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774336890324.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774417651804.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774417652367.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774417652963.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774417663830.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774429144412.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774429156446.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774429156561.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774429157138.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774429158025.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774581795905.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1774581795986.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775539142218.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775539142328.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775539142426.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775539143332.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775554286701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775554287256.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775554320534.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775554320701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775620115354.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775620127203.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775620127334.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1775620127452.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777016396323.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777016396992.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777016398157.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777016398798.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777451199083.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 20% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1777451200176.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1777451213858.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 23% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1777451214768.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335249037.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335249771.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335250489.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335251189.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335251851.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 21% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786335252497.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335261650.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786335261754.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347049358.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347050062.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347060612.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347060701.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347060852.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 34% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786347061679.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.2,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786347062604.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 27% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786347063284.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595037967.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595038699.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595039386.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595040080.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595040758.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595041473.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786595051649.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 32% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786595051825.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786695042845.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786695043001.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786695044437.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786695045131.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786940683192.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 30% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786940693517.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 25% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1786957022978.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786957023659.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786957024334.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1786957025024.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787129739061.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 18% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787129739152.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201809694.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201809800.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201811346.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201812078.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201812904.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201813546.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201814467.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787201815508.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285802368.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285803087.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285816750.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285816859.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285817020.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285817721.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787285818403.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787558966685.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787558967072.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787714528529.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787714529345.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 29% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787714530052.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 19% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787714542306.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787802950607.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 22% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787802950733.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.3,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787981543762.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787981554739.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787981554836.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.0,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 26% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "1787981554978.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787983836110.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "1787983836359.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "20260917_130159.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 509,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": true,
+   "matches": 509,
+   "correct": 66,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 3,
+   "missing_items": [],
+   "seconds": 1.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "20260917_130431.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 6.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_095922.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.6,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_100120.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.8,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_100155.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 28% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "IMG_20260917_100230.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_100240.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.4,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_114453.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_114513.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 5.7,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_114550.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.4,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_114608.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 5.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260917_114704.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 0,
+   "missing_items": [],
+   "seconds": 0.1,
+   "error": "ถ่ายภาพไกลเกินไป: ถาดมีขนาดเพียง 31% ของภาพ (เกณฑ์ขั้นต่ำ 35%) กรุณาขยับกล้องเข้าใกล้ถาดมากขึ้น"
+  }
+ },
+ {
+  "file": "IMG_20260917_130119.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 364,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": true,
+   "matches": 364,
+   "correct": 66,
+   "missing": 1,
+   "misplaced": 0,
+   "recheck": 2,
+   "missing_items": [
+    "ลูกบ๊อกซ์ 6 เหลี่ยม 3/8\" No.8"
+   ],
+   "seconds": 1.0,
+   "error": ""
+  }
+ },
+ {
+  "file": "IMG_20260917_130500.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 6.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_103820.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 3.2,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_103827.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 3.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_103850.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_103858.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_104001.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 3.0,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_104004.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 1.5,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_111452.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 3.1,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ },
+ {
+  "file": "IMG_20260921_111500.jpg",
+  "tray": "box1-template01_70-item",
+  "quality_ok": true,
+  "quality_issues": "",
+  "tray_votes": {
+   "box1-template01_70-item": 0,
+   "box1-template02_16-item": 0
+  },
+  "current_ref": {
+   "aligned": false,
+   "matches": 0,
+   "correct": 0,
+   "missing": 0,
+   "misplaced": 0,
+   "recheck": 69,
+   "missing_items": [],
+   "seconds": 2.9,
+   "error": "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ (0 จุดตรงกัน) — ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+  }
+ }
+]

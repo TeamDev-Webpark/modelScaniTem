@@ -149,22 +149,32 @@ class ScanAggregator:
         tray_template_or_id: Any,
         slots: Optional[list[dict]] = None,
         reference_image: Optional[np.ndarray] = None,
+        empty_reference_image: Optional[np.ndarray] = None,
+        use_empty_ref: bool = True,
     ) -> bool:
         """
         เตรียม pipeline สำหรับ tray
         เรียกครั้งเดียวก่อน scan()
 
         Args:
-            tray_template_or_id : เช่น "TRAY_YA_1_2" หรือ dict template ที่มี tray_id และ slots
-            slots               : จาก JSON template["slots"] (ถ้า tray_template_or_id เป็น str)
-            reference_image     : ถ้า None จะโหลดจาก tray_refs_dir อัตโนมัติ
+            tray_template_or_id   : เช่น "TRAY_YA_1_2" หรือ dict template ที่มี tray_id และ slots
+            slots                 : จาก JSON template["slots"] (ถ้า tray_template_or_id เป็น str)
+            reference_image       : ถ้า None จะโหลดจาก tray_refs_dir อัตโนมัติ
+            empty_reference_image : ภาพถาดว่างที่จัดระนาบตรงกับ reference แล้ว
+                                    ถ้า None จะลองโหลด <tray_refs_dir>/<tray_id>_empty.jpg
+            use_empty_ref         : False = ไม่ใช้ภาพถาดว่าง (เทียบกับต้นแบบอย่างเดียว)
 
         Returns:
             True ถ้าพร้อมใช้งาน
         """
+        template_size = None
         if isinstance(tray_template_or_id, dict):
             tray_id = tray_template_or_id.get("tray_id", "unknown")
             slots = slots if slots is not None else tray_template_or_id.get("slots", [])
+            tw = tray_template_or_id.get("image_width") or (tray_template_or_id.get("image_size") or [None, None])[0]
+            th = tray_template_or_id.get("image_height") or (tray_template_or_id.get("image_size") or [None, None])[1]
+            if tw and th:
+                template_size = (int(tw), int(th))
         else:
             tray_id = str(tray_template_or_id)
             slots = slots if slots is not None else []
@@ -188,7 +198,18 @@ class ScanAggregator:
         # โหลด empty_refs จาก reference image
         ref_img = reference_image if reference_image is not None else self.aligner.get_reference_image(tray_id)
         if ref_img is not None and slots:
-            loaded = self.checker.load_empty_refs(ref_img, slots)
+            empty_img = empty_reference_image if use_empty_ref else None
+            if empty_img is None and use_empty_ref:
+                for ext in (".jpg", ".png"):
+                    p = self.aligner.tray_refs_dir / f"{tray_id}_empty{ext}"
+                    if p.exists():
+                        empty_img = cv2.imread(str(p))
+                        break
+            if empty_img is not None and empty_img.shape[:2] != ref_img.shape[:2]:
+                empty_img = cv2.resize(empty_img, (ref_img.shape[1], ref_img.shape[0]))
+            loaded = self.checker.load_empty_refs(
+                ref_img, slots, template_size=template_size, empty_image=empty_img
+            )
             logger.info(f"ScanAggregator: setup '{tray_id}' — {loaded} empty_refs โหลดแล้ว")
 
         self._ready = True
@@ -339,6 +360,30 @@ class ScanAggregator:
                             align_result = direct_align if (direct_align and direct_align.match_count > retry_align.match_count) else retry_align
 
         # ── Step 2–4: ตรวจแต่ละช่อง ─────────────────────────────────────────
+        has_ref = self.aligner.get_reference_image(tray_id) is not None
+        if has_ref and not (align_result and align_result.success):
+            # จัดระนาบไม่ได้ → กรอบช่องจะวางผิดที่ ผลจึงเชื่อไม่ได้: ให้ทุกช่องเป็น "ตรวจซ้ำ" และขอให้ถ่ายใหม่
+            slot_results = []
+            for s in self._slots:
+                r = SlotResult(s.get("slot_number", 0))
+                r.status, r.confidence = "recheck", 0.0
+                r.reason = "จัดระนาบภาพไม่สำเร็จ — ตรวจช่องนี้ไม่ได้"
+                slot_results.append(r)
+            names = {s.get("slot_number", 0): s.get("name", "") for s in self._slots}
+            results_dicts = [{**r.to_dict(), "item_name": names.get(r.slot_number, "")} for r in slot_results]
+            n = len(slot_results)
+            return ScanSummary(
+                tray_id=tray_id, is_complete=False, total_slots=len(self._slots),
+                correct_count=0, missing_count=0, misplaced_count=0, recheck_count=n,
+                slot_results=results_dicts, annotated_image=working_image.copy(),
+                quality=quality_result, align=align_result, crop=crop_result,
+                error_message=(
+                    "จัดระนาบภาพให้ตรงกับถาดต้นแบบไม่สำเร็จ "
+                    f"({align_result.match_count if align_result else 0} จุดตรงกัน) — "
+                    "ถ่ายใหม่ให้เห็นถาดเต็มเฟรม ตรงหน้า และไม่มีแสงสะท้อน"
+                ),
+            )
+
         slot_results: list[SlotResult] = self.checker.check_all_slots(working_image, self._slots)
 
         # ── Step 5: รวมผลและวาดกรอบ ─────────────────────────────────────────
