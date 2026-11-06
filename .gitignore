@@ -1,7 +1,5 @@
-# Secrets — copy .env.example to .env and fill in your own values
-.env
-.env.*
-!.env.example
+# NOTE: during development .env, model weights and admin uploads stay in git on purpose.
+# Before release, add these back: .env, *.pt, *.onnx, admin_data/images/, admin_data/models/
 
 # Python
 __pycache__/
@@ -17,13 +15,7 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Model weights (download or train, do not commit)
-*.pt
-*.onnx
-
 # Data created by the admin app at runtime
-admin_data/images/
-admin_data/models/
 admin_data/exports/
 state/
 
