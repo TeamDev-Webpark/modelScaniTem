@@ -1,445 +1,159 @@
-# 🔧 Shape Scanner - ระบบสแกนรูปแบบเครื่องมือ
+# 🔧 modelScaniTem: ระบบตรวจเช็คเครื่องมือในถาด
 
-ระบบอัตโนมัติสำหรับจดจำและค้นหาเครื่องมือในภาพ โดยใช้เทคโนโลยี **SIFT Feature Matching** เพื่อให้ได้ความแม่นยำสูง แม้ในสภาวะแสงและมุมต่างๆ
+ระบบตรวจว่าเครื่องมือในถาด/แผงอยู่ครบและวางถูกช่องหรือไม่ จากภาพถ่ายมือถือหรือ iPad
+ใช้กับรายการเครื่องมือตาม **Merchandise Visit Checklist** (ชุดมาตรฐาน 86 รายการ และเครื่องมือพิเศษ 31 รายการ)
 
----
+มี 2 แอป (Streamlit):
 
-## ✨ คุณสมบัติหลัก
-
-- 🎯 **จดจำรูปแบบเครื่องมือ** - ฝึกฝนจากรูปภาพต้นแบบอัตโนมัติ
-- 🔍 **ค้นหาแบบอินเวอร์เรียนต์** - ตรวจจับได้แม้เปลี่ยนขนาด มุม หรือแสง
-- 🖼️ **ประมวลผลภาพด้วย Tiling** - แบ่งภาพเป็น 4 ส่วนเพื่อความแม่นยำสูง
-- 📊 **ปรับแสงอัจฉริยะ** - ใช้ CLAHE เพื่อปรับความเบริคสเฉพาะส่วน
-- 📈 **ระดับความการ** - คำนวณคะแนนคุณภาพสำหรับแต่ละการค้นหา
-- 🎨 **วิจัลไลเซชัน** - วาดจุดลักษณะเฉพาะบนภาพ
+| แอป | ไฟล์ | ใช้ทำอะไร |
+|---|---|---|
+| แอปสแกน | `app.py` | สแกนเครื่องมือ, เช็คลิสต์, ลงทะเบียนและตรวจถาด |
+| แอป admin | `admin.py` | จัดการคลาสเครื่องมือ, เก็บภาพเทรน, export dataset, จัดการโมเดล YOLO, ทดสอบสแกน (ต้องมี PostgreSQL) |
 
 ---
 
 ## 📦 โครงสร้างโปรเจกต์
+
 ```
 modelScaniTem/
-├── README.md                 # ไฟล์เอกสารนี้
-├── app.py                   # แอปplication Streamlit
-├── debug.py                 # สคริปต์ตรวจสอบปัญหา
-├── scanner_module.py        # โมดูลหลัก (ShapeScanner)
-└── mock_database/           # โฟลเดอร์เก็บรูปแบบเครื่องมือต้นแบบ
-    └── data.json           # ข้อมูลฐานข้อมูล
+├── app.py                  # แอปสแกน: ประกอบหน้า + เมนู
+├── admin.py                # แอป admin (YOLO + PostgreSQL)
+├── ui/                     # หน้าของแอปสแกน
+│   ├── style.py            #   CSS ธีม + header
+│   ├── common.py           #   session state, โหลดภาพ (EXIF), ข้อมูลเครื่องมือ
+│   ├── scanner_page.py     #   หน้า "สแกน"
+│   ├── checklist_page.py   #   หน้า "เช็คลิสต์"
+│   └── tray_page.py        #   หน้า "ถาด" (ลงทะเบียน / ตรวจสอบถาด)
+├── scan_workflow/          # pipeline ตรวจถาด (ดูหัวข้อด้านล่าง)
+├── scanners/               # ShapeScanner (SIFT, หน้า "สแกน") และ YOLOToolScanner (แอป admin)
+├── admin_modules/          # หน้าของแอป admin
+├── core/                   # config.py (path ทั้งหมด), db.py, models_db.py
+├── data/                   # ข้อมูลหลัก (อยู่ใน git)
+│   ├── tray_templates/     #   เทมเพลตถาด: ช่อง, polygon, ชื่อ/รหัสอะไหล่ตาม checklist
+│   ├── tray_refs/          #   ภาพต้นแบบ <tray_id>.jpg, ภาพถาดว่าง <tray_id>_empty.jpg
+│   ├── data.json           #   รายการเครื่องมือ
+│   ├── merchandise_checklist.json   # Excel checklist ที่แปลงเป็น JSON
+│   ├── checklist_slot_mapping.json  # ช่องในถาด → ลำดับใน checklist
+│   └── sample_images/
+├── admin_data/             # ไฟล์ที่แอป admin สร้าง: images/, models/, exports/
+├── reports/                # ผลเทส (เก็บ json/csv ใน git, ไม่เก็บภาพผล)
+├── scripts/
+│   ├── build/              # สร้าง/อัปเดตข้อมูลถาด
+│   ├── eval/               # เทสและวัดความแม่นยำ
+│   └── legacy/             # สคริปต์เก่า (ดู scripts/legacy/README.md)
+└── notebooks/              # Colab สำหรับเทรน YOLOv8
 ```
+
+path ทั้งหมดอยู่ใน `core/config.py` ที่เดียว แอปและสคริปต์จึงรันจากโฟลเดอร์ไหนก็ได้
 
 ---
+
 ## 🚀 เริ่มต้นใช้งาน
-### 1. ติดตั้ง Dependencies
 
 ```bash
-pip install opencv-python numpy streamlit
+python -m venv .venv
+.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-### 2. เตรียมรูปแบบเครื่องมือ
+ตั้งค่า `.env` (ดูตัวอย่างใน `.env.example`):
 
-วางรูปภาพเครื่องมือต้นแบบลงในโฟลเดอร์ `mock_database/`:
-- รองรับไฟล์: `.png`, `.jpg`, `.jpeg`, `.bmp`
-- พื้นหลังยิ่งสีขาวยิ่งดี (ระบบจะลบออกอัตโนมัติ)
+| ตัวแปร | ใช้ทำอะไร |
+|---|---|
+| `DATABASE_URL` | PostgreSQL ของแอป admin |
+| `SECRET_KEY`, `ADMIN_DEFAULT_USER`, `ADMIN_DEFAULT_PASS` | การล็อกอินแอป admin |
+| `DATA_DIR` | โฟลเดอร์ไฟล์ของแอป admin (ค่าเริ่มต้น `admin_data`) |
+| `YAMAHA_DATA_DIR` | (ไม่บังคับ) โฟลเดอร์ภาพดิบนอก repo เช่น `C:/MyProject/Webpark/dataYamaha` สคริปต์จะใช้เป็นค่าเริ่มต้นของ `--photos` |
 
-```
-mock_database/
-├── hammer.png
-├── screwdriver.jpg
-└── wrench.bmp
-```
+> ช่วงพัฒนา `.env`, โมเดล `.pt` และภาพเทรนใน `admin_data/` ถูกเก็บใน git โดยตั้งใจ
+> ก่อนใช้งานจริงให้เพิ่มกลับเข้า `.gitignore` (ดูหมายเหตุบรรทัดแรกของไฟล์) และเปลี่ยนรหัสผ่านทั้งหมด
 
-### 3. รันแอปพลิเคชัน
+รันแอป:
 
 ```bash
 streamlit run app.py
 ```
 
-หรือทดสอบจากเทอร์มินัล:
-
-```bash
-python debug.py
-```
-
----
-
-## 📚 วิธีการใช้งาน (Usage)
-
-### การใช้งานพื้นฐาน
-
-```python
-from scanner_module import ShapeScanner
-import cv2
-
-# 1. สร้าง Instance จากเครื่องสแกน
-scanner = ShapeScanner(db_folder='mock_database')
-
-# 2. อ่านภาพที่ต้องการสแกน
-scene_image = cv2.imread('scene.jpg')
-
-# 3. เริ่มสแกน (แบบ Tiling)
-results = scanner.scan_with_tiling(scene_image, threshold=8)
-
-# 4. แสดงผลลัพธ์
-for item in results:
-    print(f"✅ {item['filename']} - คะแนน: {item['score']}")
-```
-
-### ตัวเลือกพารามิเตอร์
-
-```python
-# Tiling Scan (แนะนำ - แม่นยำกว่า)
-results = scanner.scan_with_tiling(
-    scene_image,
-    threshold=8,        # เกณฑ์ขั้นต่ำของคะแนน (ค่าเริ่มต้น: 8)
-    min_area=100        # พื้นที่ขั้นต่ำ (พิกเซล)
-)
-
-# Full Image Scan (Legacy - ค้นหาแบบเต็มภาพ)
-results = scanner.scan_multiple_items(
-    scene_image,
-    threshold=8,
-    min_area=100
-)
-```
-
-### วิจัลไลเซชัน
-
-```python
-# วาดจุดลักษณะเฉพาะบนภาพ
-output_img, keypoint_count = scanner.visualize_keypoints(scene_image)
-cv2.imshow('Keypoints', output_img)
-cv2.waitKey(0)
-print(f"พบจุด: {keypoint_count}")
-```
-
----
-
-## 🏗️ สถาปัตยกรรมและหมวดหมู่ Method
-
-ระบบแบ่งเป็น **8 ส่วนหลัก** เพื่อให้เป็นระเบียบ:
-
-### **SECTION 1: INITIALIZATION** - การเตรียมการ
-| Method | ที่อยู่ | |
-|--------|--------|---|
-| `__init__()` | Constructor | ตั้งค่า SIFT และ FLANN matcher |
-
-### **SECTION 2: TEMPLATE MANAGEMENT** - จัดการเทมเพลต
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `load_and_train()` | Public | โหลดรูปแบบและดึงลักษณะเฉพาะ |
-| `_load_template()` | Private | ฟังก์ชันโหลดเทมเพลตเดียว |
-
-### **SECTION 3: IMAGE PROCESSING** - ประมวลผลภาพ
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `_preprocess_image()` | Private | แปลงภาพและปรับแสง |
-| `_apply_clahe()` | Private | ปรับแสงแบบปรับตัว (CLAHE) |
-| `_create_mask()` | Private | สร้าง Mask ลบพื้นหลัง |
-
-### **SECTION 4: FEATURE MATCHING** - จับคู่ลักษณะ
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `_extract_features()` | Private | ดึงลักษณะเฉพาะด้วย SIFT |
-| `_match_features()` | Private | จับคู่ลักษณะด้วย FLANN |
-| `_filter_good_matches()` | Private | กรองการจับคู่ที่ดี |
-| `_calculate_homography()` | Private | คำนวณการแปลงเรขาคณิต |
-
-### **SECTION 5: RESULTS PROCESSING** - ประมวลผลผลลัพธ์
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `_calculate_match_area()` | Private | คำนวณพื้นที่การจับคู่ |
-| `_filter_results()` | Private | กรองผลตามเกณฑ์ |
-| `_merge_results()` | Private | รวมผลจากหลายส่วน |
-
-### **SECTION 6: SCANNING LOGIC (PRIVATE)** - ลอจิกการสแกน
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `_scan_single_image()` | Private | สแกนภาพเดียว |
-| `_match_template()` | Private | จับคู่เทมเพลตเดียว |
-
-### **SECTION 7: PUBLIC SCANNING METHODS** - สแกนสาธารณะ
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `scan_with_tiling()` | Public | **[MAIN]** สแกนแบบ 4 ส่วน |
-| `scan_multiple_items()` | Public | สแกนเต็มภาพ (Legacy) |
-
-### **SECTION 8: VISUALIZATION** - วิจัลไลเซชัน
-| Method | ที่อยู่ | ที่อยู่ |
-|--------|--------|--------|
-| `visualize_keypoints()` | Public | วาดจุดลักษณะบนภาพ |
-
----
-
-## ⚙️ การตั้งค่า
-
-### SIFT Detector Parameters
-
-```python
-# ใน __init__ ของ ShapeScanner
-self.sift = cv2.SIFT_create(
-    contrastThreshold=0.03,  # ความไวต่อความสัมพันธ์ (ต่ำ = ไวมาก)
-    edgeThreshold=10         # ลดขอบเงาที่หลอกตา
-)
-```
-
-### Tiling Settings
-
-```python
-# ใน scan_with_tiling()
-overlap_h = int(h * 0.1)  # Overlap 10% บนล่าง
-overlap_w = int(w * 0.1)  # Overlap 10% ซ้ายขวา
-```
-
-### Feature Matching Settings
-
-```python
-# FLANN Matcher Parameters
-index_params = dict(algorithm=1, trees=5)
-search_params = dict(checks=50)
-```
-
-### Matching Thresholds
-
-```python
-# ใน load_and_train()
-threshold_mask = 235  # ถือว่าพื้นหลังถ้า > 235 (0-255)
-
-# ใน _filter_good_matches()
-ratio_threshold = 0.7    # Lowe's ratio test: m.distance < 0.7 * n.distance
-
-# ใน scan_with_tiling()
-default_threshold = 8    # คะแนนขั้นต่ำของการจับคู่
-min_area = 100          # พื้นที่ขั้นต่ำ (พิกเซล)
-```
-
----
-
-## 📊 ผลลัพธ์ (Output Format)
-
-### ผลลัพธ์การสแกน
-
-แต่ละรายการมีโครงสร้าง:
-
-```python
-{
-    "filename": "hammer.png",      # ชื่อเทมเพลต
-    "score": 42,                   # จำนวนจุดที่จับคู่ได้
-    "area": 15234                  # พื้นที่การจับคู่ (พิกเซล)
-}
-```
-
-ผลลัพธ์เรียงลำดับจากสูงไปต่ำ (Best match first)
-
-### Template Information
-
-เหลือรูปแบบที่จำนำ:
-
-```python
-self.templates = [
-    {
-        "name": "hammer.png",
-        "kp": [KeyPoint, KeyPoint, ...],  # จุดลักษณะเฉพาะ
-        "des": [[descriptor], ...],       # ตัวบรรยายลักษณะ
-        "shape": (height, width)          # ขนาดภาพ
-    },
-    ...
-]
-```
-
----
-
-## 🐛 การแก้ไขปัญหา
-
-### ปัญหา: ไม่พบรูปแบบใดๆ
-
-```bash
-python debug.py
-```
-
-ตรวจสอบ:
-- ✅ โฟลเดอร์ `mock_database/` มีอยู่หรือไม่?
-- ✅ มีไฟล์รูปภาพหรือไม่?
-- ✅ นามสกุล `.png`, `.jpg`, `.jpeg`, `.bmp` หรือไม่?
-- ✅ พื้นหลังสีขาวหรือไม่?
-
-### ปัญหา: คะแนนต่ำเกินไป
-
-**วิธีแก้:**
-1. ลดค่า `threshold` - `scan_with_tiling(image, threshold=5)`
-2. เพิ่มจำนวนจุดในเทมเพลต - ใช้รูปของเครื่องมือเดียวกัน
-3. ปรับ `contrastThreshold` เป็น 0.02 หรือ 0.01 (ไวมากขึ้น)
-
-### ปัญหา: ความแม่นยำต่ำ (False Positives)
-
-**วิธีแก้:**
-1. เพิ่ม `threshold` - `scan_with_tiling(image, threshold=10)`
-2. เพิ่ม `min_area` - `scan_with_tiling(image, min_area=150)`
-3. ใช้รูปต้นแบบหลายมุม/ระยะ
-
----
-
-## 🎓 ทำความเข้าใจ Algorithm
-
-### SIFT (Scale-Invariant Feature Transform)
-
-1. **Detection** - ค้นหาจุดสำคัญที่ไม่เปลี่ยนแปลงตามขนาด
-2. **Extraction** - ดึงตัวบรรยาย (128-dimensional vector)
-3. **Matching** - จับคู่ระหว่างจุดในภาพต้นแบบและฉากภาพ
-
-### Image Tiling
-
-ภาพขนาดใหญ่ได้รับการแบ่งเป็น 4 ส่วนพื้นที่ที่ทับซ้อนกัน:
-
-```
-┌─────────┐
-│ 1   2   │
-├─────────┤
-│ 3   4   │
-└─────────┘
-```
-
-ข้อดี:
-- ↑ ความแม่นยำสำหรับเครื่องมือขนาดเล็ก
-- ↑ ประสิทธิภาพการคำนวณ
-- ↓ ปัญหา False Negatives
-
----
-
-## 📝 ตัวอย่าง (Examples)
-
-### ตัวอย่าง 1: สแกนจากกล้อง Webcam
-
-```python
-import cv2
-from scanner_module import ShapeScanner
-
-scanner = ShapeScanner()
-cap = cv2.VideoCapture(0)
-
-while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
-    
-    results = scanner.scan_with_tiling(frame, threshold=8)
-    
-    for item in results[:3]:  # แสดงเฉพาะ 3 อันดับแรก
-        print(f"{item['filename']}: {item['score']}")
-    
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-```
-
-### ตัวอย่าง 2: วิจัลไลเซชัน
-
-```python
-import cv2
-from scanner_module import ShapeScanner
-
-scanner = ShapeScanner()
-image = cv2.imread('scene.jpg')
-
-output_img, count = scanner.visualize_keypoints(image)
-
-cv2.imshow('Detected Keypoints', output_img)
-print(f"Keypoints found: {count}")
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-```
-
-### ตัวอย่าง 3: ทดสอบเกณฑ์ต่างๆ
-
-```python
-import cv2
-from scanner_module import ShapeScanner
-
-scanner = ShapeScanner()
-scene = cv2.imread('scene.jpg')
-
-# ทดสอบเกณฑ์หลากหลาย
-for threshold in [5, 8, 10, 12]:
-    print(f"\n--- threshold = {threshold} ---")
-    results = scanner.scan_with_tiling(scene, threshold=threshold)
-    print(f"Found: {len(results)} items")
-    for r in results:
-        print(f"  {r['filename']}: {r['score']}")
-```
-
----
-
-## 📄 ไฟล์เพิ่มเติม
-
-### app.py
-แอปพลิเคชันเว็บ **Streamlit** สำหรับ UI:
-- อัปโหลด/ถ่ายรูปภาพ
-- แสดงผลการสแกนสดๆ
-- เช็คลิสต์แบบโต้ตอบ
-- บันทึกข้อมูล JSON
-
-### debug.py
-สคริปต์ตรวจสอบและแก้ไขปัญหา:
-- ตรวจสอบโฟลเดอร์และไฟล์
-- ตรวจสอบนามสกุลไฟล์
-- ให้คำแนะนำการแก้ไข
-
-### mock_database/data.json
-ข้อมูลเก็บรายการ:
-```json
-{
-  "items": [
-    {"id": 1, "name": "Hammer", "status": "complete"},
-    ...
-  ]
-}
-```
-
----
-
-## 🔧 สิ่งที่อาจต้องปรับปรุงในอนาคต
-
-- [x] รองรับฐานข้อมูล PostgreSQL สำหรับจัดการ Dataset และผลลัพธ์
-- [x] ระบบหลังบ้าน Admin Dashboard (`admin.py`) พร้อมระบบ Login
-- [x] ระบบจัดเก็บและ Export Dataset สำหรับโมเดล YOLOv8
-- [ ] การประมวลผลแบบ GPU
-- [ ] CLI Tool สำหรับ batch processing
-- [ ] Unit Tests
-- [ ] Docker support
-
----
-
-## 🛠️ ระบบหลังบ้าน (Admin Backend & PostgreSQL)
-
-### 1. ติดตั้ง Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. ตั้งค่าการเชื่อมต่อฐานข้อมูล (.env)
-```env
-DATABASE_URL=postgresql://postgres:1234@localhost:5432/model_stcan_item
-```
-
-### 3. เริ่มใช้งาน Admin Backend
 ```bash
 streamlit run admin.py
 ```
-- **บัญชีเริ่มต้น:** `admin` / `admin1234`
-- **ระบบจะสร้างตารางทั้ง 7 ใน PostgreSQL ให้อัตโนมัติเมื่อเริ่มเชื่อมต่อ**
 
 ---
 
-## 📞 ติดต่อและข้อเสนอแนะ
+## 🔍 การตรวจถาด (`scan_workflow/`)
 
-หากมีคำถามหรือข้อเสนอแนะ สามารถเปิด Issue หรือ Pull Request ได้
+```
+ภาพถ่าย → Quality Gate → จัดระนาบ (SIFT + Homography กับ data/tray_refs/<tray_id>.jpg)
+        → ตรวจทีละช่อง (SlotChecker) → สรุปผล + วาดกรอบสี (ScanAggregator)
+```
+
+| ขั้น | ไฟล์ | หมายเหตุ |
+|---|---|---|
+| Quality Gate | `quality_gate.py` | เบลอ/มืด/สว่างเกิน |
+| ตัดขอบถาด | `tray_cropper.py` | ใช้เมื่อจัดระนาบตรงๆ ไม่ได้ (ถ่ายไกล, อยู่ในตู้) |
+| จัดระนาบ | `aligner.py` | ลองหมุน 0/90/180/270°; ภาพแนวตั้งถูกหมุนเป็นแนวนอนก่อน |
+| ตรวจช่อง | `slot_checker.py` | เทียบพื้นที่ polygon ของช่องกับภาพถาดครบและภาพถาดว่าง |
+| สรุปผล | `aggregator.py` | ถ้าจัดระนาบไม่สำเร็จ ทุกช่องเป็น "ตรวจซ้ำ" และขอให้ถ่ายใหม่ |
+
+สถานะของแต่ละช่อง: 🟢 ครบ, 🔴 ขาดหาย, 🟡 ผิดตำแหน่ง, ↩️ ตรวจซ้ำ
+
+**ข้อจำกัดตอนนี้:** ภาพต้นแบบเป็นภาพสตูดิโอของถาดอีกใบ ภาพหน้างาน (ถาดโฟมเทาในตู้, แผงหลังกระจก)
+จึงยังจัดระนาบไม่ค่อยได้ ควรถ่ายภาพต้นแบบใหม่จากถาดหน้างาน (ดูหัวข้อถัดไป)
 
 ---
 
-## 📄 License
+## 🧰 เพิ่มหรืออัปเดตถาด
 
-โปรเจกต์นี้เป็นของส่วนตัว
+1. **เทมเพลต** `data/tray_templates/<tray_id>.json` ต้องมี `image_width`, `image_height` และแต่ละช่องมี `slot_number`, `bbox_norm`, `polygon`
+2. **จับคู่กับ checklist:** เพิ่มช่องใน `data/checklist_slot_mapping.json` แล้วรัน
+   ```bash
+   python scripts/build/apply_checklist_mapping.py --apply --photos <โฟลเดอร์ภาพ <tray_id>_number.png>
+   ```
+   ผลตรวจอยู่ที่ `reports/checklist_match/`
+3. **ภาพต้นแบบ:** เตรียม `<tray_id>_full.png` (ถาดครบ) และ `<tray_id>_empty.png` (ถาดว่าง) ในมุมเดียวกับเทมเพลต แล้วรัน
+   ```bash
+   python scripts/build/build_tray_refs.py --photos <โฟลเดอร์ภาพ>
+   ```
+   สคริปต์จะเขียน `data/tray_refs/<tray_id>.jpg`, `<tray_id>_empty.jpg` และภาพตรวจใน `reports/tray_refs_check/`
+4. **วัดผล** (หัวข้อถัดไป)
 
 ---
 
-**สร้างด้วย ❤️ ด้วย OpenCV และ SIFT**
+## 🧪 เทสและวัดความแม่นยำ (`scripts/eval/`)
+
+| สคริปต์ | ทำอะไร | ผลลัพธ์ |
+|---|---|---|
+| `test_box2_scan.py`, `test_orientation_and_accuracy.py` | เทสเร็ว: แนวนอน/แนวตั้ง/กลับหัว, จับของหาย | ผ่าน/ไม่ผ่าน |
+| `test_all_three_trays.py` | สแกนภาพต้นแบบทั้ง 3 ถาด | `reports/benchmark_3_trays_results.json` |
+| `simulate_scan_accuracy.py` | จำลองเอาเครื่องมือออก + สภาพกล้อง 3 ระดับ | `reports/scan_simulation/` |
+| `test_real_photos.py` | รันกับภาพหน้างานจริง | `reports/real_photo_test/<ชุด>/report.csv` |
+
+```bash
+python scripts/eval/test_orientation_and_accuracy.py
+```
+
+```bash
+python scripts/eval/simulate_scan_accuracy.py --photos C:/MyProject/Webpark/dataYamaha/Merchecklist/Tools/tian
+```
+
+```bash
+python scripts/eval/test_real_photos.py --images <โฟลเดอร์ภาพ> --trays box1-template01_70-item,box1-template02_16-item --out reports/real_photo_test/86
+```
+
+---
+
+## 🗂️ ถาดที่มีตอนนี้
+
+| tray_id | ถาด | ช่อง | ชีต checklist |
+|---|---|---|---|
+| `box1-template01_70-item` | YA 1/2 | 69 | มาตรฐาน 86 รายการ ลำดับ 1–70 (ลำดับ 49 ไม่มีช่องในถาด) |
+| `box1-template02_16-item` | YA 2/2 | 17 | มาตรฐาน 86 รายการ ลำดับ 71–86 |
+| `box2-template01_31-item` | แผงเครื่องมือพิเศษ | 41 | เครื่องมือพิเศษ 31 รายการ |
+
+---
+
+## 📝 ShapeScanner (หน้า "สแกน")
+
+`scanners/scanner_module.py` จดจำเครื่องมือด้วย SIFT จากภาพต้นแบบในโฟลเดอร์ `data/` (ไฟล์ `.png/.jpg/.jpeg/.bmp`)
+และสแกนแบบแบ่งภาพเป็น 4 ส่วน (`scan_with_tiling`) คืนรายการ `{"filename", "score", "area"}` เรียงจากคะแนนสูงไปต่ำ
+ตอนนี้ยังไม่มีภาพต้นแบบใน `data/` หน้า "สแกน" จึงยังจำเครื่องมือไม่ได้
