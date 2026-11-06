@@ -1,0 +1,32 @@
+# Secrets — copy .env.example to .env and fill in your own values
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights (download or train, do not commit)
+*.pt
+*.onnx
+
+# Data created by the admin app at runtime
+admin_data/images/
+admin_data/models/
+admin_data/exports/
+state/
+
+# Test output images (reports json/csv are kept)
+admin_data/scan_simulation/samples/
+admin_data/real_photo_test/*/results/
