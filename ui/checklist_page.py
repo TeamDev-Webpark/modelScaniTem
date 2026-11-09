@@ -2,6 +2,7 @@
 import streamlit as st
 
 from core.config import MASTER_DATA_DIR
+from ui.components import no_match, page_title, stat_tiles
 
 
 def render_checklist():
@@ -10,12 +11,7 @@ def render_checklist():
     remaining_count = total_count - checked_count
     percent = int((checked_count / total_count * 100)) if total_count > 0 else 0
 
-    st.markdown(f"""
-    <div style="display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #E81D23; padding-left: 10px; margin-bottom: 10px;">
-        <h3 style="margin: 0; color: #2C2C2C; font-size: 18px;">รายการตรวจสอบ</h3>
-        <span style="background-color: #E81D23; color: #FFFFFF; padding: 2px 10px; border-radius: 12px; font-size: 13px; font-weight: 600;">{total_count} รายการ</span>
-    </div>
-    """, unsafe_allow_html=True)
+    page_title("เช็คลิสต์", "รายการเครื่องมือที่ตรวจพบจากการสแกน", count=f"{total_count} รายการ")
     
     # --- ปุ่มจัดการขนาดใหญ่แตะสะดวก ---
     st.markdown("<div class='top-action-bar'>", unsafe_allow_html=True)
@@ -48,22 +44,11 @@ def render_checklist():
             
     if total_count > 0:
         # แถบสรุปสถานะย่อ
-        st.markdown(f"""
-        <div style="display: flex; gap: 8px; margin: 8px 0;">
-            <div style="flex: 1; background: #2C2C2C; color: #FFFFFF; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 11px; color: #C7C7C7;">ทั้งหมด</div>
-                <div style="font-size: 16px; font-weight: 700;">{total_count}</div>
-            </div>
-            <div style="flex: 1; background: #E5E5E5; color: #2C2C2C; border: 1px solid #C7C7C7; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 11px; color: #525252;">ยังไม่ตรวจ</div>
-                <div style="font-size: 16px; font-weight: 700; color: #E81D23;">{remaining_count}</div>
-            </div>
-            <div style="flex: 1; background: #E5E5E5; color: #2C2C2C; border: 1px solid #C7C7C7; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 11px; color: #525252;">ตรวจแล้ว</div>
-                <div style="font-size: 16px; font-weight: 700; color: #2C2C2C;">{checked_count} ({percent}%)</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        stat_tiles([
+            ("ทั้งหมด", total_count),
+            ("ยังไม่ตรวจ", remaining_count, "unchecked"),
+            ("ตรวจแล้ว", f"{checked_count} ({percent}%)", "done"),
+        ])
         
         # Progress Bar
         st.progress(percent / 100)
@@ -72,7 +57,7 @@ def render_checklist():
         if checked_count == total_count and total_count > 0:
             st.markdown("""
             <div style="background-color: #FFFFFF; border: 2px solid #E81D23; border-radius: 8px; padding: 10px; margin: 8px 0; text-align: center;">
-                <strong style="color: #2C2C2C; font-size: 15px;">ตรวจสอบอุปกรณ์ครบทุกชิ้นเรียบร้อย 100% (Ready for Handover)</strong>
+                <strong style="color: #2C2C2C; font-size: 15px;">ตรวจสอบอุปกรณ์ครบทุกชิ้นเรียบร้อย 100% พร้อมส่งมอบ</strong>
             </div>
             """, unsafe_allow_html=True)
         
@@ -90,7 +75,7 @@ def render_checklist():
         with c_view:
             view_mode = st.radio(
                 "รูปแบบ:",
-                ["กะทัดรัด (Compact)", "การ์ด 2 คอลัมน์ (Grid)"],
+                ["กะทัดรัด", "การ์ด 2 คอลัมน์"],
                 horizontal=True,
                 label_visibility="collapsed",
                 key="chk_view_radio"
@@ -99,7 +84,7 @@ def render_checklist():
         search_kw = st.text_input("ค้นหา", placeholder="พิมพ์ชื่อ หรือหมวดหมู่...", label_visibility="collapsed", key="chk_search_input")
     else:
         filter_mode = "all"
-        view_mode = "กะทัดรัด (Compact)"
+        view_mode = "กะทัดรัด"
         search_kw = ""
 
     st.markdown("<div style='margin-bottom: 6px;'></div>", unsafe_allow_html=True)
@@ -122,7 +107,7 @@ def render_checklist():
                 filtered_indices.append(i)
 
             if not filtered_indices:
-                st.markdown("<p style='text-align: center; color: #525252; padding: 20px 0;'>ไม่พบรายการที่ตรงกับเงื่อนไข</p>", unsafe_allow_html=True)
+                no_match()
             elif "2 คอลัมน์" in view_mode:
                 for row_idx in range(0, len(filtered_indices), 2):
                     pair_cols = st.columns(2)

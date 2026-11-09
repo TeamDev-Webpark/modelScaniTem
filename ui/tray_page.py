@@ -7,6 +7,22 @@ import streamlit as st
 from core.config import SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
 from scan_workflow import ImageQualityGate, ScanAggregator, generate_tray_guide_overlay
 from ui.common import load_image_with_exif, load_scanner, reset_tray_check_state
+from ui import theme
+from ui.components import no_match, page_title, stat_tiles
+from ui.nav import go
+
+
+def _save_to_history(tray_id, image, summary):
+    """เก็บผลตรวจถาดลงประวัติ (รายการภาพ) — ถ้าฐานข้อมูลใช้ไม่ได้ ข้ามไปโดยไม่กระทบการตรวจ"""
+    from core import inspections as I
+    ok, _ = I.ensure_tables()
+    if not ok:
+        return
+    try:
+        sid = I.record_tray_check(tray_id, image, summary)
+        st.toast(f"บันทึกผลตรวจลงรายการภาพแล้ว (#{sid})", icon="💾")
+    except Exception as e:  # noqa: BLE001 — history must never break the scan
+        st.toast(f"บันทึกประวัติไม่สำเร็จ: {e}", icon="⚠️")
 
 
 def render_tray_register():
@@ -30,10 +46,10 @@ def render_tray_register():
         key="tray_reg_name"
     )
 
-    input_method = st.radio("เลือกวิธี:", ["Camera", "Upload Image"],
+    input_method = st.radio("เลือกวิธี:", ["ถ่ายภาพ", "อัปโหลดภาพ"],
                             horizontal=True, key="tray_reg_method")
     opencv_img = None
-    if input_method == "Camera":
+    if input_method == "ถ่ายภาพ":
         img_file = st.camera_input("ถ่ายภาพถาดเต็ม", key="tray_reg_cam")
     else:
         img_file = st.file_uploader("อัปโหลดภาพถาด", type=['jpg', 'png', 'jpeg'],
@@ -184,11 +200,11 @@ def render_tray_check():
 
     # วิธีการนำเข้าภาพ
     input_method = st.radio("เลือกวิธีถ่าย/ทดสอบ:",
-                            ["Camera (ถ่ายจากกล้องมือถือ/iPad)", "Upload Image (ทดสอบระบบด้วยไฟล์)"],
+                            ["ถ่ายภาพ (กล้องมือถือ/แท็บเล็ต)", "อัปโหลดภาพ (ทดสอบด้วยไฟล์)"],
                             horizontal=True, key="tray_check_method",
                             on_change=reset_tray_check_state)
     opencv_img = None
-    if "Camera" in input_method:
+    if "ถ่ายภาพ" in input_method:
         img_file = st.camera_input("ถ่ายภาพถาดปัจจุบัน (จัดมุมมองให้ตรงกับภาพร่าง)",
                                    key="tray_check_cam",
                                    on_change=reset_tray_check_state)
@@ -270,6 +286,7 @@ def render_tray_check():
                 st.session_state.tray_check_summary = summary
                 st.session_state.tray_check_selected_id = selected_id
                 st.session_state.tray_check_input_img = opencv_img
+                _save_to_history(selected_id, opencv_img, summary)
                 st.rerun()
 
     # แสดงผลสรุป 4 สถานะ (แสดงเมื่อมีรูปภาพปัจจุบันและผลการตรวจตรงกับถาดที่เลือก)
@@ -295,6 +312,7 @@ def render_tray_check():
                     st.session_state.tray_check_summary = new_summary
                     st.session_state.tray_check_selected_id = selected_id
                     st.session_state.tray_check_input_img = opencv_img
+                    _save_to_history(selected_id, opencv_img, new_summary)
                     st.rerun()
         with c_res_act2:
             if st.button("🗑️ ล้างผลการตรวจนี้", key="tray_clear_top_btn", use_container_width=True):
@@ -302,30 +320,13 @@ def render_tray_check():
                 st.rerun()
 
         # แผง 4 สถานะ
-        st.markdown(f"""
-        <div style="display: flex; gap: 6px; margin: 14px 0 8px 0; flex-wrap: wrap;">
-            <div style="flex: 1; min-width: 70px; background: #2C2C2C; color: #FFFFFF; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 10px; color: #C7C7C7;">ทั้งหมด</div>
-                <div style="font-size: 18px; font-weight: 700;">{total}</div>
-            </div>
-            <div style="flex: 1; min-width: 70px; background: #E8F7ED; border: 1.5px solid #1E9E40; color: #1E9E40; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 10px; font-weight: 600;">🟢 ครบ</div>
-                <div style="font-size: 18px; font-weight: 700;">{correct}</div>
-            </div>
-            <div style="flex: 1; min-width: 70px; background: {'#FFF0F0' if missing else '#E5E5E5'}; border: 1.5px solid {'#E81D23' if missing else '#C7C7C7'}; color: {'#E81D23' if missing else '#525252'}; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 10px; font-weight: 600;">🔴 ขาดหาย</div>
-                <div style="font-size: 18px; font-weight: 700;">{missing}</div>
-            </div>
-            <div style="flex: 1; min-width: 70px; background: {'#FFF9E6' if misplaced else '#E5E5E5'}; border: 1.5px solid {'#D4A000' if misplaced else '#C7C7C7'}; color: {'#B57000' if misplaced else '#525252'}; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 10px; font-weight: 600;">🟡 ผิดตำแหน่ง</div>
-                <div style="font-size: 18px; font-weight: 700;">{misplaced}</div>
-            </div>
-            <div style="flex: 1; min-width: 70px; background: {'#F0F0F0' if recheck else '#E5E5E5'}; border: 1.5px solid {'#808080' if recheck else '#C7C7C7'}; color: #525252; border-radius: 6px; padding: 6px 8px; text-align: center;">
-                <div style="font-size: 10px; font-weight: 600;">↩️ ตรวจซ้ำ</div>
-                <div style="font-size: 18px; font-weight: 700;">{recheck}</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        stat_tiles([
+            ("ทั้งหมด", total),
+            ("ครบ", correct, "correct"),
+            ("ขาดหาย", missing, "missing"),
+            ("ผิดตำแหน่ง", misplaced, "misplaced"),
+            ("ตรวจซ้ำ", recheck, "recheck"),
+        ])
 
         st.progress(pct / 100)
 
@@ -425,7 +426,7 @@ def render_tray_check():
                 st.image(wire, channels="BGR", use_container_width=True, caption="โครงสร้างช่องต้นแบบ")
 
         # รายการแยกแต่ละช่องพร้อมฟิลเตอร์
-        st.markdown("<h4 style='font-size: 15px; margin: 14px 0 6px 0; color: #2C2C2C;'>รายละเอียดแต่ละช่อง:</h4>", unsafe_allow_html=True)
+        page_title("รายละเอียดแต่ละช่อง")
 
         filter_choice = st.radio(
             "กรองสถานะ:",
@@ -456,7 +457,7 @@ def render_tray_check():
 
         with st.container(height=340):
             if not filtered_slots:
-                st.markdown("<p style='text-align: center; color: #888; padding: 20px 0;'>ไม่พบรายการในสถานะนี้</p>", unsafe_allow_html=True)
+                no_match("ไม่พบรายการในสถานะนี้")
             else:
                 for s in filtered_slots:
                     st_val = s["status"]
@@ -465,14 +466,8 @@ def render_tray_check():
                     reason = s.get("reason", "")
                     conf = s.get("confidence", 0.0)
 
-                    if st_val == "correct":
-                        icon, bg, bdr, tag_color = "🟢", "#FFFFFF", "#1E9E40", "#1E9E40"
-                    elif st_val == "missing":
-                        icon, bg, bdr, tag_color = "🔴", "#FFF2F2", "#E81D23", "#E81D23"
-                    elif st_val == "misplaced":
-                        icon, bg, bdr, tag_color = "🟡", "#FFFBE6", "#E5A000", "#B57000"
-                    else:
-                        icon, bg, bdr, tag_color = "↩️", "#F7F7F7", "#888888", "#525252"
+                    stc = theme.status(st_val)
+                    icon, bg, bdr, tag_color = stc["icon"], stc["bg"], stc["border"], stc["fg"]
 
                     st.markdown(f"""
                     <div style="background: {bg}; border: 1px solid {bdr}; border-radius: 6px;
@@ -512,8 +507,7 @@ def render_tray_check():
                         })
                         added += 1
 
-                st.session_state.active_view = "checklist"
-                st.rerun()
+                go("checklist")
 
         # ตัวเลือกเพิ่มเติม
         with st.expander("⚙️ ตัวเลือกเพิ่มเติม"):
@@ -532,14 +526,7 @@ def render_tray_check():
 
 def render_tray():
     """หน้าจัดการถาด Template"""
-    st.markdown("""
-    <div style="border-left:4px solid #E81D23;padding-left:10px;margin-bottom:10px;">
-        <h3 style="margin:0;color:#2C2C2C;font-size:18px;">จัดการถาดเครื่องมือ</h3>
-        <p style="margin:2px 0 0 0;color:#525252;font-size:12px;">
-            ระบบตรวจนับและสแกนถาดเครื่องมืออัตโนมัติด้วย AI (Auto-Orientation, Auto-Crop & Homography Alignment)
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+    page_title("ถาดเครื่องมือ", "ลงทะเบียนถาด หรือถ่ายภาพตรวจถาดทันที ผลการตรวจจะถูกบันทึกในรายการภาพ")
 
     tab_reg, tab_check = st.tabs(["ลงทะเบียนถาด", "ตรวจสอบถาด"])
     with tab_reg:

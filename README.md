@@ -7,7 +7,7 @@
 
 | แอป | ไฟล์ | ใช้ทำอะไร |
 |---|---|---|
-| แอปสแกน | `app.py` | สแกนเครื่องมือ, เช็คลิสต์, ลงทะเบียนและตรวจถาด |
+| แอปสแกน | `app.py` | ส่งภาพตรวจถาดเข้าคิว, ตรวจรายอุปกรณ์, ภาพรวม/รายการภาพ/ประวัติ, จัดการถาด (ประวัติเก็บใน PostgreSQL) |
 | แอป admin | `admin.py` | จัดการคลาสเครื่องมือ, เก็บภาพเทรน, export dataset, จัดการโมเดล YOLO, ทดสอบสแกน (ต้องมี PostgreSQL) |
 
 ---
@@ -16,18 +16,26 @@
 
 ```
 modelScaniTem/
-├── app.py                  # แอปสแกน: ประกอบหน้า + เมนู
+├── app.py                  # แอปสแกน: เมนูด้านบนแบบจัดกลุ่ม (ui/nav.py)
 ├── admin.py                # แอป admin (YOLO + PostgreSQL)
 ├── ui/                     # หน้าของแอปสแกน
-│   ├── style.py            #   CSS ธีม + header
+│   ├── nav.py              #   เมนู: ติดตามผล / ตรวจสอบ / จัดการ
+│   ├── theme.py            #   สีและสีสถานะ (ใช้ร่วมทุกหน้า)
+│   ├── components.py       #   หัวข้อหน้า, กล่องตัวเลข, ป้ายสถานะ, การ์ดภาพ, ดูภาพ/เทียบก่อน-หลัง
+│   ├── style.py            #   CSS ธีม + header + รูปแบบมือถือ (≤768px)
 │   ├── common.py           #   session state, โหลดภาพ (EXIF), ข้อมูลเครื่องมือ
-│   ├── scanner_page.py     #   หน้า "สแกน"
-│   ├── checklist_page.py   #   หน้า "เช็คลิสต์"
-│   └── tray_page.py        #   หน้า "ถาด" (ลงทะเบียน / ตรวจสอบถาด)
+│   ├── dashboard_page.py   #   ภาพรวม
+│   ├── submissions_page.py #   รายการภาพที่ส่งตรวจ (กรองสถานะ/ถาด/วันที่, ค้นหา)
+│   ├── submit_page.py      #   ส่งภาพตรวจถาด (คิว → ตรวจ)
+│   ├── manual_check_page.py#   ตรวจรายอุปกรณ์ด้วยตนเอง + ประวัติ
+│   ├── tray_page.py        #   ถาดเครื่องมือ (ลงทะเบียน / ตรวจทันที)
+│   ├── scanner_page.py     #   สแกนเครื่องมือ (SIFT)
+│   └── checklist_page.py   #   เช็คลิสต์
 ├── scan_workflow/          # pipeline ตรวจถาด (ดูหัวข้อด้านล่าง)
 ├── scanners/               # ShapeScanner (SIFT, หน้า "สแกน") และ YOLOToolScanner (แอป admin)
 ├── admin_modules/          # หน้าของแอป admin
-├── core/                   # config.py (path ทั้งหมด), db.py, models_db.py
+├── core/                   # config.py (path ทั้งหมด), db.py, models_db.py,
+│                           #   inspections.py (ประวัติการตรวจ: คิวภาพ, ผลตรวจรายอุปกรณ์)
 ├── data/                   # ข้อมูลหลัก (อยู่ใน git)
 │   ├── tray_templates/     #   เทมเพลตถาด: ช่อง, polygon, ชื่อ/รหัสอะไหล่ตาม checklist
 │   ├── tray_refs/          #   ภาพต้นแบบ <tray_id>.jpg, ภาพถาดว่าง <tray_id>_empty.jpg
@@ -35,7 +43,7 @@ modelScaniTem/
 │   ├── merchandise_checklist.json   # Excel checklist ที่แปลงเป็น JSON
 │   ├── checklist_slot_mapping.json  # ช่องในถาด → ลำดับใน checklist
 │   └── sample_images/
-├── admin_data/             # ไฟล์ที่แอป admin สร้าง: images/, models/, exports/
+├── admin_data/             # ไฟล์ที่แอปสร้าง: images/, models/, exports/, inspections/ (ภาพส่งตรวจ)
 ├── reports/                # ผลเทส (เก็บ json/csv ใน git, ไม่เก็บภาพผล)
 ├── scripts/
 │   ├── build/              # สร้าง/อัปเดตข้อมูลถาด

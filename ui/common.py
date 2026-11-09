@@ -17,8 +17,6 @@ def init_session_state():
     if 'detected_list' not in st.session_state:
         st.session_state.detected_list = []
 
-    if 'active_view' not in st.session_state:
-        st.session_state.active_view = "scan"
 
     if 'tray_check_results' not in st.session_state:
         st.session_state.tray_check_results = None

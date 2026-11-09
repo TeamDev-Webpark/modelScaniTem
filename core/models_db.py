@@ -8,6 +8,8 @@ Tables:
 - trained_models
 - tray_templates
 - tray_slots
+- inspection_submissions   (ภาพที่ส่งตรวจถาด + ผล)
+- manual_inspections       (ผลตรวจรายอุปกรณ์ด้วยตนเอง)
 """
 from datetime import datetime
 from sqlalchemy import (
@@ -178,3 +180,45 @@ class TraySlot(Base):
     # Relationships
     template = relationship("TrayTemplate", back_populates="slots")
     tool_class = relationship("ToolClass", back_populates="tray_slots")
+
+
+class InspectionSubmission(Base):
+    """ภาพถาดที่ผู้ใช้ส่งเข้าระบบเพื่อตรวจ (แอปสแกน) และผลการตรวจ"""
+    __tablename__ = "inspection_submissions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    tray_id = Column(String(100), nullable=False, index=True)
+    status = Column(String(20), nullable=False, default="pending", index=True)  # pending, processing, done, needs_review, failed
+    source = Column(String(20), nullable=False, default="queue")  # queue, tray_check
+    image_path = Column(String(500), nullable=False)       # relative to DATA_DIR
+    annotated_path = Column(String(500), nullable=True)    # relative to DATA_DIR
+    note = Column(Text, nullable=True)
+    submitted_by = Column(String(100), nullable=True)
+    submitted_at = Column(DateTime, default=datetime.utcnow, index=True)
+    started_at = Column(DateTime, nullable=True)
+    finished_at = Column(DateTime, nullable=True)
+    total_slots = Column(Integer, nullable=True)
+    correct_count = Column(Integer, nullable=True)
+    missing_count = Column(Integer, nullable=True)
+    misplaced_count = Column(Integer, nullable=True)
+    recheck_count = Column(Integer, nullable=True)
+    error_message = Column(Text, nullable=True)
+    slot_results = Column(Text, nullable=True)  # JSON list of slot results
+
+
+class ManualInspection(Base):
+    """ผลการตรวจรายอุปกรณ์ที่ผู้ใช้เลือกตรวจเอง"""
+    __tablename__ = "manual_inspections"
+
+    id = Column(Integer, primary_key=True, index=True)
+    item_key = Column(String(60), nullable=False, index=True)   # "<sheet_key>:<no>"
+    sheet_key = Column(String(40), nullable=False)
+    item_no = Column(Integer, nullable=False)
+    part_number = Column(String(50), nullable=True)
+    item_name = Column(String(300), nullable=False)
+    tray_id = Column(String(100), nullable=True)
+    result = Column(String(20), nullable=False)   # ok, damaged, lost
+    note = Column(Text, nullable=True)
+    attachment_path = Column(String(500), nullable=True)  # relative to DATA_DIR
+    inspected_by = Column(String(100), nullable=True)
+    inspected_at = Column(DateTime, default=datetime.utcnow, index=True)

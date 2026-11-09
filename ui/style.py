@@ -45,6 +45,14 @@ def apply_theme():
             transform: translateY(-1px);
         }
 
+        button[kind="primary"]:disabled,
+        button[data-testid="baseButton-primary"]:disabled {
+            opacity: 0.45 !important;
+            box-shadow: none !important;
+            transform: none !important;
+            cursor: not-allowed !important;
+        }
+
         /* Secondary / Default Buttons */
         button[kind="secondary"],
         button[data-testid="baseButton-secondary"] {
@@ -230,7 +238,8 @@ def apply_theme():
         }
 
         /* Action Buttons Touch Target */
-        button[data-testid^="baseButton"] {
+        button[data-testid^="baseButton"],
+        button[data-testid^="stBaseButton"] {
             min-height: 44px !important;
             font-size: 14px !important;
             touch-action: manipulation;
@@ -473,59 +482,82 @@ def apply_theme():
             padding-bottom: 8px !important;
         }
 
-        /* Custom Navigation Bar - Keep 3 tabs side by side on mobile & desktop */
-        .custom-nav-bar {
-            margin-bottom: 14px;
+        /* ===== Shared components (ui/components.py) ===== */
+        .ui-page-title {
+            display: flex; justify-content: space-between; align-items: center; gap: 8px;
+            border-left: 4px solid #E81D23; padding-left: 10px; margin-bottom: 12px;
         }
-        div[data-testid="stHorizontalBlock"]:has(button[key="nav_btn_scan"]) {
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            gap: 8px !important;
-            width: 100% !important;
+        .ui-page-title h3 { margin: 0; color: #2C2C2C; font-size: 18px; line-height: 1.3; }
+        .ui-page-title p.ui-page-sub { margin: 2px 0 0 0 !important; color: #525252; font-size: 12px !important; line-height: 1.4; }
+        .ui-pill {
+            background: #E81D23; color: #FFFFFF; padding: 2px 10px; border-radius: 12px;
+            font-size: 13px; font-weight: 600; white-space: nowrap;
         }
-        div[data-testid="stHorizontalBlock"]:has(button[key="nav_btn_scan"]) > div[data-testid="stColumn"],
-        div[data-testid="stHorizontalBlock"]:has(button[key="nav_btn_scan"]) > .stColumn {
-            flex: 1 1 33.33% !important;
-            min-width: 0 !important;
-            width: 33.33% !important;
-            max-width: 33.33% !important;
+        .ui-tiles { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
+        .ui-tile {
+            flex: 1 1 0; min-width: 96px; border-radius: 6px; padding: 6px 8px; text-align: center;
         }
-        .custom-nav-bar button,
-        button[key="nav_btn_scan"],
-        button[key="nav_btn_check"],
-        button[key="nav_btn_tray"] {
-            height: 48px !important;
-            min-height: 48px !important;
-            font-size: 0.88rem !important;
-            font-weight: 600 !important;
-            border-radius: 8px !important;
-            transition: all 0.2s ease !important;
-            touch-action: manipulation;
-            white-space: nowrap !important;
+        .ui-tile-label { font-size: 11px; font-weight: 600; opacity: 0.9; }
+        .ui-tile-value { font-size: 18px; font-weight: 700; line-height: 1.3; }
+        .ui-badge {
+            display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.74rem;
+            font-weight: 600; white-space: nowrap;
         }
-        button[key="nav_btn_scan"][kind="primary"],
-        button[key="nav_btn_check"][kind="primary"],
-        button[key="nav_btn_tray"][kind="primary"] {
-            background-color: #E81D23 !important;
-            color: #FFFFFF !important;
-            border: 2px solid #E81D23 !important;
-            box-shadow: 0 2px 8px rgba(232, 29, 35, 0.25) !important;
+        p.ui-no-match { text-align: center; color: #525252; padding: 20px 0; margin: 0 !important; }
+        .ui-meta { color: #525252; font-size: 0.78rem; line-height: 1.4; }
+        .ui-item-name { color: #2C2C2C; font-weight: 600; font-size: 0.9rem; line-height: 1.3; }
+        .ui-slot-row { padding: 6px 0; border-bottom: 1px solid #E5E5E5; }
+
+        /* Top navigation (st.navigation position="top"): less empty space above the page */
+        .block-container, [data-testid="stMainBlockContainer"] { padding-top: 3.5rem !important; }
+        header[data-testid="stHeader"] a, header[data-testid="stHeader"] button {
+            min-height: 44px;
         }
-        button[key="nav_btn_scan"][kind="secondary"],
-        button[key="nav_btn_check"][kind="secondary"],
-        button[key="nav_btn_tray"][kind="secondary"] {
-            background-color: #E5E5E5 !important;
-            color: #525252 !important;
-            border: 1px solid #C7C7C7 !important;
+
+        @media (max-width: 768px) {
+            .ui-tile { min-width: calc(50% - 4px); flex: 1 1 calc(50% - 4px); }
+            .ui-tile-value { font-size: 16px; }
+            .ui-page-title h3 { font-size: 16px; }
+            /* submission card: thumbnail beside the text, actions in one row under them */
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
+                flex-direction: row !important; flex-wrap: wrap !important; gap: 8px !important;
+                align-items: flex-start !important; height: auto !important;
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+                height: auto !important;
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
+                flex: 0 0 96px !important; width: 96px !important; min-width: 96px !important;
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
+                flex: 1 1 calc(100% - 104px) !important; width: auto !important; min-width: 0 !important;
+                padding-bottom: 16px !important;  /* Streamlit markdown ends with margin-bottom: -1rem */
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) {
+                flex: 1 1 100% !important; width: 100% !important;
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) > [data-testid="stVerticalBlock"] {
+                flex-direction: row !important; gap: 8px !important;
+            }
+            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) > [data-testid="stVerticalBlock"] > * {
+                flex: 1 1 0 !important; min-width: 0 !important;
+            }
+            /* equipment row: checkbox | text | history button stay on one line */
+            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
+                flex-direction: row !important; flex-wrap: nowrap !important; gap: 6px !important;
+            }
+            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
+                flex: 0 0 40px !important; width: 40px !important; min-width: 40px !important;
+            }
+            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
+                flex: 1 1 auto !important; width: auto !important; min-width: 0 !important;
+                padding-bottom: 16px !important;  /* Streamlit markdown ends with margin-bottom: -1rem */
+            }
+            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) {
+                flex: 0 0 76px !important; width: 76px !important; min-width: 76px !important;
+            }
         }
-        button[key="nav_btn_scan"][kind="secondary"]:hover,
-        button[key="nav_btn_check"][kind="secondary"]:hover,
-        button[key="nav_btn_tray"][kind="secondary"]:hover {
-            background-color: #FFFFFF !important;
-            color: #2C2C2C !important;
-            border-color: #525252 !important;
-        }
+
     </style>
     """, unsafe_allow_html=True)
 
@@ -538,8 +570,8 @@ def render_header():
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
             </div>
             <div>
-                <h1 style="margin: 0; color: #2C2C2C; font-size: 22px; font-weight: 700; letter-spacing: -0.3px;">ระบบเช็คลิสต์เครื่องมือ (Multi-Object)</h1>
-                <p style="margin: 2px 0 0 0; color: #525252; font-size: 12px;">SIFT Feature Matching & Real-time Inspection</p>
+                <h1 style="margin: 0; color: #2C2C2C; font-size: 22px; font-weight: 700; letter-spacing: -0.3px;">ระบบเช็คลิสต์เครื่องมือ</h1>
+                <p style="margin: 2px 0 0 0; color: #525252; font-size: 12px;">ตรวจเช็คเครื่องมือในถาดและรายอุปกรณ์</p>
             </div>
         </div>
         <div style="display: flex; gap: 6px; align-items: center;">

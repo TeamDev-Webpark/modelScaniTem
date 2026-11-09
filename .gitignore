@@ -22,3 +22,4 @@ state/
 # Test output images (reports json/csv are kept)
 reports/scan_simulation/samples/
 reports/real_photo_test/*/results/
+admin_data/inspections/

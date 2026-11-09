@@ -4,6 +4,8 @@ import time
 import streamlit as st
 
 from ui.common import get_product_info, keep_only_checked_items, load_image_with_exif, load_scanner
+from ui.components import page_title
+from ui.nav import go
 
 
 @st.dialog("กำลังประมวลผลสแกนเครื่องมือ", width="small")
@@ -76,8 +78,7 @@ def scan_processing_dialog(opencv_img):
             """, unsafe_allow_html=True)
             
         time.sleep(1.0)
-        st.session_state.active_view = "checklist"
-        st.rerun()
+        go("checklist")
     else:
         status_text.markdown("""
         <div style="background-color: #FFFFFF; border: 1px solid #E81D23; border-radius: 8px; padding: 12px; margin: 10px 0; text-align: center;">
@@ -92,28 +93,23 @@ def scan_processing_dialog(opencv_img):
                 st.rerun()
         with c_dlg2:
             if st.button("ไปยังรายการ", use_container_width=True):
-                st.session_state.active_view = "checklist"
-                st.rerun()
+                go("checklist")
 
 
 def render_scanner():
     scanner = load_scanner()
-    st.markdown("""
-    <div style="border-left: 4px solid #E81D23; padding-left: 10px; margin-bottom: 10px;">
-        <h3 style="margin: 0; color: #2C2C2C; font-size: 18px;">สแกนเครื่องมือ</h3>
-    </div>
-    """, unsafe_allow_html=True)
+    page_title("สแกนเครื่องมือ", "ถ่ายหรืออัปโหลดภาพเครื่องมือ ระบบจะหาเครื่องมือที่ตรงกับฐานข้อมูล")
     
-    input_method = st.radio("เลือกวิธี:", ["Camera", "Upload Image"], horizontal=True, key="scan_input_method")
+    input_method = st.radio("เลือกวิธี:", ["ถ่ายภาพ", "อัปโหลดภาพ"], horizontal=True, key="scan_input_method")
     
     opencv_img = None
     
-    if input_method == "Camera":
+    if input_method == "ถ่ายภาพ":
         st.caption("คำแนะนำ: ถือ iPad หรือมือถือขนานกับโต๊ะ วางเครื่องมือไม่ซ้อนทับกัน")
         img_file = st.camera_input("ถ่ายภาพเครื่องมือ", key="cam_input", on_change=keep_only_checked_items)
         if img_file:
             opencv_img = load_image_with_exif(img_file)
-    elif input_method == "Upload Image":
+    elif input_method == "อัปโหลดภาพ":
         img_file = st.file_uploader("อัปโหลดภาพเครื่องมือ", type=['jpg','png'], key="file_input", on_change=keep_only_checked_items)
         if img_file:
             opencv_img = load_image_with_exif(img_file)
