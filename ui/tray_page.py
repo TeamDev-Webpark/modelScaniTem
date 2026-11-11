@@ -8,7 +8,7 @@ from core.config import SAMPLE_IMAGES_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
 from scan_workflow import ImageQualityGate, ScanAggregator, generate_tray_guide_overlay
 from ui.common import load_image_with_exif, load_scanner, reset_tray_check_state
 from ui import theme
-from ui.components import no_match, page_title, stat_tiles
+from ui.components import camera_with_guide, no_match, page_title, stat_tiles
 from ui.nav import go
 
 
@@ -205,9 +205,9 @@ def render_tray_check():
                             on_change=reset_tray_check_state)
     opencv_img = None
     if "ถ่ายภาพ" in input_method:
-        img_file = st.camera_input("ถ่ายภาพถาดปัจจุบัน (จัดมุมมองให้ตรงกับภาพร่าง)",
-                                   key="tray_check_cam",
-                                   on_change=reset_tray_check_state)
+        img_file = camera_with_guide("ถ่ายภาพถาดปัจจุบัน (จัดมุมมองให้ตรงกับภาพร่าง)",
+                                     key="tray_check_cam", tray_id=selected_id,
+                                     on_change=reset_tray_check_state)
     else:
         img_file = st.file_uploader("อัปโหลดภาพถาดปัจจุบัน (สำหรับทดสอบ)",
                                     type=['jpg', 'png', 'jpeg'],

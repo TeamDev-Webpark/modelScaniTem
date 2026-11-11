@@ -54,6 +54,41 @@ def no_match(text: str = "ไม่พบรายการที่ตรงก
     st.markdown(f'<p class="ui-no-match">{escape(text)}</p>', unsafe_allow_html=True)
 
 
+@st.cache_data(show_spinner=False)
+def _camera_guide_uri(tray_id: str) -> str:
+    """เส้นไกด์ของถาด (PNG โปร่งใส) เป็น data URI สำหรับวางทับภาพกล้อง; คืน "" ถ้าไม่มีเทมเพลต"""
+    import base64
+    import json
+
+    import cv2
+
+    from core.config import TRAY_TEMPLATES_DIR
+    from scan_workflow import generate_camera_guide
+
+    path = TRAY_TEMPLATES_DIR / f"{tray_id}.json"
+    if not path.exists():
+        return ""
+    guide = generate_camera_guide(json.loads(path.read_text(encoding="utf-8")))
+    ok, buf = cv2.imencode(".png", guide)
+    return f"data:image/png;base64,{base64.b64encode(buf.tobytes()).decode()}" if ok else ""
+
+
+def camera_with_guide(label: str, key: str, tray_id: str, on_change=None):
+    """st.camera_input ที่มีเส้นไกด์ช่องเครื่องมือของถาดวางทับภาพกล้องสดขณะเล็ง (ไม่ติดไปในภาพที่ถ่าย)"""
+    uri = _camera_guide_uri(tray_id) if tray_id else ""
+    show = bool(uri) and st.toggle("แสดงเส้นไกด์บนกล้อง", value=True, key=f"{key}_guide")
+    with st.container(key=f"uicam_{key}"):
+        if show:
+            box = f'.st-key-uicam_{key} [data-testid="stCameraInputWebcamStyledBox"]'
+            st.markdown(
+                f'<style>{box}{{position:relative;}}'
+                f'{box}:has(video)::after{{content:"";position:absolute;inset:0;pointer-events:none;'
+                f'background:url("{uri}") center / contain no-repeat;}}</style>',
+                unsafe_allow_html=True)
+            st.caption("จัดขอบถาดและเครื่องมือให้ตรงกับเส้นไกด์ แล้วกดถ่ายภาพ")
+        return st.camera_input(label, key=key, on_change=on_change)
+
+
 @st.dialog("ดูภาพขนาดใหญ่", width="large")
 def show_image(image, caption: str = ""):
     st.image(image, caption=caption or None, use_container_width=True)

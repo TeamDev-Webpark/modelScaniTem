@@ -18,7 +18,7 @@ from .quality_gate import ImageQualityGate
 from .tray_cropper import TrayBoxCropper, TrayCropResult
 from .aligner import TrayAligner
 from .slot_checker import SlotChecker
-from .aggregator import ScanAggregator, generate_tray_guide_overlay
+from .aggregator import ScanAggregator, generate_camera_guide, generate_tray_guide_overlay
 
 __all__ = [
     "ImageQualityGate",
@@ -27,5 +27,6 @@ __all__ = [
     "TrayAligner",
     "SlotChecker",
     "ScanAggregator",
+    "generate_camera_guide",
     "generate_tray_guide_overlay",
 ]

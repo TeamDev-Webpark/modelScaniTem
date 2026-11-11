@@ -3,7 +3,7 @@ import streamlit as st
 
 from core import inspections as I
 from ui.common import load_image_with_exif
-from ui.components import history_ready, page_title, run_queue, stat_tiles, submission_card
+from ui.components import camera_with_guide, history_ready, page_title, run_queue, stat_tiles, submission_card
 from ui.nav import go
 
 
@@ -27,7 +27,8 @@ def render_submit():
     images = []
     if input_method == "ถ่ายภาพ":
         st.caption("ถือมือถือหรือแท็บเล็ตแนวนอน ขนานกับถาด ให้เห็นขอบถาดครบ 4 ด้าน")
-        shot = st.camera_input("ถ่ายภาพถาด", key=f"submit_cam_{st.session_state.get('submit_uploader_n', 0)}")
+        shot = camera_with_guide("ถ่ายภาพถาด", key=f"submit_cam_{st.session_state.get('submit_uploader_n', 0)}",
+                                 tray_id=tray_id)
         if shot:
             images = [(shot.name or "camera.jpg", shot)]
     else:

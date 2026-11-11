@@ -522,6 +522,54 @@ class ScanAggregator:
         return agg
 
 
+def generate_camera_guide(tray_template: dict, width: int = 1280) -> np.ndarray:
+    """
+    เส้นไกด์โปร่งใส (RGBA) สำหรับวางทับภาพกล้องสดขณะถ่าย
+    วาดช่องเครื่องมือตามตำแหน่งในภาพต้นแบบ + มุม 4 ด้านของบริเวณถาด + เป้ากึ่งกลาง
+    ไม่มีตัวหนังสือ เพื่อไม่ให้บังภาพจริง; สัดส่วนภาพเท่ากับภาพต้นแบบของเทมเพลต
+    """
+    orig_w = float(tray_template.get("image_width") or 1448)
+    orig_h = float(tray_template.get("image_height") or 1086)
+    height = int(round(width * orig_h / orig_w))
+    sx, sy = width / orig_w, height / orig_h
+    canvas = np.zeros((height, width, 4), dtype=np.uint8)
+    light, dark = (255, 255, 255, 235), (20, 20, 20, 150)  # เส้นขาวมีขอบเข้ม: มองเห็นได้ทั้งพื้นสว่างและมืด
+
+    polys = []
+    for s in tray_template.get("slots", []):
+        poly = s.get("polygon")
+        if poly and len(poly) >= 3:
+            pts = np.array([[p[0] * sx, p[1] * sy] for p in poly], dtype=np.int32)
+        else:
+            b = s.get("bbox_norm")
+            if not b or len(b) < 4:
+                continue
+            x1, y1, x2, y2 = b[0] * width, b[1] * height, b[2] * width, b[3] * height
+            pts = np.array([[x1, y1], [x2, y1], [x2, y2], [x1, y2]], dtype=np.int32)
+        polys.append(pts.reshape((-1, 1, 2)))
+
+    t = max(1, width // 640)
+    if polys:
+        cv2.polylines(canvas, polys, True, dark, t + 2, cv2.LINE_AA)
+        cv2.polylines(canvas, polys, True, light, t, cv2.LINE_AA)
+        allp = np.concatenate([p.reshape(-1, 2) for p in polys])
+        pad = int(width * 0.03)
+        x1, y1 = np.maximum(allp.min(0) - pad, 2)
+        x2, y2 = np.minimum(allp.max(0) + pad, [width - 3, height - 3])
+    else:
+        x1, y1, x2, y2 = int(width * 0.05), int(height * 0.05), int(width * 0.95), int(height * 0.95)
+
+    arm = int(min(x2 - x1, y2 - y1) * 0.12)
+    for color, th in ((dark, t * 4 + 4), (light, t * 4)):
+        for cx, cy, dx, dy in ((x1, y1, 1, 1), (x2, y1, -1, 1), (x1, y2, 1, -1), (x2, y2, -1, -1)):
+            cv2.line(canvas, (int(cx), int(cy)), (int(cx + dx * arm), int(cy)), color, th, cv2.LINE_AA)
+            cv2.line(canvas, (int(cx), int(cy)), (int(cx), int(cy + dy * arm)), color, th, cv2.LINE_AA)
+        mx, my, r = width // 2, height // 2, max(10, width // 64)
+        cv2.line(canvas, (mx - r, my), (mx + r, my), color, max(1, th // 3), cv2.LINE_AA)
+        cv2.line(canvas, (mx, my - r), (mx, my + r), color, max(1, th // 3), cv2.LINE_AA)
+    return canvas
+
+
 def generate_tray_guide_overlay(
     tray_template: dict,
     width: int = 1024,
