@@ -4,7 +4,9 @@ page_title    หัวข้อหน้า (เส้นแดงด้าน�
 stat_tiles    แถวกล่องตัวเลขสรุป (ขึ้นบรรทัดใหม่เองบนจอเล็ก)
 status_badge  ป้ายสถานะสี/ไอคอนตาม ui.theme.STATUS (คืนค่า HTML)
 no_match      ข้อความเมื่อตัวกรองไม่เหลือรายการ
-show_image / show_compare  หน้าต่างดูภาพใหญ่ / เปรียบเทียบภาพก่อน-หลัง
+show_image    หน้าต่างดูภาพใหญ่
+camera_with_guide  กล้องพร้อมเส้นไกด์ของกล่อง
+item_list     รายการอุปกรณ์ (รูป ชื่อ สถานะ ปุ่ม มี/ไม่มี) ใช้ทั้งหน้าสแกนและหน้าประวัติ
 """
 from html import escape
 from typing import Iterable, Optional
@@ -73,7 +75,7 @@ def _camera_guide_uri(tray_id: str) -> str:
     return f"data:image/png;base64,{base64.b64encode(buf.tobytes()).decode()}" if ok else ""
 
 
-def camera_with_guide(label: str, key: str, tray_id: str, on_change=None):
+def camera_with_guide(label: str, key: str, tray_id: str):
     """st.camera_input ที่มีเส้นไกด์ช่องเครื่องมือของถาดวางทับภาพกล้องสดขณะเล็ง (ไม่ติดไปในภาพที่ถ่าย)"""
     uri = _camera_guide_uri(tray_id) if tray_id else ""
     show = bool(uri) and st.toggle("แสดงเส้นไกด์บนกล้อง", value=True, key=f"{key}_guide")
@@ -85,36 +87,13 @@ def camera_with_guide(label: str, key: str, tray_id: str, on_change=None):
                 f'{box}:has(video)::after{{content:"";position:absolute;inset:0;pointer-events:none;'
                 f'background:url("{uri}") center / contain no-repeat;}}</style>',
                 unsafe_allow_html=True)
-            st.caption("จัดขอบถาดและเครื่องมือให้ตรงกับเส้นไกด์ แล้วกดถ่ายภาพ")
-        return st.camera_input(label, key=key, on_change=on_change)
+            st.caption("จัดขอบกล่องและเครื่องมือให้ตรงกับเส้นไกด์ แล้วกดถ่ายภาพ")
+        return st.camera_input(label, key=key)
 
 
 @st.dialog("ดูภาพขนาดใหญ่", width="large")
 def show_image(image, caption: str = ""):
-    st.image(image, caption=caption or None, use_container_width=True)
-
-
-@st.dialog("เปรียบเทียบภาพก่อนและหลังตรวจสอบ", width="large")
-def show_compare(before, after, caption_before: str = "ก่อนตรวจ (ภาพที่ส่ง)", caption_after: str = "หลังตรวจ (ผลการตรวจ)"):
-    mode = st.radio("รูปแบบ", ["คู่กัน", "สลับดู"], horizontal=True, label_visibility="collapsed", key="cmp_mode")
-    if mode == "คู่กัน":
-        c1, c2 = st.columns(2)
-        with c1:
-            st.image(before, caption=caption_before, use_container_width=True)
-        with c2:
-            if after is not None:
-                st.image(after, caption=caption_after, use_container_width=True)
-            else:
-                st.info("ยังไม่มีภาพผลการตรวจ")
-    else:
-        t1, t2 = st.tabs([caption_before, caption_after])
-        with t1:
-            st.image(before, use_container_width=True)
-        with t2:
-            if after is not None:
-                st.image(after, use_container_width=True)
-            else:
-                st.info("ยังไม่มีภาพผลการตรวจ")
+    st.image(image, caption=caption or None, width="stretch")
 
 
 # ─────────────────────────────────────────── inspection history pieces
@@ -124,83 +103,104 @@ def history_ready() -> bool:
     from core import inspections as I
     ok, msg = I.ensure_tables()
     if not ok:
-        st.warning(f"ยังเชื่อมต่อฐานข้อมูลประวัติการตรวจไม่ได้ จึงบันทึก/แสดงประวัติไม่ได้ในตอนนี้ ({msg[:120]})")
+        st.warning("เชื่อมต่อฐานข้อมูลประวัติการสแกนไม่ได้ จึงบันทึกและแสดงประวัติไม่ได้ในตอนนี้ ลองใหม่ภายหลัง")
     return ok
 
 
-def card(key: str, widths=(0.22, 0.53, 0.25)):
-    """A bordered card row; returns its columns (thumbnail, body, actions)."""
-    box = st.container(border=True, key=f"uicard_{key}")
-    with box:
-        return st.columns(list(widths), vertical_alignment="center")
+# ─────────────────────────────────────────── item list (scan page and history)
+
+CHOICES = ("present", "absent")
+FILTERS = {
+    "all": "ทั้งหมด",
+    "absent": theme.label("absent"),
+    "misplaced": theme.label("misplaced"),
+    "pending": f'{theme.label("recheck")} / {theme.label("unchecked")}',
+    "manual": theme.label("manual"),
+}
 
 
-def slot_counts_html(s: dict) -> str:
-    if s.get("total") is None:
-        return ""
-    parts = [f'{theme.status(k)["icon"]} {s.get(k) or 0}' for k in ("correct", "missing", "misplaced", "recheck")]
-    return f'<div class="ui-meta">{" &nbsp; ".join(parts)} &nbsp;/ {s["total"]} ช่อง</div>'
+def item_summary(items: list[dict], scan_type: str):
+    """Tiles with the count of each status (misplaced only exists in a box scan)."""
+    from core.scan_items import count_statuses
+    c = count_statuses(items)
+    L = theme.label
+    tiles = [(L("present"), c["present"], "present"), (L("absent"), c["absent"], "absent")]
+    if scan_type == "box":
+        waiting = "unchecked" if c["unchecked"] else "recheck"  # before a scan nothing is checked yet
+        tiles += [(L("misplaced"), c["misplaced"], "misplaced"), (L(waiting), c["recheck"] + c["unchecked"], waiting)]
+    else:
+        tiles += [(L("unchecked"), c["unchecked"] + c["recheck"], "unchecked")]
+    tiles.append((L("manual"), c["manual"], "manual"))
+    stat_tiles(tiles)
 
 
-def run_queue(sub_ids: list[int]):
-    """Process queued submissions one by one with progress, then notify."""
-    from core import inspections as I
-    if not sub_ids:
-        return
-    bar = st.progress(0.0, text="กำลังตรวจสอบ...")
-    results = []
-    for i, sid in enumerate(sub_ids, 1):
-        bar.progress((i - 1) / len(sub_ids), text=f"กำลังตรวจสอบภาพที่ {i}/{len(sub_ids)} (#{sid})")
-        results.append(I.process_submission(sid))
-    bar.progress(1.0, text="ตรวจสอบเสร็จแล้ว")
-    done = sum(r["status"] == "done" for r in results)
-    review = sum(r["status"] in ("needs_review", "failed") for r in results)
-    st.toast(f"ตรวจสอบเสร็จ {len(results)} ภาพ: ครบ {done} ภาพ", icon="✅")
-    if review:
-        st.toast(f"มี {review} ภาพต้องตรวจสอบเพิ่มเติม", icon="⚠️")
-    st.session_state["_queue_last_result"] = {"total": len(results), "done": done, "review": review}
+def _matches(item: dict, flt: str, kw: str) -> bool:
+    if flt == "absent" and item["status"] != "absent":
+        return False
+    if flt == "misplaced" and item["status"] != "misplaced":
+        return False
+    if flt == "pending" and item["status"] not in ("recheck", "unchecked"):
+        return False
+    if flt == "manual" and not item.get("manual"):
+        return False
+    if kw:
+        hay = f'{item.get("no") or ""} {item.get("name") or ""} {item.get("part_number") or ""}'.lower()
+        return kw in hay
+    return True
 
 
-def submission_card(s: dict, key_prefix: str = "sub", show_process: bool = True):
-    """One submitted tray photo: thumbnail, status, times, counts, its actions and its problem slots."""
-    from core import inspections as I
-    box = st.container(border=True, key=f"uisub_{key_prefix}_{s['id']}")
-    with box:
-        c_img, c_body, c_act = st.columns([0.22, 0.53, 0.25], vertical_alignment="center")
-        thumb = I.abs_path(s["annotated_path"] or s["image_path"])
-        with c_img:
-            if thumb and thumb.exists():
-                st.image(str(thumb), use_container_width=True)
-        with c_body:
-            meta = f"ส่ง {I.fmt_time(s['submitted_at'])}"
-            if s["finished_at"]:
-                meta += f" · เสร็จ {I.fmt_time(s['finished_at'])}"
-            extra = ""
-            if s.get("error"):
-                extra += f'<div class="ui-meta">{escape(s["error"][:160])}</div>'
-            if s.get("note"):
-                extra += f'<div class="ui-meta">📝 {escape(s["note"])}</div>'
-            st.markdown(
-                f'<div class="ui-item-name">#{s["id"]} {escape(I.tray_label(s["tray_id"]))}</div>'
-                f'<div style="margin:3px 0;">{status_badge(s["status"])}</div>'
-                f'<div class="ui-meta">{meta}</div>{slot_counts_html(s)}{extra}',
-                unsafe_allow_html=True,
-            )
-        with c_act:
-            if st.button("ดูภาพ", key=f"{key_prefix}_view_{s['id']}", use_container_width=True):
-                show_image(str(thumb), f"#{s['id']} {I.tray_label(s['tray_id'])}")
-            if s["annotated_path"] and st.button("ก่อน/หลัง", key=f"{key_prefix}_cmp_{s['id']}",
-                                                 use_container_width=True, help="เปรียบเทียบภาพก่อนและหลังตรวจ"):
-                show_compare(str(I.abs_path(s["image_path"])), str(I.abs_path(s["annotated_path"])))
-            if show_process and s["status"] in ("pending", "failed"):
-                if st.button("ตรวจ", key=f"{key_prefix}_run_{s['id']}", use_container_width=True):
-                    run_queue([s["id"]])
-                    st.rerun()
-        problems = [x for x in s.get("slots", []) if x.get("status") != "correct"]
-        if problems:
-            with st.expander(f"รายละเอียดช่องที่พบปัญหา ({len(problems)})"):
-                st.markdown("".join(
-                    f'<div class="ui-slot-row">{status_badge(x["status"])} '
-                    f'<span class="ui-item-name">#{x["slot_number"]} {escape(x.get("item_name") or "")}</span>'
-                    f'<div class="ui-meta">{escape(x.get("reason") or "")}</div></div>'
-                    for x in problems), unsafe_allow_html=True)
+def _on_choice(items: list[dict], idx: int, widget_key: str):
+    from core.scan_items import set_status
+    value = st.session_state.get(widget_key)
+    item = items[idx]
+    set_status(item, value if value in CHOICES else item["auto_status"])
+
+
+def item_list(items: list[dict], key: str, editable: bool = True, prefer: str = "product",
+              scan_type: str = "box", height: int = 520):
+    """Every item with its picture, name, part number, status and (editable) the มี / ไม่มี choice.
+
+    `items` is changed in place when a person picks มี / ไม่มี; picking the same again clears the
+    choice and the item goes back to what the scan said.
+    """
+    from core.scan_items import thumbnail
+    item_summary(items, scan_type)
+    filters = [f for f in FILTERS if scan_type == "box" or f != "misplaced"]
+    c_f, c_s = st.columns([0.6, 0.4], vertical_alignment="bottom")
+    with c_f:
+        flt = st.pills("แสดง", filters, format_func=FILTERS.get, default="all", key=f"{key}_filter",
+                       label_visibility="collapsed") or "all"
+    with c_s:
+        kw = st.text_input("ค้นหา", placeholder="ชื่อ รหัสอะไหล่ หรือลำดับ", key=f"{key}_search",
+                           label_visibility="collapsed").strip().lower()
+    shown = [(i, it) for i, it in enumerate(items) if _matches(it, flt, kw)]
+    with st.container(height=height, key=f"{key}_rows"):
+        if not shown:
+            no_match()
+        for i, it in shown:
+            with st.container(border=True, key=f"uiitem_{key}_{i}"):
+                c_img, c_body, c_act = st.columns([0.16, 0.54, 0.30] if editable else [0.16, 0.84, 0.001],
+                                                  vertical_alignment="center")
+                with c_img:
+                    pic = thumbnail(it, prefer)
+                    if pic:
+                        st.image(pic, width="stretch")
+                with c_body:
+                    no = f'{it["no"]}. ' if it.get("no") else ""
+                    where = f' · ช่อง {it["slot"]}' if scan_type == "box" and it.get("slot") else ""
+                    badges = status_badge(it["status"]) + (" " + status_badge("manual") if it.get("manual") else "")
+                    note = ""
+                    if it.get("manual"):
+                        note = f'<div class="ui-meta">ระบบสแกนได้: {theme.label(it["auto_status"])}</div>'
+                    st.markdown(
+                        f'<div class="ui-item-name">{escape(no + (it.get("name") or ""))}</div>'
+                        f'<div class="ui-meta">{escape(it.get("part_number") or "")}{where}</div>'
+                        f'<div style="margin-top:3px;">{badges}</div>{note}',
+                        unsafe_allow_html=True)
+                if editable:
+                    with c_act:
+                        wkey = f"{key}_pick_{i}"
+                        st.segmented_control(
+                            f"ผลของ {it.get('name')}", CHOICES, format_func=theme.label,
+                            default=it["status"] if it["status"] in CHOICES else None, key=wkey,
+                            label_visibility="collapsed", on_change=_on_choice, args=(items, i, wkey))

@@ -15,26 +15,33 @@ BACKGROUND = "#FFFFFF"      # พื้นหลังหน้า
 MOBILE_MAX_WIDTH = 768      # px: จอเล็กกว่านี้ใช้รูปแบบมือถือ
 TOUCH_TARGET = 44           # px: ขนาดปุ่มกดขั้นต่ำ
 
+GOOD, GOOD_BG = "#1E9E40", "#E8F7ED"
+WARN, WARN_BG, WARN_BORDER = "#B57000", "#FFF9E6", "#D4A000"
+BAD_BG = "#FFF2F2"
+INFO, INFO_BG, INFO_BORDER = "#2B6CB0", "#EBF8FF", "#3182CE"
+
 # สถานะ: label, icon, ตัวอักษร (fg), พื้น (bg), ขอบ (border)
 STATUS = {
-    # ผลรายช่องของการตรวจถาด
-    "correct":      {"label": "ครบ",              "icon": "🟢", "fg": "#1E9E40", "bg": "#E8F7ED", "border": "#1E9E40"},
-    "missing":      {"label": "ขาดหาย",           "icon": "🔴", "fg": PRIMARY,   "bg": "#FFF2F2", "border": PRIMARY},
-    "misplaced":    {"label": "ผิดตำแหน่ง",        "icon": "🟡", "fg": "#B57000", "bg": "#FFF9E6", "border": "#D4A000"},
+    # รายการอุปกรณ์ (core/scan_items.py)
+    "present":      {"label": "มี",               "icon": "🟢", "fg": GOOD,       "bg": GOOD_BG, "border": GOOD},
+    "absent":       {"label": "ไม่มี",             "icon": "🔴", "fg": PRIMARY,    "bg": BAD_BG,  "border": PRIMARY},
+    "misplaced":    {"label": "ผิดที่",             "icon": "🟡", "fg": WARN,       "bg": WARN_BG, "border": WARN_BORDER},
     "recheck":      {"label": "ตรวจซ้ำ",           "icon": "↩️", "fg": TEXT_MUTED, "bg": "#F0F0F0", "border": "#808080"},
-    # สถานะของภาพที่ส่งตรวจ
-    "pending":      {"label": "รอตรวจสอบ",         "icon": "⏳", "fg": TEXT_MUTED, "bg": SURFACE,   "border": BORDER},
-    "processing":   {"label": "กำลังตรวจสอบ",      "icon": "🔄", "fg": "#2B6CB0", "bg": "#EBF8FF", "border": "#3182CE"},
-    "done":         {"label": "ตรวจสอบแล้ว",        "icon": "✅", "fg": "#1E9E40", "bg": "#E8F7ED", "border": "#1E9E40"},
-    "needs_review": {"label": "ต้องตรวจสอบเพิ่มเติม", "icon": "⚠️", "fg": "#B57000", "bg": "#FFF9E6", "border": "#D4A000"},
-    "failed":       {"label": "ตรวจไม่สำเร็จ",       "icon": "❌", "fg": PRIMARY,   "bg": "#FFF2F2", "border": PRIMARY},
-    # ผลตรวจรายอุปกรณ์ด้วยตนเอง
-    "ok":           {"label": "ปกติ",              "icon": "🟢", "fg": "#1E9E40", "bg": "#E8F7ED", "border": "#1E9E40"},
-    "damaged":      {"label": "ชำรุด",             "icon": "🟡", "fg": "#B57000", "bg": "#FFF9E6", "border": "#D4A000"},
-    "lost":         {"label": "สูญหาย",            "icon": "🔴", "fg": PRIMARY,   "bg": "#FFF2F2", "border": PRIMARY},
-    "unchecked":    {"label": "ยังไม่ตรวจ",         "icon": "⚪", "fg": TEXT_MUTED, "bg": SURFACE,   "border": BORDER},
+    "unchecked":    {"label": "ยังไม่ตรวจ",         "icon": "⚪", "fg": TEXT_MUTED, "bg": SURFACE, "border": BORDER},
+    "manual":       {"label": "แก้ด้วยมือ",         "icon": "✋", "fg": INFO,       "bg": INFO_BG, "border": INFO_BORDER},
+    # ผลรวมของการสแกนหนึ่งครั้ง (ประวัติ)
+    "done":         {"label": "ครบ",              "icon": "✅", "fg": GOOD,       "bg": GOOD_BG, "border": GOOD},
+    "needs_review": {"label": "ต้องดำเนินการ",      "icon": "⚠️", "fg": WARN,       "bg": WARN_BG, "border": WARN_BORDER},
+    # สถานะที่เก็บไว้ในประวัติจากแอปรุ่นก่อน (ระบบคิวภาพ)
+    "pending":      {"label": "รอตรวจ",            "icon": "⏳", "fg": TEXT_MUTED, "bg": SURFACE, "border": BORDER},
+    "processing":   {"label": "กำลังตรวจ",          "icon": "🔄", "fg": INFO,       "bg": INFO_BG, "border": INFO_BORDER},
+    "failed":       {"label": "ตรวจไม่สำเร็จ",       "icon": "❌", "fg": PRIMARY,    "bg": BAD_BG,  "border": PRIMARY},
 }
 
 
 def status(key: str) -> dict:
     return STATUS.get(key, STATUS["recheck"])
+
+
+def label(key: str) -> str:
+    return status(key)["label"]

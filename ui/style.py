@@ -506,7 +506,6 @@ def apply_theme():
         p.ui-no-match { text-align: center; color: #525252; padding: 20px 0; margin: 0 !important; }
         .ui-meta { color: #525252; font-size: 0.78rem; line-height: 1.4; }
         .ui-item-name { color: #2C2C2C; font-weight: 600; font-size: 0.9rem; line-height: 1.3; }
-        .ui-slot-row { padding: 6px 0; border-bottom: 1px solid #E5E5E5; }
 
         /* Top navigation (st.navigation position="top"): less empty space above the page */
         .block-container, [data-testid="stMainBlockContainer"] { padding-top: 3.5rem !important; }
@@ -518,44 +517,34 @@ def apply_theme():
             .ui-tile { min-width: calc(50% - 4px); flex: 1 1 calc(50% - 4px); }
             .ui-tile-value { font-size: 16px; }
             .ui-page-title h3 { font-size: 16px; }
-            /* submission card: thumbnail beside the text, actions in one row under them */
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
+            /* item row (scan page, history detail): picture beside the text, มี / ไม่มี under them */
+            [class*="st-key-uiitem_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
                 flex-direction: row !important; flex-wrap: wrap !important; gap: 8px !important;
-                align-items: flex-start !important; height: auto !important;
+                align-items: center !important; height: auto !important;
             }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
-                height: auto !important;
+            [class*="st-key-uiitem_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] { height: auto !important; }
+            [class*="st-key-uiitem_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
+                flex: 0 0 64px !important; width: 64px !important; min-width: 64px !important;
             }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
+            [class*="st-key-uiitem_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
+                flex: 1 1 calc(100% - 72px) !important; width: auto !important; min-width: 0 !important;
+                padding-bottom: 16px !important;  /* Streamlit markdown ends with margin-bottom: -1rem */
+            }
+            [class*="st-key-uiitem_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) { flex: 1 1 100% !important; width: 100% !important; }
+            /* history card: photo beside the text, the view button under them */
+            [class*="st-key-uihist_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
+                flex-direction: row !important; flex-wrap: wrap !important; gap: 8px !important;
+                align-items: center !important; height: auto !important;
+            }
+            [class*="st-key-uihist_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] { height: auto !important; }
+            [class*="st-key-uihist_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
                 flex: 0 0 96px !important; width: 96px !important; min-width: 96px !important;
             }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
+            [class*="st-key-uihist_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
                 flex: 1 1 calc(100% - 104px) !important; width: auto !important; min-width: 0 !important;
                 padding-bottom: 16px !important;  /* Streamlit markdown ends with margin-bottom: -1rem */
             }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) {
-                flex: 1 1 100% !important; width: 100% !important;
-            }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) > [data-testid="stVerticalBlock"] {
-                flex-direction: row !important; gap: 8px !important;
-            }
-            [class*="st-key-uisub_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) > [data-testid="stVerticalBlock"] > * {
-                flex: 1 1 0 !important; min-width: 0 !important;
-            }
-            /* equipment row: checkbox | text | history button stay on one line */
-            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] {
-                flex-direction: row !important; flex-wrap: nowrap !important; gap: 6px !important;
-            }
-            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(1) {
-                flex: 0 0 40px !important; width: 40px !important; min-width: 40px !important;
-            }
-            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(2) {
-                flex: 1 1 auto !important; width: auto !important; min-width: 0 !important;
-                padding-bottom: 16px !important;  /* Streamlit markdown ends with margin-bottom: -1rem */
-            }
-            [class*="st-key-uiman_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) {
-                flex: 0 0 76px !important; width: 76px !important; min-width: 76px !important;
-            }
+            [class*="st-key-uihist_"] > [data-testid="stLayoutWrapper"] > [data-testid="stHorizontalBlock"] > [data-testid="stColumn"]:nth-child(3) { flex: 1 1 100% !important; width: 100% !important; }
         }
 
     </style>
@@ -571,12 +560,12 @@ def render_header():
             </div>
             <div>
                 <h1 style="margin: 0; color: #2C2C2C; font-size: 22px; font-weight: 700; letter-spacing: -0.3px;">ระบบเช็คลิสต์เครื่องมือ</h1>
-                <p style="margin: 2px 0 0 0; color: #525252; font-size: 12px;">ตรวจเช็คเครื่องมือในถาดและรายอุปกรณ์</p>
+                <p style="margin: 2px 0 0 0; color: #525252; font-size: 12px;">สแกนเครื่องมือในกล่องและเครื่องมือชิ้นเดี่ยว</p>
             </div>
         </div>
         <div style="display: flex; gap: 6px; align-items: center;">
-            <span style="background-color: #E5E5E5; color: #2C2C2C; border: 1px solid #C7C7C7; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px;">iPad/Mobile Ready</span>
-            <span style="background-color: #E81D23; color: #FFFFFF; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px;">READY</span>
+            <span style="background-color: #E5E5E5; color: #2C2C2C; border: 1px solid #C7C7C7; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px;">ใช้บนมือถือและแท็บเล็ตได้</span>
+            <span style="background-color: #E81D23; color: #FFFFFF; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px;">พร้อมใช้งาน</span>
         </div>
     </div>
     """, unsafe_allow_html=True)

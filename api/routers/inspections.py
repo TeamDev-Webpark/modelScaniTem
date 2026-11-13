@@ -31,15 +31,16 @@ router = APIRouter(prefix="/inspections", tags=["Inspection Records & History"],
 def list_submissions(
     status: Optional[Literal["pending", "processing", "done", "needs_review", "failed"]] = Query(
         None, description="Filter by status: pending, processing, done, needs_review, failed"),
-    tray_id: Optional[str] = Query(None, description="Filter by tray ID"),
+    tray_id: Optional[str] = Query(None, description="Filter by tray ID (or checklist set for loose scans)"),
+    scan_type: Optional[Literal["box", "loose"]] = Query(None, description="Filter by scan type"),
     search: Optional[str] = Query(None, description="Keyword search in note, submitter, or tool name"),
     page: int = Query(1, ge=1, description="Page number (1-based)"),
     page_size: int = Query(20, ge=1, le=100, description="Items per page"),
 ) -> InspectionHistoryResponse:
     """Retrieve history of tray scan submissions."""
     try:
-        total = count_submissions(status=status, tray_id=tray_id, search=search or "")
-        page_records = db_list_submissions(status=status, tray_id=tray_id, search=search or "",
+        total = count_submissions(status=status, tray_id=tray_id, search=search or "", scan_type=scan_type)
+        page_records = db_list_submissions(status=status, tray_id=tray_id, search=search or "", scan_type=scan_type,
                                            limit=page_size, offset=(page - 1) * page_size)
 
         items = []
@@ -56,6 +57,7 @@ def list_submissions(
                     id=r["id"],
                     tray_id=r.get("tray_id") or "",
                     tray_name=get_tray_display_name(r.get("tray_id")),
+                    scan_type=r.get("scan_type") or "box",
                     status=r.get("status") or "unknown",
                     total_slots=tot,
                     correct=correct,
@@ -63,6 +65,7 @@ def list_submissions(
                     misplaced=r.get("misplaced") or 0,
                     recheck=r.get("recheck") or 0,
                     accuracy_pct=acc,
+                    manual_count=r.get("manual_count") or 0,
                     created_at=fmt_time(r.get("submitted_at")),
                     photo_url=f"/api/v1/inspections/{r['id']}/image?type=original" if photo_rel else None,
                     annotated_url=f"/api/v1/inspections/{r['id']}/image?type=annotated" if annotated_rel else None,

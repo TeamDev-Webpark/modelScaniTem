@@ -7,7 +7,7 @@
 
 | แอป | ไฟล์ | ใช้ทำอะไร |
 |---|---|---|
-| แอปสแกน | `app.py` | ส่งภาพตรวจถาดเข้าคิว, ตรวจรายอุปกรณ์, ภาพรวม/รายการภาพ/ประวัติ, จัดการถาด (ประวัติเก็บใน PostgreSQL) |
+| แอปสแกน | `app.py` | สแกนอุปกรณ์ในกล่อง / อุปกรณ์ชิ้นเดี่ยว, ประวัติการสแกน, จัดการกล่อง (ประวัติเก็บใน PostgreSQL) |
 | แอป admin | `admin.py` | จัดการคลาสเครื่องมือ, เก็บภาพเทรน, export dataset, จัดการโมเดล YOLO, ทดสอบสแกน (ต้องมี PostgreSQL) |
 
 ---
@@ -16,26 +16,23 @@
 
 ```
 modelScaniTem/
-├── app.py                  # แอปสแกน: เมนูด้านบนแบบจัดกลุ่ม (ui/nav.py)
+├── app.py                  # แอปสแกน: เมนูด้านบน 3 หน้า (ui/nav.py)
 ├── admin.py                # แอป admin (YOLO + PostgreSQL)
 ├── ui/                     # หน้าของแอปสแกน
-│   ├── nav.py              #   เมนู: ติดตามผล / ตรวจสอบ / จัดการ
+│   ├── nav.py              #   เมนู: สแกน / ประวัติการสแกน / จัดการกล่อง
 │   ├── theme.py            #   สีและสีสถานะ (ใช้ร่วมทุกหน้า)
-│   ├── components.py       #   หัวข้อหน้า, กล่องตัวเลข, ป้ายสถานะ, การ์ดภาพ, ดูภาพ/เทียบก่อน-หลัง
+│   ├── components.py       #   หัวข้อหน้า, กล่องตัวเลข, ป้ายสถานะ, รายการอุปกรณ์ (มี/ไม่มี), ดูภาพ/เทียบก่อน-หลัง
 │   ├── style.py            #   CSS ธีม + header + รูปแบบมือถือ (≤768px)
-│   ├── common.py           #   session state, โหลดภาพ (EXIF), ข้อมูลเครื่องมือ
-│   ├── dashboard_page.py   #   ภาพรวม
-│   ├── submissions_page.py #   รายการภาพที่ส่งตรวจ (กรองสถานะ/ถาด/วันที่, ค้นหา)
-│   ├── submit_page.py      #   ส่งภาพตรวจถาด (คิว → ตรวจ)
-│   ├── manual_check_page.py#   ตรวจรายอุปกรณ์ด้วยตนเอง + ประวัติ
-│   ├── tray_page.py        #   ถาดเครื่องมือ (ลงทะเบียน / ตรวจทันที)
-│   ├── scanner_page.py     #   สแกนเครื่องมือ (SIFT)
-│   └── checklist_page.py   #   เช็คลิสต์
+│   ├── common.py           #   โหลดภาพ (EXIF)
+│   ├── scan_page.py        #   สแกน (หน้าหลัก): อุปกรณ์ในกล่อง / อุปกรณ์ชิ้นเดี่ยว
+│   ├── history_page.py     #   ประวัติการสแกน (วันเวลา, ประเภท, ผล, รายละเอียด)
+│   └── manage_page.py      #   จัดการกล่อง (ภาพต้นแบบ, รายการช่อง, วิธีเพิ่มกล่อง)
 ├── scan_workflow/          # pipeline ตรวจถาด (ดูหัวข้อด้านล่าง)
-├── scanners/               # ShapeScanner (SIFT, หน้า "สแกน") และ YOLOToolScanner (แอป admin)
+├── scanners/               # ShapeScanner (SIFT) และ YOLOToolScanner (แอป admin)
 ├── admin_modules/          # หน้าของแอป admin
 ├── core/                   # config.py (path ทั้งหมด), db.py, models_db.py,
-│                           #   inspections.py (ประวัติการตรวจ: คิวภาพ, ผลตรวจรายอุปกรณ์)
+│                           #   inspections.py (ประวัติการสแกน), scan_items.py (รายการอุปกรณ์ + รูป),
+│                           #   tool_recognizer.py (จำเครื่องมือชิ้นเดี่ยว: ยังไม่ใช้งาน ดูด้านล่าง)
 ├── data/                   # ข้อมูลหลัก (อยู่ใน git)
 │   ├── tray_templates/     #   เทมเพลตถาด: ช่อง, polygon, ชื่อ/รหัสอะไหล่ตาม checklist
 │   ├── tray_refs/          #   ภาพต้นแบบ <tray_id>.jpg, ภาพถาดว่าง <tray_id>_empty.jpg
@@ -160,8 +157,10 @@ python scripts/eval/test_real_photos.py --images <โฟลเดอร์ภา
 
 ---
 
-## 📝 ShapeScanner (หน้า "สแกน")
+## 📝 การสแกนอุปกรณ์ชิ้นเดี่ยว
 
-`scanners/scanner_module.py` จดจำเครื่องมือด้วย SIFT จากภาพต้นแบบในโฟลเดอร์ `data/` (ไฟล์ `.png/.jpg/.jpeg/.bmp`)
-และสแกนแบบแบ่งภาพเป็น 4 ส่วน (`scan_with_tiling`) คืนรายการ `{"filename", "score", "area"}` เรียงจากคะแนนสูงไปต่ำ
-ตอนนี้ยังไม่มีภาพต้นแบบใน `data/` หน้า "สแกน" จึงยังจำเครื่องมือไม่ได้
+ตอนนี้ผู้ใช้กดเช็ค มี / ไม่มี เองในหน้าสแกน ภาพที่ถ่ายเก็บเป็นหลักฐานในประวัติ
+
+ทดลองให้ SIFT (`core/tool_recognizer.py`) จำเครื่องมือจากภาพสินค้าใน `admin_data/images` แล้ว
+ถูกเพียง 3% (`python scripts/eval/test_tool_recognizer.py`, ผลใน `reports/tool_recognizer_accuracy.json`)
+จึงยังไม่เปิดใช้ ต้องใช้โมเดลที่เทรนจากภาพจริง (เช่น YOLO จากแอป admin) ก่อน

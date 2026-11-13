@@ -1,0 +1,978 @@
+{
+  "tested": 97,
+  "top1": 3,
+  "in_results": 4,
+  "none": 36,
+  "rows": [
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 2,
+      "part_number": "90843-08218",
+      "top": "90843-08H03",
+      "top_score": 18,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.36
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 4,
+      "part_number": "90843-08231",
+      "top": "90843-08H03",
+      "top_score": 52,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 1.6
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 5,
+      "part_number": "90843-08235",
+      "top": "90843-110C3",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.39
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 7,
+      "part_number": "90843-08241",
+      "top": "90843-08237",
+      "top_score": 52,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.55
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 8,
+      "part_number": "90843-08232",
+      "top": "90843-110L3",
+      "top_score": 23,
+      "in_results": false,
+      "n_results": 9,
+      "sec": 1.53
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 11,
+      "part_number": "90843-08228",
+      "top": "90843-08211",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 5,
+      "sec": 1.58
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 13,
+      "part_number": "90843-08238",
+      "top": "90843-110A7",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.27
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 15,
+      "part_number": "90843-08F62",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.16
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 19,
+      "part_number": "90843-08234",
+      "top": "90843-08F66",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.83
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 27,
+      "part_number": "90843-08244",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.13
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 28,
+      "part_number": "90843-110C5",
+      "top": "90843-08F66",
+      "top_score": 9,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.18
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 29,
+      "part_number": "90843-08227",
+      "top": "90843-08251",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.75
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 31,
+      "part_number": "90843-11011",
+      "top": "90843-08251",
+      "top_score": 11,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 1.41
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 32,
+      "part_number": "90843-11060",
+      "top": "90843-110C2",
+      "top_score": 34,
+      "in_results": false,
+      "n_results": 9,
+      "sec": 2.21
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 35,
+      "part_number": "90843-08252",
+      "top": "90843-21022",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.1
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 37,
+      "part_number": "90843-21021",
+      "top": "90843-13013",
+      "top_score": 15,
+      "in_results": false,
+      "n_results": 8,
+      "sec": 1.69
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 38,
+      "part_number": "90843-08F23",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 0.8
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 39,
+      "part_number": "90843-11074",
+      "top": "90843-110D1",
+      "top_score": 14,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.27
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 40,
+      "part_number": "90843-13013",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.28
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 41,
+      "part_number": "90843-08F56",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.07
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 42,
+      "part_number": "90843-08F55",
+      "top": "90843-08F33",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.62
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 43,
+      "part_number": "90843-08F54",
+      "top": "90843-08224",
+      "top_score": 12,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.43
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 44,
+      "part_number": "90843-08214",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.3
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 49,
+      "part_number": "90843-08223",
+      "top": "90843-08222",
+      "top_score": 11,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.2
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 50,
+      "part_number": "90843-08222",
+      "top": "90843-08235",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.48
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 51,
+      "part_number": "90843-08F04",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 0.56
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 52,
+      "part_number": "90843-08202",
+      "top": "90843-110A8",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 0.83
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 53,
+      "part_number": "90843-08F05",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 0.75
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 54,
+      "part_number": "90843-08F06",
+      "top": "90843-08249",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.24
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 55,
+      "part_number": "90843-08F07",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.41
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 56,
+      "part_number": "90843-08F08",
+      "top": "90843-08F11",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.1
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 57,
+      "part_number": "90843-08F09",
+      "top": "90843-08F11",
+      "top_score": 11,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.41
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 58,
+      "part_number": "90843-08F10",
+      "top": "90890-01135",
+      "top_score": 25,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 1.86
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 59,
+      "part_number": "90843-08F11",
+      "top": "90843-110D1",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.15
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 60,
+      "part_number": "90843-13009",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.1
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 63,
+      "part_number": "90843-08211",
+      "top": "90843-110A2",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.26
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 66,
+      "part_number": "90843-08219",
+      "top": "90843-08237",
+      "top_score": 40,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 1.83
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 67,
+      "part_number": "90843-08224",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.35
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 68,
+      "part_number": "90843-08225",
+      "top": "90843-08211",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 1.33
+    },
+    {
+      "tray": "box1-template01_70-item",
+      "slot": 69,
+      "part_number": "90843-08226",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.25
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 1,
+      "part_number": "90843-11092",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 9.07
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 2,
+      "part_number": "90843-08F60",
+      "top": "90843-08237",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 11.18
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 3,
+      "part_number": "90843-08255",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 21.74
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 4,
+      "part_number": "90843-08F58",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 12.37
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 5,
+      "part_number": "90843-110A2",
+      "top": "90843-110L3",
+      "top_score": 14,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 35.24
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 6,
+      "part_number": "90843-08F57",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 12.08
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 7,
+      "part_number": "90843-110C2",
+      "top": "90843-08237",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.01
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 8,
+      "part_number": "90843-08F12",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.76
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 9,
+      "part_number": "90843-08F13",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.83
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 10,
+      "part_number": "90843-08254",
+      "top": "90890-01135",
+      "top_score": 11,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.96
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 11,
+      "part_number": "90843-08254",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.92
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 12,
+      "part_number": "90843-08250",
+      "top": "90843-08H03",
+      "top_score": 9,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 6.16
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 13,
+      "part_number": "90843-08F47",
+      "top": "90843-08222",
+      "top_score": 17,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 36.82
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 14,
+      "part_number": "90843-08F95",
+      "top": "90843-08222",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 29.27
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 15,
+      "part_number": "90843-08251",
+      "top": "90843-110A2",
+      "top_score": 35,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 7.26
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 16,
+      "part_number": "90843-08237",
+      "top": "90843-08F11",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 10.3
+    },
+    {
+      "tray": "box1-template02_16-item",
+      "slot": 17,
+      "part_number": "90843-08249",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 7.9
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 1,
+      "part_number": "90843-110A8",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.47
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 2,
+      "part_number": "90843-110A8",
+      "top": "90843-08237",
+      "top_score": 8,
+      "in_results": true,
+      "n_results": 4,
+      "sec": 2.36
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 3,
+      "part_number": "90843-110A8",
+      "top": "90843-08F33",
+      "top_score": 17,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 1.68
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 4,
+      "part_number": "90843-110A8",
+      "top": "90843-08222",
+      "top_score": 9,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 1.73
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 5,
+      "part_number": "90843-110A8",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.46
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 6,
+      "part_number": "90843-08H03",
+      "top": "90843-08222",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.04
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 7,
+      "part_number": "90843-08H03",
+      "top": "90843-08H03",
+      "top_score": 15,
+      "in_results": true,
+      "n_results": 3,
+      "sec": 2.89
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 8,
+      "part_number": "90843-08H03",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.72
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 9,
+      "part_number": "90890-01135",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 2.59
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 10,
+      "part_number": "90843-08H03",
+      "top": "90843-08H03",
+      "top_score": 9,
+      "in_results": true,
+      "n_results": 2,
+      "sec": 1.83
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 11,
+      "part_number": "90843-110K9",
+      "top": "90843-08F48",
+      "top_score": 15,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 2.35
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 12,
+      "part_number": "90843-08F48",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.69
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 13,
+      "part_number": "90843-110A7",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.83
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 14,
+      "part_number": "90843-08F22",
+      "top": "90843-08F04",
+      "top_score": 27,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 3.71
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 15,
+      "part_number": "90843-08F22",
+      "top": "90843-08222",
+      "top_score": 15,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.65
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 16,
+      "part_number": "90843-08F29",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 5.24
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 17,
+      "part_number": "90890-01268",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.96
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 18,
+      "part_number": "90843-110L3",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 2.39
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 19,
+      "part_number": "90890-01274",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.85
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 20,
+      "part_number": "90890-01274",
+      "top": "90843-08F07",
+      "top_score": 19,
+      "in_results": false,
+      "n_results": 6,
+      "sec": 2.69
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 21,
+      "part_number": "90843-08F87",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 2.86
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 22,
+      "part_number": "90843-08F63",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.76
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 23,
+      "part_number": "90843-08F63",
+      "top": "90843-08222",
+      "top_score": 12,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.61
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 24,
+      "part_number": "90843-08F66",
+      "top": "90843-08F53-Copy",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.19
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 25,
+      "part_number": "90843-08F63",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.9
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 26,
+      "part_number": "90843-08F33",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 2.27
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 27,
+      "part_number": "90843-12104",
+      "top": "90843-08237",
+      "top_score": 12,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 1.84
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 28,
+      "part_number": "90843-11119",
+      "top": "90843-110L3",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 2.2
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 29,
+      "part_number": "90843-12007",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 2.28
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 30,
+      "part_number": "90843-08E09",
+      "top": "90843-08222",
+      "top_score": 14,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.35
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 31,
+      "part_number": "90843-110C3",
+      "top": "90843-08237",
+      "top_score": 10,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 1.53
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 33,
+      "part_number": "90843-08E10",
+      "top": "90843-08H03",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.72
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 34,
+      "part_number": "90843-110A0",
+      "top": "90843-08F10",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 1,
+      "sec": 2.6
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 35,
+      "part_number": "90843-08E11",
+      "top": "90843-08237",
+      "top_score": 33,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 2.81
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 36,
+      "part_number": "90843-08E16",
+      "top": "90843-08E16",
+      "top_score": 10,
+      "in_results": true,
+      "n_results": 1,
+      "sec": 5.47
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 37,
+      "part_number": "90843-08E06",
+      "top": "90843-08235",
+      "top_score": 12,
+      "in_results": false,
+      "n_results": 2,
+      "sec": 2.09
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 38,
+      "part_number": "90843-08H02",
+      "top": "90843-110D1",
+      "top_score": 13,
+      "in_results": false,
+      "n_results": 4,
+      "sec": 2.13
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 39,
+      "part_number": "90843-11099",
+      "top": "90843-08F22",
+      "top_score": 8,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 3.98
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 40,
+      "part_number": "90843-110C7",
+      "top": "90843-08237",
+      "top_score": 20,
+      "in_results": false,
+      "n_results": 3,
+      "sec": 2.06
+    },
+    {
+      "tray": "box2-template01_31-item",
+      "slot": 41,
+      "part_number": "90843-110D1",
+      "top": null,
+      "top_score": 0,
+      "in_results": false,
+      "n_results": 0,
+      "sec": 1.75
+    }
+  ]
+}

@@ -129,6 +129,7 @@ class InspectionSubmissionItem(BaseModel):
     id: int
     tray_id: str
     tray_name: str
+    scan_type: str = Field("box", description="'box' (tools in a box) or 'loose' (single tools)")
     status: str
     total_slots: int
     correct: int
@@ -136,6 +137,7 @@ class InspectionSubmissionItem(BaseModel):
     misplaced: int
     recheck: int
     accuracy_pct: float
+    manual_count: int = Field(0, description="Items a person changed after the scan")
     created_at: str
     photo_url: Optional[str] = None
     annotated_url: Optional[str] = None
