@@ -20,7 +20,7 @@ from typing import Optional
 
 import cv2
 import numpy as np
-from sqlalchemy import func, or_
+from sqlalchemy import func, or_, text
 
 from core.config import CHECKLIST_PATH, DATA_DIR, TRAY_REFS_DIR, TRAY_TEMPLATES_DIR
 from core.db import Base, get_db, get_engine
@@ -48,18 +48,24 @@ _tables_ready = False
 # ─────────────────────────────────────────────────────────────── setup
 
 def ensure_tables() -> tuple[bool, str]:
-    """Create the inspection tables if needed. Returns (ok, message) — never raises."""
+    """Check the database is reachable now (and create the inspection tables the first time).
+
+    Returns (ok, message) and never raises. It checks on every call, so a database that goes
+    down after start-up is reported here instead of failing later inside a page or request.
+    """
     global _tables_ready
-    if _tables_ready:
-        return True, ""
     try:
+        if _tables_ready:
+            with get_engine().connect() as conn:
+                conn.execute(text("SELECT 1"))
+            return True, ""
         from core import models_db
         Base.metadata.create_all(bind=get_engine(), tables=[
             models_db.InspectionSubmission.__table__, models_db.ManualInspection.__table__])
         _tables_ready = True
         return True, ""
     except Exception as e:  # database down or not configured
-        logger.warning(f"inspection tables unavailable: {e}")
+        logger.warning(f"inspection database unavailable: {e}")
         return False, str(e)
 
 
@@ -211,13 +217,14 @@ def process_submission(sub_id: int) -> dict:
         return _sub_dict(r)
 
 
-def record_tray_check(tray_id: str, image: np.ndarray, summary, submitted_by: str = "") -> int:
-    """Store a result made on the tray check page (already processed)."""
+def record_tray_check(tray_id: str, image: np.ndarray, summary, submitted_by: str = "",
+                      note: str = "", source: str = "tray_check") -> int:
+    """Store a result that was already processed (tray check page, or source="api")."""
     from core.models_db import InspectionSubmission
     rel = _save_image(image, "sub")
     now = datetime.utcnow()
     with get_db() as db:
-        r = InspectionSubmission(tray_id=tray_id, source="tray_check", image_path=rel,
+        r = InspectionSubmission(tray_id=tray_id, source=source, image_path=rel, note=note or None,
                                  submitted_by=submitted_by or None, submitted_at=now, started_at=now)
         _apply_summary(r, summary)
         db.add(r)
@@ -225,24 +232,37 @@ def record_tray_check(tray_id: str, image: np.ndarray, summary, submitted_by: st
         return r.id
 
 
+def _submission_query(db, status=None, tray_id=None, date_from=None, date_to=None, search=""):
+    from core.models_db import InspectionSubmission as S
+    q = db.query(S)
+    if status:
+        q = q.filter(S.status == status)
+    if tray_id:
+        q = q.filter(S.tray_id == tray_id)
+    if date_from:
+        q = q.filter(S.submitted_at >= datetime.combine(date_from, datetime.min.time()) - LOCAL_UTC_OFFSET)
+    if date_to:
+        q = q.filter(S.submitted_at < datetime.combine(date_to, datetime.min.time()) + timedelta(days=1) - LOCAL_UTC_OFFSET)
+    if search:
+        kw = f"%{search.strip()}%"
+        q = q.filter(or_(S.note.ilike(kw), S.tray_id.ilike(kw), S.submitted_by.ilike(kw), S.slot_results.ilike(kw)))
+    return q
+
+
 def list_submissions(status: Optional[str] = None, tray_id: Optional[str] = None,
-                     date_from=None, date_to=None, search: str = "", limit: int = 300) -> list[dict]:
+                     date_from=None, date_to=None, search: str = "", limit: int = 300,
+                     offset: int = 0) -> list[dict]:
     """date_from/date_to are local dates (inclusive)."""
     from core.models_db import InspectionSubmission as S
     with get_db() as db:
-        q = db.query(S)
-        if status:
-            q = q.filter(S.status == status)
-        if tray_id:
-            q = q.filter(S.tray_id == tray_id)
-        if date_from:
-            q = q.filter(S.submitted_at >= datetime.combine(date_from, datetime.min.time()) - LOCAL_UTC_OFFSET)
-        if date_to:
-            q = q.filter(S.submitted_at < datetime.combine(date_to, datetime.min.time()) + timedelta(days=1) - LOCAL_UTC_OFFSET)
-        if search:
-            kw = f"%{search.strip()}%"
-            q = q.filter(or_(S.note.ilike(kw), S.tray_id.ilike(kw), S.submitted_by.ilike(kw), S.slot_results.ilike(kw)))
-        return [_sub_dict(r) for r in q.order_by(S.submitted_at.desc()).limit(limit).all()]
+        q = _submission_query(db, status, tray_id, date_from, date_to, search)
+        return [_sub_dict(r) for r in q.order_by(S.submitted_at.desc(), S.id.desc()).offset(offset).limit(limit).all()]
+
+
+def count_submissions(status: Optional[str] = None, tray_id: Optional[str] = None,
+                      date_from=None, date_to=None, search: str = "") -> int:
+    with get_db() as db:
+        return _submission_query(db, status, tray_id, date_from, date_to, search).count()
 
 
 def get_submission(sub_id: int) -> Optional[dict]:

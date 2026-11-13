@@ -1,7 +1,5 @@
 """Session state, image loading and catalog helpers shared by the pages."""
 import io
-import json
-import os
 from typing import Optional
 
 import cv2
@@ -9,7 +7,8 @@ import numpy as np
 import streamlit as st
 from PIL import Image, ImageOps
 
-from core.config import CATALOG_PATH, MASTER_DATA_DIR
+from core.catalog import product_info
+from core.config import MASTER_DATA_DIR
 from scanners.scanner_module import ShapeScanner
 
 
@@ -80,17 +79,4 @@ def load_scanner():
 
 
 def get_product_info(filename):
-    try:
-        with open(CATALOG_PATH, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            base = os.path.basename(filename)
-            base_no_ext = os.path.splitext(base)[0]
-            for item in data:
-                if (item.get('filename') == base or 
-                    item.get('code') == base or 
-                    item.get('code') == base_no_ext or
-                    item.get('name_en') == base_no_ext or
-                    item.get('class_key') == base_no_ext):
-                    return item
-    except: return None
-    return None
+    return product_info(filename)

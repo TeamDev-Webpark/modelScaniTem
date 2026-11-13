@@ -21,12 +21,16 @@ def get_engine():
     global engine, SessionLocal, _engine_error
     if engine is None:
         try:
+            connect_args = {}
+            if "postgresql" in DATABASE_URL:
+                connect_args = {"connect_timeout": 2}
             engine = create_engine(
                 DATABASE_URL,
                 pool_size=5,
                 max_overflow=10,
                 pool_pre_ping=True,
-                echo=False
+                echo=False,
+                connect_args=connect_args,
             )
             SessionLocal = sessionmaker(
                 autocommit=False,

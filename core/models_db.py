@@ -189,7 +189,7 @@ class InspectionSubmission(Base):
     id = Column(Integer, primary_key=True, index=True)
     tray_id = Column(String(100), nullable=False, index=True)
     status = Column(String(20), nullable=False, default="pending", index=True)  # pending, processing, done, needs_review, failed
-    source = Column(String(20), nullable=False, default="queue")  # queue, tray_check
+    source = Column(String(20), nullable=False, default="queue")  # queue, tray_check, api
     image_path = Column(String(500), nullable=False)       # relative to DATA_DIR
     annotated_path = Column(String(500), nullable=True)    # relative to DATA_DIR
     note = Column(Text, nullable=True)
